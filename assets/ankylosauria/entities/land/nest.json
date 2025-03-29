@@ -2,7 +2,7 @@
 	"code": "ceratopsidae",
 	"class": "EntityAgent",
 	"variantgroups": [
-		{"code": "type","states": ["triceratops","pentaceratops","styracosaurus","centrosaurus","nasutoceratops","pachyrhinosaurus","anchiceratops","chasmosaurus",]},
+		{"code": "type","states": ["triceratops","pentaceratops","styracosaurus","centrosaurus","nasutoceratops","pachyrhinosaurus","anchiceratops",]},
 		{ "code": "age", "states": ["nest"] },
 		{ "code": "state", "states": ["incubating","mature","empty"] }
 	],
