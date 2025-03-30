@@ -3,8 +3,8 @@
 	"class": "ItemCreature",
 	"maxstacksize": 32,
 	"variantgroups": [
-		{"code": "family","states": ["ceratopsidae",]},
-		{"code": "type","states": ["triceratops","pentaceratops","styracosaurus","centrosaurus","nasutoceratops","pachyrhinosaurus"]},
+		{"code": "family","states": ["ankylosauria",]},
+		{"code": "type","states": ["ankylosaurus",]},
 		{ "code": "age", "states": ["egg"] },
 		{ "code": "state", "states": ["raw"] }
 	],

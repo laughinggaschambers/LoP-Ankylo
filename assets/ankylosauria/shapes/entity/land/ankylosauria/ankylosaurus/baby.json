@@ -16,10 +16,10 @@
 	"elements": [
 		{
 			"name": "Center",
-			"from": [ 8.8, 0.0, 8.8 ],
-			"to": [ 8.8, 0.0, 8.8 ],
+			"from": [ 7.76, 0.0, 7.76 ],
+			"to": [ 7.76, 0.0, 7.76 ],
 			"uv": [ 6.0, 0.0 ],
-			"rotationOrigin": [ 8.8, 0.0, 8.8 ],
+			"rotationOrigin": [ 7.76, 0.0, 7.76 ],
 			"faces": {
 				"north": { "texture": "#ankylo", "uv": [ 6.0, 0.5, 6.5, 1.0 ], "autoUv": false },
 				"east": { "texture": "#ankylo", "uv": [ 6.5, 0.5, 7.0, 1.0 ], "autoUv": false },
@@ -31,11 +31,11 @@
 			"children": [
 				{
 					"name": "Body",
-					"from": [ -12.1, 15.4, -15.4 ],
-					"to": [ 9.9, 34.1, 15.4 ],
+					"from": [ -2.42, 3.08, -3.08 ],
+					"to": [ 1.98, 6.82, 3.08 ],
 					"autoUnwrap": false,
 					"uv": [ 106.0, 44.0 ],
-					"rotationOrigin": [ -1.1, 24.2, -1.1 ],
+					"rotationOrigin": [ -0.22, 4.84, -0.22 ],
 					"faces": {
 						"north": { "texture": "#ankylo", "uv": [ 44.0, 96.0, 64.0, 113.0 ], "autoUv": false, "snapUv": false },
 						"east": { "texture": "#ankylo", "uv": [ 96.0, 28.0, 124.0, 45.0 ], "autoUv": false, "snapUv": false },
@@ -47,11 +47,11 @@
 					"children": [
 						{
 							"name": "Belly",
-							"from": [ 0.0, -2.2, 2.2 ],
-							"to": [ 22.0, 0.0, 26.4 ],
+							"from": [ 0.0, -0.44, 0.44 ],
+							"to": [ 4.4, 0.0, 5.28 ],
 							"autoUnwrap": false,
 							"uv": [ 142.0, 56.0 ],
-							"rotationOrigin": [ 0.0, -2.2, 2.2 ],
+							"rotationOrigin": [ 0.0, -0.44, 0.44 ],
 							"faces": {
 								"north": { "texture": "#ankylo", "uv": [ 44.0, 113.0, 64.0, 115.0 ], "autoUv": false, "snapUv": false },
 								"east": { "texture": "#ankylo", "uv": [ 99.0, 45.0, 121.0, 47.0 ], "autoUv": false, "snapUv": false },
@@ -63,11 +63,11 @@
 							"children": [
 								{
 									"name": "Belly1",
-									"from": [ 0.0, -2.2, 3.3 ],
-									"to": [ 22.0, 0.0, 23.1 ],
+									"from": [ 0.0, -0.44, 0.66 ],
+									"to": [ 4.4, 0.0, 4.62 ],
 									"autoUnwrap": false,
 									"uv": [ 138.0, 52.0 ],
-									"rotationOrigin": [ 0.0, -2.2, 3.3 ],
+									"rotationOrigin": [ 0.0, -0.44, 0.66 ],
 									"faces": {
 										"north": { "texture": "#ankylo", "uv": [ 44.0, 115.0, 64.0, 117.0 ], "autoUv": false, "snapUv": false },
 										"east": { "texture": "#ankylo", "uv": [ 102.0, 47.0, 120.0, 49.0 ], "autoUv": false, "snapUv": false },
@@ -81,11 +81,11 @@
 						},
 						{
 							"name": "Fat2",
-							"from": [ 0.0, 18.7, 1.1 ],
-							"to": [ 22.0, 19.8, 29.7 ],
+							"from": [ 0.0, 3.74, 0.22 ],
+							"to": [ 4.4, 3.96, 5.94 ],
 							"autoUnwrap": false,
 							"uv": [ 112.0, 64.0 ],
-							"rotationOrigin": [ 0.0, 18.7, 1.1 ],
+							"rotationOrigin": [ 0.0, 3.74, 0.22 ],
 							"faces": {
 								"north": { "texture": "#ankylo", "uv": [ 44.0, 95.0, 64.0, 96.0 ], "autoUv": false, "snapUv": false },
 								"east": { "texture": "#ankylo", "uv": [ 97.0, 27.0, 123.0, 28.0 ], "autoUv": false, "snapUv": false },
@@ -111,10 +111,10 @@
 							"children": [
 								{
 									"name": "Derm",
-									"from": [ 1.1, 15.4, -2.2 ],
-									"to": [ 5.5, 18.15, 0.0 ],
+									"from": [ 0.22, 3.08, -0.44 ],
+									"to": [ 1.1, 3.63, 0.0 ],
 									"uv": [ 96.0, 4.0 ],
-									"rotationOrigin": [ 5.5, 15.4, 0.0 ],
+									"rotationOrigin": [ 1.1, 3.08, 0.0 ],
 									"rotationY": 17.0,
 									"faces": {
 										"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
@@ -127,10 +127,10 @@
 								},
 								{
 									"name": "Derm2",
-									"from": [ 1.1, 9.9, -2.2 ],
-									"to": [ 5.5, 12.65, 0.0 ],
+									"from": [ 0.22, 1.98, -0.44 ],
+									"to": [ 1.1, 2.53, 0.0 ],
 									"uv": [ 96.0, 4.0 ],
-									"rotationOrigin": [ 5.5, 9.9, 0.0 ],
+									"rotationOrigin": [ 1.1, 1.98, 0.0 ],
 									"rotationY": 17.0,
 									"faces": {
 										"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
@@ -143,10 +143,10 @@
 								},
 								{
 									"name": "Derm3",
-									"from": [ 8.8, 15.4, -2.2 ],
-									"to": [ 13.2, 18.15, 0.0 ],
+									"from": [ 1.76, 3.08, -0.44 ],
+									"to": [ 2.64, 3.63, 0.0 ],
 									"uv": [ 96.0, 4.0 ],
-									"rotationOrigin": [ 13.2, 15.4, 0.0 ],
+									"rotationOrigin": [ 2.64, 3.08, 0.0 ],
 									"rotationY": 17.0,
 									"faces": {
 										"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
@@ -159,10 +159,10 @@
 								},
 								{
 									"name": "Derm4",
-									"from": [ 17.6, 15.4, -2.2 ],
-									"to": [ 22.0, 18.15, 0.0 ],
+									"from": [ 3.52, 3.08, -0.44 ],
+									"to": [ 4.4, 3.63, 0.0 ],
 									"uv": [ 96.0, 4.0 ],
-									"rotationOrigin": [ 22.0, 15.4, 0.0 ],
+									"rotationOrigin": [ 4.4, 3.08, 0.0 ],
 									"rotationY": 17.0,
 									"faces": {
 										"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
@@ -175,10 +175,10 @@
 								},
 								{
 									"name": "Derm5",
-									"from": [ 17.6, 9.9, -2.2 ],
-									"to": [ 22.0, 12.65, 0.0 ],
+									"from": [ 3.52, 1.98, -0.44 ],
+									"to": [ 4.4, 2.53, 0.0 ],
 									"uv": [ 96.0, 4.0 ],
-									"rotationOrigin": [ 22.0, 9.9, 0.0 ],
+									"rotationOrigin": [ 4.4, 1.98, 0.0 ],
 									"rotationY": 17.0,
 									"faces": {
 										"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
@@ -191,10 +191,10 @@
 								},
 								{
 									"name": "Derm6",
-									"from": [ 8.8, 9.9, -2.2 ],
-									"to": [ 13.2, 12.65, 0.0 ],
+									"from": [ 1.76, 1.98, -0.44 ],
+									"to": [ 2.64, 2.53, 0.0 ],
 									"uv": [ 96.0, 4.0 ],
-									"rotationOrigin": [ 13.2, 9.9, 0.0 ],
+									"rotationOrigin": [ 2.64, 1.98, 0.0 ],
 									"rotationY": 17.0,
 									"faces": {
 										"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
@@ -207,10 +207,10 @@
 								},
 								{
 									"name": "Derm7",
-									"from": [ 1.1, 15.4, 30.8 ],
-									"to": [ 5.5, 18.15, 33.0 ],
+									"from": [ 0.22, 3.08, 6.16 ],
+									"to": [ 1.1, 3.63, 6.6 ],
 									"uv": [ 96.0, 4.0 ],
-									"rotationOrigin": [ 5.5, 15.4, 30.8 ],
+									"rotationOrigin": [ 1.1, 3.08, 6.16 ],
 									"rotationY": -17.0,
 									"faces": {
 										"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
@@ -223,10 +223,10 @@
 								},
 								{
 									"name": "Derm8",
-									"from": [ 8.8, 15.4, 30.8 ],
-									"to": [ 13.2, 18.15, 33.0 ],
+									"from": [ 1.76, 3.08, 6.16 ],
+									"to": [ 2.64, 3.63, 6.6 ],
 									"uv": [ 96.0, 4.0 ],
-									"rotationOrigin": [ 13.2, 15.4, 30.8 ],
+									"rotationOrigin": [ 2.64, 3.08, 6.16 ],
 									"rotationY": -17.0,
 									"faces": {
 										"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
@@ -239,10 +239,10 @@
 								},
 								{
 									"name": "Derm9",
-									"from": [ 16.5, 15.4, 30.8 ],
-									"to": [ 20.9, 18.15, 33.0 ],
+									"from": [ 3.3, 3.08, 6.16 ],
+									"to": [ 4.18, 3.63, 6.6 ],
 									"uv": [ 96.0, 4.0 ],
-									"rotationOrigin": [ 20.9, 15.4, 30.8 ],
+									"rotationOrigin": [ 4.18, 3.08, 6.16 ],
 									"rotationY": -17.0,
 									"faces": {
 										"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
@@ -255,10 +255,10 @@
 								},
 								{
 									"name": "Derm10",
-									"from": [ 1.1, 9.9, 30.8 ],
-									"to": [ 5.5, 12.65, 33.0 ],
+									"from": [ 0.22, 1.98, 6.16 ],
+									"to": [ 1.1, 2.53, 6.6 ],
 									"uv": [ 96.0, 4.0 ],
-									"rotationOrigin": [ 5.5, 9.9, 30.8 ],
+									"rotationOrigin": [ 1.1, 1.98, 6.16 ],
 									"rotationY": -17.0,
 									"faces": {
 										"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
@@ -271,10 +271,10 @@
 								},
 								{
 									"name": "Derm11",
-									"from": [ 8.8, 9.9, 30.8 ],
-									"to": [ 13.2, 12.65, 33.0 ],
+									"from": [ 1.76, 1.98, 6.16 ],
+									"to": [ 2.64, 2.53, 6.6 ],
 									"uv": [ 96.0, 4.0 ],
-									"rotationOrigin": [ 13.2, 9.9, 30.8 ],
+									"rotationOrigin": [ 2.64, 1.98, 6.16 ],
 									"rotationY": -17.0,
 									"faces": {
 										"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
@@ -287,10 +287,10 @@
 								},
 								{
 									"name": "Derm12",
-									"from": [ 16.5, 9.9, 30.8 ],
-									"to": [ 20.9, 12.65, 33.0 ],
+									"from": [ 3.3, 1.98, 6.16 ],
+									"to": [ 4.18, 2.53, 6.6 ],
 									"uv": [ 96.0, 4.0 ],
-									"rotationOrigin": [ 20.9, 9.9, 30.8 ],
+									"rotationOrigin": [ 4.18, 1.98, 6.16 ],
 									"rotationY": -17.0,
 									"faces": {
 										"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
@@ -303,10 +303,10 @@
 								},
 								{
 									"name": "Derm13",
-									"from": [ 1.87, 5.5, -1.1 ],
-									"to": [ 5.17, 8.25, 1.1 ],
+									"from": [ 0.374, 1.1, -0.22 ],
+									"to": [ 1.034, 1.65, 0.22 ],
 									"uv": [ 96.0, 4.0 ],
-									"rotationOrigin": [ 5.17, 5.5, 1.1 ],
+									"rotationOrigin": [ 1.034, 1.1, 0.22 ],
 									"rotationY": 17.0,
 									"faces": {
 										"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
@@ -319,10 +319,10 @@
 								},
 								{
 									"name": "Derm14",
-									"from": [ 9.57, 5.5, -1.1 ],
-									"to": [ 12.87, 8.25, 1.1 ],
+									"from": [ 1.914, 1.1, -0.22 ],
+									"to": [ 2.574, 1.65, 0.22 ],
 									"uv": [ 96.0, 4.0 ],
-									"rotationOrigin": [ 12.87, 5.5, 1.1 ],
+									"rotationOrigin": [ 2.574, 1.1, 0.22 ],
 									"rotationY": 17.0,
 									"faces": {
 										"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
@@ -335,10 +335,10 @@
 								},
 								{
 									"name": "Derm15",
-									"from": [ 18.37, 5.5, -1.1 ],
-									"to": [ 21.67, 8.25, 1.1 ],
+									"from": [ 3.674, 1.1, -0.22 ],
+									"to": [ 4.334, 1.65, 0.22 ],
 									"uv": [ 96.0, 4.0 ],
-									"rotationOrigin": [ 21.67, 5.5, 1.1 ],
+									"rotationOrigin": [ 4.334, 1.1, 0.22 ],
 									"rotationY": 17.0,
 									"faces": {
 										"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
@@ -351,10 +351,10 @@
 								},
 								{
 									"name": "Derm16",
-									"from": [ 1.87, 5.5, 29.7 ],
-									"to": [ 5.17, 8.25, 31.9 ],
+									"from": [ 0.374, 1.1, 5.94 ],
+									"to": [ 1.034, 1.65, 6.38 ],
 									"uv": [ 96.0, 4.0 ],
-									"rotationOrigin": [ 5.17, 5.5, 29.7 ],
+									"rotationOrigin": [ 1.034, 1.1, 5.94 ],
 									"rotationY": -17.0,
 									"faces": {
 										"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
@@ -367,10 +367,10 @@
 								},
 								{
 									"name": "Derm17",
-									"from": [ 9.57, 5.5, 29.7 ],
-									"to": [ 12.87, 8.25, 31.9 ],
+									"from": [ 1.914, 1.1, 5.94 ],
+									"to": [ 2.574, 1.65, 6.38 ],
 									"uv": [ 96.0, 4.0 ],
-									"rotationOrigin": [ 12.87, 5.5, 29.7 ],
+									"rotationOrigin": [ 2.574, 1.1, 5.94 ],
 									"rotationY": -17.0,
 									"faces": {
 										"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
@@ -383,10 +383,10 @@
 								},
 								{
 									"name": "Derm18",
-									"from": [ 17.27, 5.5, 29.7 ],
-									"to": [ 20.57, 8.25, 31.9 ],
+									"from": [ 3.454, 1.1, 5.94 ],
+									"to": [ 4.114, 1.65, 6.38 ],
 									"uv": [ 96.0, 4.0 ],
-									"rotationOrigin": [ 20.57, 5.5, 29.7 ],
+									"rotationOrigin": [ 4.114, 1.1, 5.94 ],
 									"rotationY": -17.0,
 									"faces": {
 										"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
@@ -399,10 +399,10 @@
 								},
 								{
 									"name": "Cube5",
-									"from": [ 1.2923, 17.963, 22.0 ],
-									"to": [ 1.2923, 17.963, 22.0 ],
+									"from": [ 0.2585, 3.5926, 4.4 ],
+									"to": [ 0.2585, 3.5926, 4.4 ],
 									"uv": [ 2.0, 4.0 ],
-									"rotationOrigin": [ 1.2923, 17.9636, 22.0 ],
+									"rotationOrigin": [ 0.2585, 3.5927, 4.4 ],
 									"rotationZ": 17.0,
 									"faces": {
 										"north": { "texture": "#ankylo", "uv": [ 4.0, 8.0, 8.0, 12.0 ], "autoUv": false },
@@ -429,10 +429,10 @@
 											"children": [
 												{
 													"name": "Derm43",
-													"from": [ 0.0, 0.0, 2.2 ],
-													"to": [ 4.4, 2.75, 5.5 ],
+													"from": [ 0.0, 0.0, 0.44 ],
+													"to": [ 0.88, 0.55, 1.1 ],
 													"uv": [ 96.0, 4.0 ],
-													"rotationOrigin": [ 4.4, 0.0, 2.2 ],
+													"rotationOrigin": [ 0.88, 0.0, 0.44 ],
 													"faces": {
 														"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
 														"east": { "texture": "#ankylo", "uv": [ 100.0, 8.0, 104.0, 12.0 ], "autoUv": false },
@@ -444,10 +444,10 @@
 												},
 												{
 													"name": "Derm60",
-													"from": [ 0.0, 0.0, -4.95 ],
-													"to": [ 4.4, 2.75, -1.65 ],
+													"from": [ 0.0, 0.0, -0.99 ],
+													"to": [ 0.88, 0.55, -0.33 ],
 													"uv": [ 96.0, 4.0 ],
-													"rotationOrigin": [ 4.4, 0.0, -4.95 ],
+													"rotationOrigin": [ 0.88, 0.0, -0.99 ],
 													"faces": {
 														"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
 														"east": { "texture": "#ankylo", "uv": [ 100.0, 8.0, 104.0, 12.0 ], "autoUv": false },
@@ -459,10 +459,10 @@
 												},
 												{
 													"name": "Derm61",
-													"from": [ 0.0, 0.0, -11.55 ],
-													"to": [ 4.4, 2.75, -8.25 ],
+													"from": [ 0.0, 0.0, -2.31 ],
+													"to": [ 0.88, 0.55, -1.65 ],
 													"uv": [ 96.0, 4.0 ],
-													"rotationOrigin": [ 4.4, 0.0, -11.55 ],
+													"rotationOrigin": [ 0.88, 0.0, -2.31 ],
 													"faces": {
 														"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
 														"east": { "texture": "#ankylo", "uv": [ 100.0, 8.0, 104.0, 12.0 ], "autoUv": false },
@@ -474,10 +474,10 @@
 												},
 												{
 													"name": "Derm62",
-													"from": [ 0.0, 0.0, -18.7 ],
-													"to": [ 4.4, 2.75, -15.4 ],
+													"from": [ 0.0, 0.0, -3.74 ],
+													"to": [ 0.88, 0.55, -3.08 ],
 													"uv": [ 96.0, 4.0 ],
-													"rotationOrigin": [ 4.4, 0.0, -18.7 ],
+													"rotationOrigin": [ 0.88, 0.0, -3.74 ],
 													"faces": {
 														"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
 														"east": { "texture": "#ankylo", "uv": [ 100.0, 8.0, 104.0, 12.0 ], "autoUv": false },
@@ -491,10 +491,10 @@
 										},
 										{
 											"name": "Cube3",
-											"from": [ 7.3583, -2.2513, 0.0 ],
-											"to": [ 7.3583, -2.2513, 0.0 ],
+											"from": [ 1.4717, -0.4503, 0.0 ],
+											"to": [ 1.4717, -0.4503, 0.0 ],
 											"uv": [ 0.0, 0.0 ],
-											"rotationOrigin": [ 7.3635, -2.2513, 0.0 ],
+											"rotationOrigin": [ 1.4727, -0.4503, 0.0 ],
 											"faces": {
 												"north": { "texture": "#ankylo", "uv": [ 0.0, 4.0, 4.0, 8.0 ], "autoUv": false },
 												"east": { "texture": "#ankylo", "uv": [ 4.0, 4.0, 8.0, 8.0 ], "autoUv": false },
@@ -506,10 +506,10 @@
 											"children": [
 												{
 													"name": "Derm63",
-													"from": [ 0.0, 0.0, 2.2 ],
-													"to": [ 4.4, 2.75, 5.5 ],
+													"from": [ 0.0, 0.0, 0.44 ],
+													"to": [ 0.88, 0.55, 1.1 ],
 													"uv": [ 96.0, 4.0 ],
-													"rotationOrigin": [ 4.4, 0.0, 2.2 ],
+													"rotationOrigin": [ 0.88, 0.0, 0.44 ],
 													"faces": {
 														"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
 														"east": { "texture": "#ankylo", "uv": [ 100.0, 8.0, 104.0, 12.0 ], "autoUv": false },
@@ -521,10 +521,10 @@
 												},
 												{
 													"name": "Derm64",
-													"from": [ 0.0, 0.0, -4.95 ],
-													"to": [ 4.4, 2.75, -1.65 ],
+													"from": [ 0.0, 0.0, -0.99 ],
+													"to": [ 0.88, 0.55, -0.33 ],
 													"uv": [ 96.0, 4.0 ],
-													"rotationOrigin": [ 4.4, 0.0, -4.95 ],
+													"rotationOrigin": [ 0.88, 0.0, -0.99 ],
 													"faces": {
 														"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
 														"east": { "texture": "#ankylo", "uv": [ 100.0, 8.0, 104.0, 12.0 ], "autoUv": false },
@@ -536,10 +536,10 @@
 												},
 												{
 													"name": "Derm65",
-													"from": [ 0.0, 0.0, -11.55 ],
-													"to": [ 4.4, 2.75, -8.25 ],
+													"from": [ 0.0, 0.0, -2.31 ],
+													"to": [ 0.88, 0.55, -1.65 ],
 													"uv": [ 96.0, 4.0 ],
-													"rotationOrigin": [ 4.4, 0.0, -11.55 ],
+													"rotationOrigin": [ 0.88, 0.0, -2.31 ],
 													"faces": {
 														"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
 														"east": { "texture": "#ankylo", "uv": [ 100.0, 8.0, 104.0, 12.0 ], "autoUv": false },
@@ -551,10 +551,10 @@
 												},
 												{
 													"name": "Derm66",
-													"from": [ 0.0, 0.0, -18.7 ],
-													"to": [ 4.4, 2.75, -15.4 ],
+													"from": [ 0.0, 0.0, -3.74 ],
+													"to": [ 0.88, 0.55, -3.08 ],
 													"uv": [ 96.0, 4.0 ],
-													"rotationOrigin": [ 4.4, 0.0, -18.7 ],
+													"rotationOrigin": [ 0.88, 0.0, -3.74 ],
 													"faces": {
 														"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
 														"east": { "texture": "#ankylo", "uv": [ 100.0, 8.0, 104.0, 12.0 ], "autoUv": false },
@@ -568,10 +568,10 @@
 										},
 										{
 											"name": "Cube4",
-											"from": [ 14.7219, -4.5025, 0.0 ],
-											"to": [ 14.7219, -4.5025, 0.0 ],
+											"from": [ 2.9444, -0.9005, 0.0 ],
+											"to": [ 2.9444, -0.9005, 0.0 ],
 											"uv": [ 4.0, 4.0 ],
-											"rotationOrigin": [ 14.7271, -4.5025, 0.0 ],
+											"rotationOrigin": [ 2.9454, -0.9005, 0.0 ],
 											"faces": {
 												"north": { "texture": "#ankylo", "uv": [ 4.0, 8.0, 8.0, 12.0 ], "autoUv": false },
 												"east": { "texture": "#ankylo", "uv": [ 8.0, 8.0, 12.0, 12.0 ], "autoUv": false },
@@ -583,10 +583,10 @@
 											"children": [
 												{
 													"name": "Derm67",
-													"from": [ 0.0, 0.0, 2.2 ],
-													"to": [ 4.4, 2.75, 5.5 ],
+													"from": [ 0.0, 0.0, 0.44 ],
+													"to": [ 0.88, 0.55, 1.1 ],
 													"uv": [ 96.0, 4.0 ],
-													"rotationOrigin": [ 4.4, 0.0, 2.2 ],
+													"rotationOrigin": [ 0.88, 0.0, 0.44 ],
 													"faces": {
 														"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
 														"east": { "texture": "#ankylo", "uv": [ 100.0, 8.0, 104.0, 12.0 ], "autoUv": false },
@@ -598,10 +598,10 @@
 												},
 												{
 													"name": "Derm68",
-													"from": [ 0.0, 0.0, -4.95 ],
-													"to": [ 4.4, 2.75, -1.65 ],
+													"from": [ 0.0, 0.0, -0.99 ],
+													"to": [ 0.88, 0.55, -0.33 ],
 													"uv": [ 96.0, 4.0 ],
-													"rotationOrigin": [ 4.4, 0.0, -4.95 ],
+													"rotationOrigin": [ 0.88, 0.0, -0.99 ],
 													"faces": {
 														"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
 														"east": { "texture": "#ankylo", "uv": [ 100.0, 8.0, 104.0, 12.0 ], "autoUv": false },
@@ -613,10 +613,10 @@
 												},
 												{
 													"name": "Derm69",
-													"from": [ 0.0, 0.0, -11.55 ],
-													"to": [ 4.4, 2.75, -8.25 ],
+													"from": [ 0.0, 0.0, -2.31 ],
+													"to": [ 0.88, 0.55, -1.65 ],
 													"uv": [ 96.0, 4.0 ],
-													"rotationOrigin": [ 4.4, 0.0, -11.55 ],
+													"rotationOrigin": [ 0.88, 0.0, -2.31 ],
 													"faces": {
 														"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
 														"east": { "texture": "#ankylo", "uv": [ 100.0, 8.0, 104.0, 12.0 ], "autoUv": false },
@@ -628,10 +628,10 @@
 												},
 												{
 													"name": "Derm70",
-													"from": [ 0.0, 0.0, -18.7 ],
-													"to": [ 4.4, 2.75, -15.4 ],
+													"from": [ 0.0, 0.0, -3.74 ],
+													"to": [ 0.88, 0.55, -3.08 ],
 													"uv": [ 96.0, 4.0 ],
-													"rotationOrigin": [ 4.4, 0.0, -18.7 ],
+													"rotationOrigin": [ 0.88, 0.0, -3.74 ],
 													"faces": {
 														"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
 														"east": { "texture": "#ankylo", "uv": [ 100.0, 8.0, 104.0, 12.0 ], "autoUv": false },
@@ -663,11 +663,11 @@
 				},
 				{
 					"name": "Body Front",
-					"from": [ -22.0, 14.85, -12.1 ],
-					"to": [ -4.4, 32.45, 12.1 ],
+					"from": [ -4.4, 2.97, -2.42 ],
+					"to": [ -0.88, 6.49, 2.42 ],
 					"autoUnwrap": false,
 					"uv": [ 119.0, 40.0 ],
-					"rotationOrigin": [ -12.1, 23.65, 0.0 ],
+					"rotationOrigin": [ -2.42, 4.73, 0.0 ],
 					"rotationZ": 11.0,
 					"faces": {
 						"north": { "texture": "#ankylo", "uv": [ 36.0, 97.0, 52.0, 113.0 ], "autoUv": false, "snapUv": false },
@@ -680,11 +680,11 @@
 					"children": [
 						{
 							"name": "Body Front 1",
-							"from": [ -6.6, 2.2, 3.3 ],
-							"to": [ 5.5, 15.4, 20.9 ],
+							"from": [ -1.32, 0.44, 0.66 ],
+							"to": [ 1.1, 3.08, 4.18 ],
 							"autoUnwrap": false,
 							"uv": [ 107.0, 36.0 ],
-							"rotationOrigin": [ 0.0, 7.7, 12.1 ],
+							"rotationOrigin": [ 0.0, 1.54, 2.42 ],
 							"faces": {
 								"north": { "texture": "#ankylo", "uv": [ 32.0, 99.0, 43.0, 111.0 ], "autoUv": false, "snapUv": false },
 								"east": { "texture": "#ankylo", "uv": [ 0.0, 0.0, 16.0, 12.0 ], "autoUv": false },
@@ -696,11 +696,11 @@
 							"children": [
 								{
 									"name": "Neck",
-									"from": [ -5.5, 1.1, 2.75 ],
-									"to": [ 4.4, 12.1, 14.85 ],
+									"from": [ -1.1, 0.22, 0.55 ],
+									"to": [ 0.88, 2.42, 2.97 ],
 									"autoUnwrap": false,
 									"uv": [ 99.0, 60.0 ],
-									"rotationOrigin": [ 0.0, 6.6, 8.25 ],
+									"rotationOrigin": [ 0.0, 1.32, 1.65 ],
 									"faces": {
 										"north": { "texture": "#ankylo", "uv": [ 28.0, 100.0, 37.0, 110.0 ], "autoUv": false, "snapUv": false },
 										"east": { "texture": "#ankylo", "uv": [ 0.0, 0.0, 8.0, 8.0 ], "autoUv": false },
@@ -712,11 +712,11 @@
 									"children": [
 										{
 											"name": "Head",
-											"from": [ -5.5, 1.1, -0.55 ],
-											"to": [ 3.3, 9.9, 12.65 ],
+											"from": [ -1.1, 0.22, -0.11 ],
+											"to": [ 0.66, 1.98, 2.53 ],
 											"autoUnwrap": false,
 											"uv": [ 90.0, 44.0 ],
-											"rotationOrigin": [ 0.0, 5.5, 6.6 ],
+											"rotationOrigin": [ 0.0, 1.1, 1.32 ],
 											"faces": {
 												"north": { "texture": "#ankylo", "uv": [ 22.0, 100.0, 30.0, 108.0 ], "autoUv": false, "snapUv": false },
 												"east": { "texture": "#ankylo", "uv": [ 3.0, 52.0, 15.0, 60.0 ], "autoUv": false, "snapUv": false },
@@ -728,11 +728,11 @@
 											"children": [
 												{
 													"name": "Top Jar",
-													"from": [ -2.2, 3.3, 0.55 ],
-													"to": [ 3.3, 8.25, 12.43 ],
+													"from": [ -0.44, 0.66, 0.11 ],
+													"to": [ 0.66, 1.65, 2.486 ],
 													"autoUnwrap": false,
 													"uv": [ 98.0, 60.0 ],
-													"rotationOrigin": [ -2.2, 3.3, 0.55 ],
+													"rotationOrigin": [ -0.44, 0.66, 0.11 ],
 													"faces": {
 														"north": { "texture": "#ankylo", "uv": [ 19.0, 101.0, 24.0, 105.5 ], "autoUv": false, "snapUv": false },
 														"east": { "texture": "#ankylo", "uv": [ 4.0, 0.0, 12.0, 4.0 ], "autoUv": false },
@@ -744,11 +744,11 @@
 													"children": [
 														{
 															"name": "Head2",
-															"from": [ 0.0, -0.55, 0.0 ],
-															"to": [ 6.6, 0.0, 11.88 ],
+															"from": [ 0.0, -0.11, 0.0 ],
+															"to": [ 1.32, 0.0, 2.376 ],
 															"autoUnwrap": false,
 															"uv": [ 63.0, 68.0 ],
-															"rotationOrigin": [ 0.0, -0.55, 0.0 ],
+															"rotationOrigin": [ 0.0, -0.11, 0.0 ],
 															"faces": {
 																"north": { "texture": "#ankylo", "uv": [ 19.0, 105.5, 25.0, 106.0 ], "autoUv": false, "snapUv": false },
 																"east": { "texture": "#ankylo", "uv": [ 4.0, 4.0, 12.0, 8.0 ], "autoUv": false },
@@ -760,10 +760,10 @@
 														},
 														{
 															"name": "Head horn top",
-															"from": [ 3.52, 2.86, 9.13 ],
-															"to": [ 4.29, 5.94, 13.53 ],
+															"from": [ 0.704, 0.572, 1.826 ],
+															"to": [ 0.858, 1.188, 2.706 ],
 															"uv": [ 116.0, 4.0 ],
-															"rotationOrigin": [ 3.52, 2.86, 12.21 ],
+															"rotationOrigin": [ 0.704, 0.572, 2.442 ],
 															"rotationY": -36.0,
 															"rotationZ": 30.0,
 															"faces": {
@@ -777,10 +777,10 @@
 															"children": [
 																{
 																	"name": "Head horn top1",
-																	"from": [ 0.77, 0.22, 0.33 ],
-																	"to": [ 2.31, 2.75, 4.18 ],
+																	"from": [ 0.154, 0.044, 0.066 ],
+																	"to": [ 0.462, 0.55, 0.836 ],
 																	"uv": [ 114.0, 4.0 ],
-																	"rotationOrigin": [ 0.77, 0.22, 0.33 ],
+																	"rotationOrigin": [ 0.154, 0.044, 0.066 ],
 																	"faces": {
 																		"north": { "texture": "#ankylo", "uv": [ 114.0, 7.0, 115.0, 9.0 ], "autoUv": false },
 																		"east": { "texture": "#ankylo", "uv": [ 115.0, 7.0, 118.0, 9.0 ], "autoUv": false },
@@ -792,10 +792,10 @@
 																	"children": [
 																		{
 																			"name": "Head horn top2",
-																			"from": [ 1.54, 0.33, 0.33 ],
-																			"to": [ 3.08, 2.31, 3.63 ],
+																			"from": [ 0.308, 0.066, 0.066 ],
+																			"to": [ 0.616, 0.462, 0.726 ],
 																			"uv": [ 116.0, 4.0 ],
-																			"rotationOrigin": [ 1.54, 0.22, 0.33 ],
+																			"rotationOrigin": [ 0.308, 0.044, 0.066 ],
 																			"faces": {
 																				"north": { "texture": "#ankylo", "uv": [ 116.0, 7.0, 117.0, 8.0 ], "autoUv": false },
 																				"east": { "texture": "#ankylo", "uv": [ 117.0, 7.0, 120.0, 8.0 ], "autoUv": false },
@@ -803,24 +803,7 @@
 																				"west": { "texture": "#ankylo", "uv": [ 121.0, 7.0, 124.0, 8.0 ], "autoUv": false },
 																				"up": { "texture": "#ankylo", "uv": [ 116.0, 4.0, 117.0, 7.0 ], "autoUv": false },
 																				"down": { "texture": "#ankylo", "uv": [ 117.0, 4.0, 118.0, 7.0 ], "autoUv": false }
-																			},
-																			"children": [
-																				{
-																					"name": "Head horn top3",
-																					"from": [ 1.54, 0.33, 0.33 ],
-																					"to": [ 3.08, 1.54, 2.97 ],
-																					"uv": [ 116.0, 3.0 ],
-																					"rotationOrigin": [ 1.54, 0.22, 0.33 ],
-																					"faces": {
-																						"north": { "texture": "#ankylo", "uv": [ 116.0, 5.0, 117.0, 6.0 ], "autoUv": false },
-																						"east": { "texture": "#ankylo", "uv": [ 117.0, 5.0, 119.0, 6.0 ], "autoUv": false },
-																						"south": { "texture": "#ankylo", "uv": [ 119.0, 5.0, 120.0, 6.0 ], "autoUv": false },
-																						"west": { "texture": "#ankylo", "uv": [ 120.0, 5.0, 122.0, 6.0 ], "autoUv": false },
-																						"up": { "texture": "#ankylo", "uv": [ 116.0, 3.0, 117.0, 5.0 ], "autoUv": false },
-																						"down": { "texture": "#ankylo", "uv": [ 117.0, 3.0, 118.0, 5.0 ], "autoUv": false }
-																					}
-																				}
-																			]
+																			}
 																		}
 																	]
 																}
@@ -828,10 +811,10 @@
 														},
 														{
 															"name": "Head horn lower",
-															"from": [ 1.32, -0.33, 9.24 ],
-															"to": [ 2.09, 2.75, 12.32 ],
+															"from": [ 0.264, -0.066, 1.848 ],
+															"to": [ 0.418, 0.55, 2.464 ],
 															"uv": [ 116.0, 4.0 ],
-															"rotationOrigin": [ 1.32, -0.33, 12.32 ],
+															"rotationOrigin": [ 0.264, -0.066, 2.464 ],
 															"rotationY": -39.0,
 															"rotationZ": -20.0,
 															"faces": {
@@ -845,10 +828,10 @@
 															"children": [
 																{
 																	"name": "Head horn top9",
-																	"from": [ 0.77, 0.22, 0.33 ],
-																	"to": [ 1.87, 2.75, 2.86 ],
+																	"from": [ 0.154, 0.044, 0.066 ],
+																	"to": [ 0.374, 0.55, 0.572 ],
 																	"uv": [ 116.0, 4.0 ],
-																	"rotationOrigin": [ 0.77, 0.22, 0.33 ],
+																	"rotationOrigin": [ 0.154, 0.044, 0.066 ],
 																	"faces": {
 																		"north": { "texture": "#ankylo", "uv": [ 116.0, 8.0, 120.0, 12.0 ], "autoUv": false },
 																		"east": { "texture": "#ankylo", "uv": [ 120.0, 8.0, 124.0, 12.0 ], "autoUv": false },
@@ -856,51 +839,17 @@
 																		"west": { "texture": "#ankylo", "uv": [ 128.0, 8.0, 132.0, 12.0 ], "autoUv": false },
 																		"up": { "texture": "#ankylo", "uv": [ 116.0, 4.0, 120.0, 8.0 ], "autoUv": false },
 																		"down": { "texture": "#ankylo", "uv": [ 120.0, 4.0, 124.0, 8.0 ], "autoUv": false }
-																	},
-																	"children": [
-																		{
-																			"name": "Head horn top10",
-																			"from": [ 1.1, 0.33, 0.33 ],
-																			"to": [ 2.2, 2.31, 2.31 ],
-																			"uv": [ 116.0, 4.0 ],
-																			"rotationOrigin": [ 1.1, 0.22, 0.33 ],
-																			"faces": {
-																				"north": { "texture": "#ankylo", "uv": [ 116.0, 8.0, 120.0, 12.0 ], "autoUv": false },
-																				"east": { "texture": "#ankylo", "uv": [ 120.0, 8.0, 124.0, 12.0 ], "autoUv": false },
-																				"south": { "texture": "#ankylo", "uv": [ 124.0, 8.0, 128.0, 12.0 ], "autoUv": false },
-																				"west": { "texture": "#ankylo", "uv": [ 128.0, 8.0, 132.0, 12.0 ], "autoUv": false },
-																				"up": { "texture": "#ankylo", "uv": [ 116.0, 4.0, 120.0, 8.0 ], "autoUv": false },
-																				"down": { "texture": "#ankylo", "uv": [ 120.0, 4.0, 124.0, 8.0 ], "autoUv": false }
-																			},
-																			"children": [
-																				{
-																					"name": "Head horn top11",
-																					"from": [ 1.1, 0.33, 0.33 ],
-																					"to": [ 2.2, 1.54, 1.54 ],
-																					"uv": [ 116.0, 4.0 ],
-																					"rotationOrigin": [ 1.1, 0.22, 0.33 ],
-																					"faces": {
-																						"north": { "texture": "#ankylo", "uv": [ 116.0, 8.0, 120.0, 12.0 ], "autoUv": false },
-																						"east": { "texture": "#ankylo", "uv": [ 120.0, 8.0, 124.0, 12.0 ], "autoUv": false },
-																						"south": { "texture": "#ankylo", "uv": [ 124.0, 8.0, 128.0, 12.0 ], "autoUv": false },
-																						"west": { "texture": "#ankylo", "uv": [ 128.0, 8.0, 132.0, 12.0 ], "autoUv": false },
-																						"up": { "texture": "#ankylo", "uv": [ 116.0, 4.0, 120.0, 8.0 ], "autoUv": false },
-																						"down": { "texture": "#ankylo", "uv": [ 120.0, 4.0, 124.0, 8.0 ], "autoUv": false }
-																					}
-																				}
-																			]
-																		}
-																	]
+																	}
 																}
 															]
 														},
 														{
 															"name": "Eyeplate",
-															"from": [ 0.0, 5.06, -0.55 ],
-															"to": [ 2.2, 5.61, 12.65 ],
+															"from": [ 0.0, 1.012, -0.11 ],
+															"to": [ 0.44, 1.122, 2.53 ],
 															"autoUnwrap": false,
 															"uv": [ 107.0, 36.0 ],
-															"rotationOrigin": [ 3.3, 5.61, -0.55 ],
+															"rotationOrigin": [ 0.66, 1.122, -0.11 ],
 															"rotationZ": 8.0,
 															"faces": {
 																"north": { "texture": "#ankylo", "uv": [ 20.0, 100.0, 22.0, 100.5 ], "autoUv": false, "snapUv": false },
@@ -913,11 +862,11 @@
 															"children": [
 																{
 																	"name": "Eyeplate1",
-																	"from": [ -1.1, 0.0, 0.55 ],
-																	"to": [ 0.0, 0.55, 12.43 ],
+																	"from": [ -0.22, 0.0, 0.11 ],
+																	"to": [ 0.0, 0.11, 2.486 ],
 																	"autoUnwrap": false,
 																	"uv": [ 123.0, 28.0 ],
-																	"rotationOrigin": [ 0.0, 0.55, 0.55 ],
+																	"rotationOrigin": [ 0.0, 0.11, 0.11 ],
 																	"rotationZ": 11.0,
 																	"faces": {
 																		"north": { "texture": "#ankylo", "uv": [ 19.0, 100.0, 20.0, 100.5 ], "autoUv": false, "snapUv": false },
@@ -932,10 +881,10 @@
 														},
 														{
 															"name": "Head horn top4",
-															"from": [ 2.42, 2.86, -1.21 ],
-															"to": [ 3.19, 5.94, 3.19 ],
+															"from": [ 0.484, 0.572, -0.242 ],
+															"to": [ 0.638, 1.188, 0.638 ],
 															"uv": [ 115.0, 4.0 ],
-															"rotationOrigin": [ 2.42, 2.86, -1.21 ],
+															"rotationOrigin": [ 0.484, 0.572, -0.242 ],
 															"rotationY": 36.0,
 															"rotationZ": 30.0,
 															"faces": {
@@ -949,10 +898,10 @@
 															"children": [
 																{
 																	"name": "Head horn top5",
-																	"from": [ 0.77, 0.22, 0.33 ],
-																	"to": [ 2.31, 2.75, 4.18 ],
+																	"from": [ 0.154, 0.044, 0.066 ],
+																	"to": [ 0.462, 0.55, 0.836 ],
 																	"uv": [ 116.0, 4.0 ],
-																	"rotationOrigin": [ 0.77, 0.22, 0.33 ],
+																	"rotationOrigin": [ 0.154, 0.044, 0.066 ],
 																	"faces": {
 																		"north": { "texture": "#ankylo", "uv": [ 116.0, 7.0, 117.0, 9.0 ], "autoUv": false },
 																		"east": { "texture": "#ankylo", "uv": [ 117.0, 7.0, 120.0, 9.0 ], "autoUv": false },
@@ -964,10 +913,10 @@
 																	"children": [
 																		{
 																			"name": "Head horn top6",
-																			"from": [ 1.54, 0.33, 0.33 ],
-																			"to": [ 3.08, 2.31, 3.63 ],
+																			"from": [ 0.308, 0.066, 0.066 ],
+																			"to": [ 0.616, 0.462, 0.726 ],
 																			"uv": [ 116.0, 4.0 ],
-																			"rotationOrigin": [ 1.54, 0.22, 0.33 ],
+																			"rotationOrigin": [ 0.308, 0.044, 0.066 ],
 																			"faces": {
 																				"north": { "texture": "#ankylo", "uv": [ 116.0, 7.0, 117.0, 8.0 ], "autoUv": false },
 																				"east": { "texture": "#ankylo", "uv": [ 117.0, 7.0, 120.0, 8.0 ], "autoUv": false },
@@ -975,24 +924,7 @@
 																				"west": { "texture": "#ankylo", "uv": [ 121.0, 7.0, 124.0, 8.0 ], "autoUv": false },
 																				"up": { "texture": "#ankylo", "uv": [ 116.0, 4.0, 117.0, 7.0 ], "autoUv": false },
 																				"down": { "texture": "#ankylo", "uv": [ 117.0, 4.0, 118.0, 7.0 ], "autoUv": false }
-																			},
-																			"children": [
-																				{
-																					"name": "Head horn top7",
-																					"from": [ 1.54, 0.33, 0.33 ],
-																					"to": [ 3.08, 1.54, 2.97 ],
-																					"uv": [ 116.0, 4.0 ],
-																					"rotationOrigin": [ 1.54, 0.22, 0.33 ],
-																					"faces": {
-																						"north": { "texture": "#ankylo", "uv": [ 116.0, 6.0, 117.0, 7.0 ], "autoUv": false },
-																						"east": { "texture": "#ankylo", "uv": [ 117.0, 6.0, 119.0, 7.0 ], "autoUv": false },
-																						"south": { "texture": "#ankylo", "uv": [ 119.0, 6.0, 120.0, 7.0 ], "autoUv": false },
-																						"west": { "texture": "#ankylo", "uv": [ 120.0, 6.0, 122.0, 7.0 ], "autoUv": false },
-																						"up": { "texture": "#ankylo", "uv": [ 116.0, 4.0, 117.0, 6.0 ], "autoUv": false },
-																						"down": { "texture": "#ankylo", "uv": [ 117.0, 4.0, 118.0, 6.0 ], "autoUv": false }
-																					}
-																				}
-																			]
+																			}
 																		}
 																	]
 																}
@@ -1000,10 +932,10 @@
 														},
 														{
 															"name": "Head horn lower2",
-															"from": [ 1.32, -0.33, -0.11 ],
-															"to": [ 2.09, 2.75, 2.97 ],
+															"from": [ 0.264, -0.066, -0.022 ],
+															"to": [ 0.418, 0.55, 0.594 ],
 															"uv": [ 116.0, 4.0 ],
-															"rotationOrigin": [ 1.32, -0.33, -0.11 ],
+															"rotationOrigin": [ 0.264, -0.066, -0.022 ],
 															"rotationY": 39.0,
 															"rotationZ": -20.0,
 															"faces": {
@@ -1017,10 +949,10 @@
 															"children": [
 																{
 																	"name": "Head horn top12",
-																	"from": [ 0.77, 0.22, 0.33 ],
-																	"to": [ 1.87, 2.75, 2.86 ],
+																	"from": [ 0.154, 0.044, 0.066 ],
+																	"to": [ 0.374, 0.55, 0.572 ],
 																	"uv": [ 116.0, 4.0 ],
-																	"rotationOrigin": [ 0.77, 0.22, 0.33 ],
+																	"rotationOrigin": [ 0.154, 0.044, 0.066 ],
 																	"faces": {
 																		"north": { "texture": "#ankylo", "uv": [ 116.0, 8.0, 120.0, 12.0 ], "autoUv": false },
 																		"east": { "texture": "#ankylo", "uv": [ 120.0, 8.0, 124.0, 12.0 ], "autoUv": false },
@@ -1028,41 +960,7 @@
 																		"west": { "texture": "#ankylo", "uv": [ 128.0, 8.0, 132.0, 12.0 ], "autoUv": false },
 																		"up": { "texture": "#ankylo", "uv": [ 116.0, 4.0, 120.0, 8.0 ], "autoUv": false },
 																		"down": { "texture": "#ankylo", "uv": [ 120.0, 4.0, 124.0, 8.0 ], "autoUv": false }
-																	},
-																	"children": [
-																		{
-																			"name": "Head horn top13",
-																			"from": [ 1.1, 0.33, 0.33 ],
-																			"to": [ 2.2, 2.31, 2.31 ],
-																			"uv": [ 116.0, 4.0 ],
-																			"rotationOrigin": [ 1.1, 0.22, 0.33 ],
-																			"faces": {
-																				"north": { "texture": "#ankylo", "uv": [ 116.0, 8.0, 120.0, 12.0 ], "autoUv": false },
-																				"east": { "texture": "#ankylo", "uv": [ 120.0, 8.0, 124.0, 12.0 ], "autoUv": false },
-																				"south": { "texture": "#ankylo", "uv": [ 124.0, 8.0, 128.0, 12.0 ], "autoUv": false },
-																				"west": { "texture": "#ankylo", "uv": [ 128.0, 8.0, 132.0, 12.0 ], "autoUv": false },
-																				"up": { "texture": "#ankylo", "uv": [ 116.0, 4.0, 120.0, 8.0 ], "autoUv": false },
-																				"down": { "texture": "#ankylo", "uv": [ 120.0, 4.0, 124.0, 8.0 ], "autoUv": false }
-																			},
-																			"children": [
-																				{
-																					"name": "Head horn top14",
-																					"from": [ 1.1, 0.33, 0.33 ],
-																					"to": [ 2.2, 1.54, 1.54 ],
-																					"uv": [ 116.0, 4.0 ],
-																					"rotationOrigin": [ 1.1, 0.22, 0.33 ],
-																					"faces": {
-																						"north": { "texture": "#ankylo", "uv": [ 116.0, 8.0, 120.0, 12.0 ], "autoUv": false },
-																						"east": { "texture": "#ankylo", "uv": [ 120.0, 8.0, 124.0, 12.0 ], "autoUv": false },
-																						"south": { "texture": "#ankylo", "uv": [ 124.0, 8.0, 128.0, 12.0 ], "autoUv": false },
-																						"west": { "texture": "#ankylo", "uv": [ 128.0, 8.0, 132.0, 12.0 ], "autoUv": false },
-																						"up": { "texture": "#ankylo", "uv": [ 116.0, 4.0, 120.0, 8.0 ], "autoUv": false },
-																						"down": { "texture": "#ankylo", "uv": [ 120.0, 4.0, 124.0, 8.0 ], "autoUv": false }
-																					}
-																				}
-																			]
-																		}
-																	]
+																	}
 																}
 															]
 														}
@@ -1070,11 +968,11 @@
 												},
 												{
 													"name": "Lower face",
-													"from": [ -2.09, -0.33, 0.88 ],
-													"to": [ 0.0, 2.75, 11.88 ],
+													"from": [ -0.418, -0.066, 0.176 ],
+													"to": [ 0.0, 0.55, 2.376 ],
 													"autoUnwrap": false,
 													"uv": [ 46.0, 80.0 ],
-													"rotationOrigin": [ 3.41, 1.87, 0.88 ],
+													"rotationOrigin": [ 0.682, 0.374, 0.176 ],
 													"faces": {
 														"north": { "texture": "#ankylo", "uv": [ 19.0, 106.0, 20.9, 108.8 ], "rotation": 180, "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1] },
 														"east": { "texture": "#ankylo", "uv": [ 4.0, 4.0, 12.0, 8.0 ], "autoUv": false },
@@ -1086,11 +984,11 @@
 												},
 												{
 													"name": "Eyes",
-													"from": [ -2.09, 6.6, 0.22 ],
-													"to": [ -0.44, 7.48, 12.87 ],
+													"from": [ -0.418, 1.32, 0.044 ],
+													"to": [ -0.088, 1.496, 2.574 ],
 													"unwrapMode": 4,
 													"uv": [ 63.0, 4.0 ],
-													"rotationOrigin": [ -2.09, 7.7, 0.22 ],
+													"rotationOrigin": [ -0.418, 1.54, 0.044 ],
 													"faces": {
 														"north": { "texture": "#ankylo", "uv": [ 64.0, 8.0, 68.0, 12.0 ], "autoUv": false },
 														"east": { "texture": "#ankylo", "uv": [ 80.0, 8.0, 88.0, 12.0 ], "autoUv": false },
@@ -1102,11 +1000,11 @@
 												},
 												{
 													"name": "Top Jar5",
-													"from": [ -4.4, 3.3, 1.65 ],
-													"to": [ -2.2, 8.25, 11.33 ],
+													"from": [ -0.88, 0.66, 0.33 ],
+													"to": [ -0.44, 1.65, 2.266 ],
 													"autoUnwrap": false,
 													"uv": [ 130.0, 56.0 ],
-													"rotationOrigin": [ -4.4, 3.3, 1.65 ],
+													"rotationOrigin": [ -0.88, 0.66, 0.33 ],
 													"faces": {
 														"north": { "texture": "#ankylo", "uv": [ 17.0, 101.0, 19.0, 105.5 ], "autoUv": false, "snapUv": false },
 														"east": { "texture": "#ankylo", "uv": [ 4.0, 0.0, 12.8, 4.5 ], "autoUv": false, "snapUv": false },
@@ -1118,11 +1016,11 @@
 												},
 												{
 													"name": "Top Jar6",
-													"from": [ -6.6, 3.3, 2.42 ],
-													"to": [ -4.4, 8.14, 10.56 ],
+													"from": [ -1.32, 0.66, 0.484 ],
+													"to": [ -0.88, 1.628, 2.112 ],
 													"autoUnwrap": false,
 													"uv": [ 124.0, 63.0 ],
-													"rotationOrigin": [ -6.6, 3.3, 2.42 ],
+													"rotationOrigin": [ -1.32, 0.66, 0.484 ],
 													"faces": {
 														"north": { "texture": "#ankylo", "uv": [ 15.0, 101.0, 17.0, 105.4 ], "autoUv": false, "snapUv": false },
 														"east": { "texture": "#ankylo", "uv": [ 8.0, 4.0, 12.0, 8.0 ], "autoUv": false },
@@ -1134,11 +1032,11 @@
 													"children": [
 														{
 															"name": "Top Jar4",
-															"from": [ -1.1, 0.0, 0.77 ],
-															"to": [ 1.1, 4.51, 7.59 ],
+															"from": [ -0.22, 0.0, 0.154 ],
+															"to": [ 0.22, 0.902, 1.518 ],
 															"autoUnwrap": false,
 															"uv": [ 82.0, 72.0 ],
-															"rotationOrigin": [ -1.1, 0.0, 0.77 ],
+															"rotationOrigin": [ -0.22, 0.0, 0.154 ],
 															"faces": {
 																"north": { "texture": "#ankylo", "uv": [ 13.0, 101.0, 15.0, 105.1 ], "autoUv": false, "snapUv": false },
 																"east": { "texture": "#ankylo", "uv": [ 5.0, 8.0, 11.0, 12.0 ], "autoUv": false, "windMode": [-1,-1,-1,-1], "windData": [0,1,1,0] },
@@ -1150,11 +1048,11 @@
 															"children": [
 																{
 																	"name": "Nose",
-																	"from": [ -2.2, 2.31, 0.22 ],
-																	"to": [ 0.0, 4.51, 6.6 ],
+																	"from": [ -0.44, 0.462, 0.044 ],
+																	"to": [ 0.0, 0.902, 1.32 ],
 																	"autoUnwrap": false,
 																	"uv": [ 50.0, 50.0 ],
-																	"rotationOrigin": [ 0.0, 4.51, 5.72 ],
+																	"rotationOrigin": [ 0.0, 0.902, 1.144 ],
 																	"rotationZ": 45.0,
 																	"faces": {
 																		"north": { "texture": "#ankylo", "uv": [ 11.0, 103.0, 13.0, 105.0 ], "autoUv": false, "snapUv": false },
@@ -1167,11 +1065,11 @@
 																	"children": [
 																		{
 																			"name": "Head7",
-																			"from": [ -1.21, -1.21, 0.0 ],
-																			"to": [ 0.33, 0.99, 6.38 ],
+																			"from": [ -0.242, -0.242, 0.0 ],
+																			"to": [ 0.066, 0.198, 1.276 ],
 																			"autoUnwrap": false,
 																			"uv": [ 80.0, 80.0 ],
-																			"rotationOrigin": [ -1.21, 0.99, 0.0 ],
+																			"rotationOrigin": [ -0.242, 0.198, 0.0 ],
 																			"rotationZ": -15.0,
 																			"faces": {
 																				"north": { "texture": "#ankylo", "uv": [ 11.0, 106.0, 12.4, 108.0 ], "autoUv": false, "snapUv": false },
@@ -1184,11 +1082,11 @@
 																		},
 																		{
 																			"name": "Face",
-																			"from": [ -1.21, 0.99, -0.11 ],
-																			"to": [ 0.99, 2.75, 6.49 ],
+																			"from": [ -0.242, 0.198, -0.022 ],
+																			"to": [ 0.198, 0.55, 1.298 ],
 																			"autoUnwrap": false,
 																			"uv": [ 16.0, 110.0 ],
-																			"rotationOrigin": [ -1.21, 0.99, -0.11 ],
+																			"rotationOrigin": [ -0.242, 0.198, -0.022 ],
 																			"rotationZ": -45.0,
 																			"faces": {
 																				"north": { "texture": "#ankylo", "uv": [ 11.0, 104.0, 13.0, 105.6 ], "autoUv": false, "snapUv": false },
@@ -1214,11 +1112,11 @@
 												},
 												{
 													"name": "Lower Jar",
-													"from": [ -4.4, -0.33, 1.65 ],
-													"to": [ -2.09, 3.3, 11.33 ],
+													"from": [ -0.88, -0.066, 0.33 ],
+													"to": [ -0.418, 0.66, 2.266 ],
 													"autoUnwrap": false,
 													"uv": [ 73.0, 32.0 ],
-													"rotationOrigin": [ -2.09, 2.2, 1.65 ],
+													"rotationOrigin": [ -0.418, 0.44, 0.33 ],
 													"faces": {
 														"north": { "texture": "#ankylo", "uv": [ 17.0, 105.4, 19.1, 108.7 ], "rotation": 180, "autoUv": false, "snapUv": false },
 														"east": { "texture": "#ankylo", "uv": [ 12.0, 8.0, 20.0, 12.0 ], "autoUv": false },
@@ -1230,11 +1128,11 @@
 													"children": [
 														{
 															"name": "Lower Jar3",
-															"from": [ -2.2, 0.0, 0.77 ],
-															"to": [ 0.11, 3.63, 8.91 ],
+															"from": [ -0.44, 0.0, 0.154 ],
+															"to": [ 0.022, 0.726, 1.782 ],
 															"autoUnwrap": false,
 															"uv": [ 54.0, 72.0 ],
-															"rotationOrigin": [ 3.3, 2.2, 0.77 ],
+															"rotationOrigin": [ 0.66, 0.44, 0.154 ],
 															"faces": {
 																"north": { "texture": "#ankylo", "uv": [ 15.0, 105.6, 17.1, 108.9 ], "autoUv": false, "snapUv": false },
 																"east": { "texture": "#ankylo", "uv": [ 12.0, 8.0, 16.0, 12.0 ], "autoUv": false },
@@ -1246,11 +1144,11 @@
 															"children": [
 																{
 																	"name": "Lower Jar4",
-																	"from": [ -0.66, 0.11, 0.88 ],
-																	"to": [ 1.1, 3.63, 7.26 ],
+																	"from": [ -0.132, 0.022, 0.176 ],
+																	"to": [ 0.22, 0.726, 1.452 ],
 																	"autoUnwrap": false,
 																	"uv": [ 72.0, 61.0 ],
-																	"rotationOrigin": [ 4.84, 2.31, 0.88 ],
+																	"rotationOrigin": [ 0.968, 0.462, 0.176 ],
 																	"faces": {
 																		"north": { "texture": "#ankylo", "uv": [ 13.0, 105.0, 14.6, 108.2 ], "autoUv": false, "snapUv": false },
 																		"east": { "texture": "#ankylo", "uv": [ 8.0, 4.0, 13.0, 7.0 ], "autoUv": false },
@@ -1262,11 +1160,11 @@
 																	"children": [
 																		{
 																			"name": "Lower Jar5",
-																			"from": [ -2.2, 1.1, -0.22 ],
-																			"to": [ 0.22, 2.2, 6.6 ],
+																			"from": [ -0.44, 0.22, -0.044 ],
+																			"to": [ 0.044, 0.44, 1.32 ],
 																			"autoUnwrap": false,
 																			"uv": [ 123.0, 65.0 ],
-																			"rotationOrigin": [ 0.0, 1.1, -0.22 ],
+																			"rotationOrigin": [ 0.0, 0.22, -0.044 ],
 																			"rotationZ": -64.0,
 																			"faces": {
 																				"north": { "texture": "#ankylo", "uv": [ 12.0, 106.0, 13.0, 108.2 ], "rotation": 90, "autoUv": false, "snapUv": false, "windMode": [-1,-1,-1,-1] },
@@ -1285,11 +1183,11 @@
 												},
 												{
 													"name": "Head3",
-													"from": [ 0.0, -0.55, 1.1 ],
-													"to": [ 6.6, 9.35, 12.1 ],
+													"from": [ 0.0, -0.11, 0.22 ],
+													"to": [ 1.32, 1.87, 2.42 ],
 													"autoUnwrap": false,
 													"uv": [ 103.0, 84.0 ],
-													"rotationOrigin": [ 0.0, -0.55, 1.1 ],
+													"rotationOrigin": [ 0.0, -0.11, 0.22 ],
 													"faces": {
 														"north": { "texture": "#ankylo", "uv": [ 22.0, 99.6, 28.0, 108.6 ], "autoUv": false, "snapUv": false },
 														"east": { "texture": "#ankylo", "uv": [ 4.0, 4.0, 12.0, 12.0 ], "autoUv": false },
@@ -1310,11 +1208,11 @@
 										},
 										{
 											"name": "Neck2",
-											"from": [ 1.1, 11.0, 1.1 ],
-											"to": [ 9.9, 11.55, 11.0 ],
+											"from": [ 0.22, 2.2, 0.22 ],
+											"to": [ 1.98, 2.31, 2.2 ],
 											"autoUnwrap": false,
 											"uv": [ 102.0, 92.0 ],
-											"rotationOrigin": [ 1.1, 11.0, 1.1 ],
+											"rotationOrigin": [ 0.22, 2.2, 0.22 ],
 											"faces": {
 												"north": { "texture": "#ankylo", "uv": [ 29.0, 99.0, 37.0, 99.5 ], "autoUv": false, "snapUv": false },
 												"east": { "texture": "#ankylo", "uv": [ 4.0, 0.0, 12.0, 4.0 ], "autoUv": false },
@@ -1326,10 +1224,10 @@
 										},
 										{
 											"name": "Derm collection5",
-											"from": [ -0.902, -8.151, -8.25 ],
-											"to": [ -0.902, -8.151, -8.25 ],
+											"from": [ -0.1804, -1.6302, -1.65 ],
+											"to": [ -0.1804, -1.6302, -1.65 ],
 											"uv": [ 4.0, 4.0 ],
-											"rotationOrigin": [ -0.902, -8.1489, -8.25 ],
+											"rotationOrigin": [ -0.1804, -1.6298, -1.65 ],
 											"faces": {
 												"north": { "texture": "#ankylo", "uv": [ 4.0, 8.0, 8.0, 12.0 ], "autoUv": false },
 												"east": { "texture": "#ankylo", "uv": [ 8.0, 8.0, 12.0, 12.0 ], "autoUv": false },
@@ -1341,10 +1239,10 @@
 											"children": [
 												{
 													"name": "Derm31",
-													"from": [ 2.2, 15.4, 6.6 ],
-													"to": [ 6.6, 18.15, 8.8 ],
+													"from": [ 0.44, 3.08, 1.32 ],
+													"to": [ 1.32, 3.63, 1.76 ],
 													"uv": [ 96.0, 4.0 ],
-													"rotationOrigin": [ 6.6, 15.4, 8.8 ],
+													"rotationOrigin": [ 1.32, 3.08, 1.76 ],
 													"rotationY": 17.0,
 													"faces": {
 														"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
@@ -1357,10 +1255,10 @@
 												},
 												{
 													"name": "Derm32",
-													"from": [ 2.2, 9.9, 6.6 ],
-													"to": [ 6.6, 12.65, 8.8 ],
+													"from": [ 0.44, 1.98, 1.32 ],
+													"to": [ 1.32, 2.53, 1.76 ],
 													"uv": [ 96.0, 4.0 ],
-													"rotationOrigin": [ 6.6, 9.9, 8.8 ],
+													"rotationOrigin": [ 1.32, 1.98, 1.76 ],
 													"rotationY": 17.0,
 													"faces": {
 														"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
@@ -1373,10 +1271,10 @@
 												},
 												{
 													"name": "Derm36",
-													"from": [ 1.1, 15.4, 19.8 ],
-													"to": [ 5.5, 18.15, 22.0 ],
+													"from": [ 0.22, 3.08, 3.96 ],
+													"to": [ 1.1, 3.63, 4.4 ],
 													"uv": [ 96.0, 4.0 ],
-													"rotationOrigin": [ 5.5, 15.4, 19.8 ],
+													"rotationOrigin": [ 1.1, 3.08, 3.96 ],
 													"rotationY": -17.0,
 													"faces": {
 														"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
@@ -1389,10 +1287,10 @@
 												},
 												{
 													"name": "Derm38",
-													"from": [ 1.1, 9.9, 19.8 ],
-													"to": [ 5.5, 12.65, 22.0 ],
+													"from": [ 0.22, 1.98, 3.96 ],
+													"to": [ 1.1, 2.53, 4.4 ],
 													"uv": [ 96.0, 4.0 ],
-													"rotationOrigin": [ 5.5, 9.9, 19.8 ],
+													"rotationOrigin": [ 1.1, 1.98, 3.96 ],
 													"rotationY": -17.0,
 													"faces": {
 														"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
@@ -1407,10 +1305,10 @@
 										},
 										{
 											"name": "Cube18",
-											"from": [ 4.378, 9.24, 13.75 ],
-											"to": [ 4.378, 9.24, 13.75 ],
+											"from": [ 0.8756, 1.848, 2.75 ],
+											"to": [ 0.8756, 1.848, 2.75 ],
 											"uv": [ 0.0, 0.0 ],
-											"rotationOrigin": [ 4.3832, 9.2445, 13.75 ],
+											"rotationOrigin": [ 0.8766, 1.8489, 2.75 ],
 											"rotationZ": 19.0,
 											"faces": {
 												"north": { "texture": "#ankylo", "uv": [ 0.0, 4.0, 4.0, 8.0 ], "autoUv": false },
@@ -1423,10 +1321,10 @@
 											"children": [
 												{
 													"name": "Derm102",
-													"from": [ -2.2, 0.33, -6.82 ],
-													"to": [ 1.1, 3.08, -3.52 ],
+													"from": [ -0.44, 0.066, -1.364 ],
+													"to": [ 0.22, 0.616, -0.704 ],
 													"uv": [ 96.0, 4.0 ],
-													"rotationOrigin": [ 2.2, 0.33, -6.82 ],
+													"rotationOrigin": [ 0.44, 0.066, -1.364 ],
 													"faces": {
 														"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
 														"east": { "texture": "#ankylo", "uv": [ 100.0, 8.0, 104.0, 12.0 ], "autoUv": false },
@@ -1438,10 +1336,10 @@
 												},
 												{
 													"name": "Derm103",
-													"from": [ -2.2, 0.33, -11.77 ],
-													"to": [ 1.1, 3.08, -8.47 ],
+													"from": [ -0.44, 0.066, -2.354 ],
+													"to": [ 0.22, 0.616, -1.694 ],
 													"uv": [ 96.0, 4.0 ],
-													"rotationOrigin": [ 2.2, 0.33, -11.77 ],
+													"rotationOrigin": [ 0.44, 0.066, -2.354 ],
 													"faces": {
 														"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
 														"east": { "texture": "#ankylo", "uv": [ 100.0, 8.0, 104.0, 12.0 ], "autoUv": false },
@@ -1469,11 +1367,11 @@
 								},
 								{
 									"name": "Body Front 2",
-									"from": [ 1.1, -1.1, 1.1 ],
-									"to": [ 12.1, 0.0, 16.5 ],
+									"from": [ 0.22, -0.22, 0.22 ],
+									"to": [ 2.42, 0.0, 3.3 ],
 									"autoUnwrap": false,
 									"uv": [ 122.0, 64.0 ],
-									"rotationOrigin": [ 1.1, -1.1, 1.1 ],
+									"rotationOrigin": [ 0.22, -0.22, 0.22 ],
 									"faces": {
 										"north": { "texture": "#ankylo", "uv": [ 33.0, 111.0, 43.0, 112.0 ], "autoUv": false, "snapUv": false },
 										"east": { "texture": "#ankylo", "uv": [ 4.0, 4.0, 16.0, 8.0 ], "autoUv": false },
@@ -1485,11 +1383,11 @@
 								},
 								{
 									"name": "Body Front 3",
-									"from": [ 1.1, 13.2, 1.1 ],
-									"to": [ 12.1, 14.3, 16.5 ],
+									"from": [ 0.22, 2.64, 0.22 ],
+									"to": [ 2.42, 2.86, 3.3 ],
 									"autoUnwrap": false,
 									"uv": [ 108.0, 76.0 ],
-									"rotationOrigin": [ 1.1, 13.2, 1.1 ],
+									"rotationOrigin": [ 0.22, 2.64, 0.22 ],
 									"faces": {
 										"north": { "texture": "#ankylo", "uv": [ 33.0, 98.0, 43.0, 99.0 ], "autoUv": false, "snapUv": false },
 										"east": { "texture": "#ankylo", "uv": [ 4.0, 8.0, 16.0, 12.0 ], "autoUv": false },
@@ -1501,10 +1399,10 @@
 								},
 								{
 									"name": "Derm collection4",
-									"from": [ -0.902, -5.951, -5.5 ],
-									"to": [ -0.902, -5.951, -5.5 ],
+									"from": [ -0.1804, -1.1902, -1.1 ],
+									"to": [ -0.1804, -1.1902, -1.1 ],
 									"uv": [ 4.0, 4.0 ],
-									"rotationOrigin": [ -0.902, -5.9489, -5.5 ],
+									"rotationOrigin": [ -0.1804, -1.1898, -1.1 ],
 									"faces": {
 										"north": { "texture": "#ankylo", "uv": [ 4.0, 8.0, 8.0, 12.0 ], "autoUv": false },
 										"east": { "texture": "#ankylo", "uv": [ 8.0, 8.0, 12.0, 12.0 ], "autoUv": false },
@@ -1516,10 +1414,10 @@
 									"children": [
 										{
 											"name": "Derm23",
-											"from": [ 2.2, 15.4, 3.3 ],
-											"to": [ 6.6, 18.15, 5.5 ],
+											"from": [ 0.44, 3.08, 0.66 ],
+											"to": [ 1.32, 3.63, 1.1 ],
 											"uv": [ 96.0, 4.0 ],
-											"rotationOrigin": [ 6.6, 15.4, 5.5 ],
+											"rotationOrigin": [ 1.32, 3.08, 1.1 ],
 											"rotationY": 17.0,
 											"faces": {
 												"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
@@ -1532,10 +1430,10 @@
 										},
 										{
 											"name": "Derm30",
-											"from": [ 2.2, 9.9, 3.3 ],
-											"to": [ 6.6, 12.65, 5.5 ],
+											"from": [ 0.44, 1.98, 0.66 ],
+											"to": [ 1.32, 2.53, 1.1 ],
 											"uv": [ 96.0, 4.0 ],
-											"rotationOrigin": [ 6.6, 9.9, 5.5 ],
+											"rotationOrigin": [ 1.32, 1.98, 1.1 ],
 											"rotationY": 17.0,
 											"faces": {
 												"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
@@ -1548,10 +1446,10 @@
 										},
 										{
 											"name": "Derm35",
-											"from": [ 1.1, 15.4, 23.1 ],
-											"to": [ 5.5, 18.15, 25.3 ],
+											"from": [ 0.22, 3.08, 4.62 ],
+											"to": [ 1.1, 3.63, 5.06 ],
 											"uv": [ 96.0, 4.0 ],
-											"rotationOrigin": [ 5.5, 15.4, 23.1 ],
+											"rotationOrigin": [ 1.1, 3.08, 4.62 ],
 											"rotationY": -17.0,
 											"faces": {
 												"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
@@ -1564,10 +1462,10 @@
 										},
 										{
 											"name": "Derm37",
-											"from": [ 1.1, 9.9, 23.1 ],
-											"to": [ 5.5, 12.65, 25.3 ],
+											"from": [ 0.22, 1.98, 4.62 ],
+											"to": [ 1.1, 2.53, 5.06 ],
 											"uv": [ 96.0, 4.0 ],
-											"rotationOrigin": [ 5.5, 9.9, 23.1 ],
+											"rotationOrigin": [ 1.1, 1.98, 4.62 ],
 											"rotationY": -17.0,
 											"faces": {
 												"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
@@ -1582,10 +1480,10 @@
 								},
 								{
 									"name": "Cube15",
-									"from": [ -3.311, 12.276, 16.5 ],
-									"to": [ -3.311, 12.276, 16.5 ],
+									"from": [ -0.6622, 2.4552, 3.3 ],
+									"to": [ -0.6622, 2.4552, 3.3 ],
 									"uv": [ 4.0, 4.0 ],
-									"rotationOrigin": [ -3.311, 12.2727, 16.5 ],
+									"rotationOrigin": [ -0.6622, 2.4545, 3.3 ],
 									"rotationZ": 19.0,
 									"faces": {
 										"north": { "texture": "#ankylo", "uv": [ 4.0, 8.0, 8.0, 12.0 ], "autoUv": false },
@@ -1598,10 +1496,10 @@
 									"children": [
 										{
 											"name": "Cube17",
-											"from": [ 7.3583, -2.2513, 0.0 ],
-											"to": [ 7.3583, -2.2513, 0.0 ],
+											"from": [ 1.4717, -0.4503, 0.0 ],
+											"to": [ 1.4717, -0.4503, 0.0 ],
 											"uv": [ 4.0, 4.0 ],
-											"rotationOrigin": [ 7.3635, -2.2513, 0.0 ],
+											"rotationOrigin": [ 1.4727, -0.4503, 0.0 ],
 											"faces": {
 												"north": { "texture": "#ankylo", "uv": [ 4.0, 8.0, 8.0, 12.0 ], "autoUv": false },
 												"east": { "texture": "#ankylo", "uv": [ 8.0, 8.0, 12.0, 12.0 ], "autoUv": false },
@@ -1613,10 +1511,10 @@
 											"children": [
 												{
 													"name": "Derm100",
-													"from": [ -2.2, 0.33, -6.05 ],
-													"to": [ 2.2, 3.08, -2.75 ],
+													"from": [ -0.44, 0.066, -1.21 ],
+													"to": [ 0.44, 0.616, -0.55 ],
 													"uv": [ 96.0, 4.0 ],
-													"rotationOrigin": [ 2.2, 0.33, -6.05 ],
+													"rotationOrigin": [ 0.44, 0.066, -1.21 ],
 													"faces": {
 														"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
 														"east": { "texture": "#ankylo", "uv": [ 100.0, 8.0, 104.0, 12.0 ], "autoUv": false },
@@ -1628,10 +1526,10 @@
 												},
 												{
 													"name": "Derm101",
-													"from": [ -2.2, 0.33, -12.65 ],
-													"to": [ 2.2, 3.08, -9.35 ],
+													"from": [ -0.44, 0.066, -2.53 ],
+													"to": [ 0.44, 0.616, -1.87 ],
 													"uv": [ 96.0, 4.0 ],
-													"rotationOrigin": [ 2.2, 0.33, -12.65 ],
+													"rotationOrigin": [ 0.44, 0.066, -2.53 ],
 													"faces": {
 														"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
 														"east": { "texture": "#ankylo", "uv": [ 100.0, 8.0, 104.0, 12.0 ], "autoUv": false },
@@ -1649,11 +1547,11 @@
 						},
 						{
 							"name": "Body Front2",
-							"from": [ 0.0, 17.6, 1.1 ],
-							"to": [ 17.6, 18.7, 23.1 ],
+							"from": [ 0.0, 3.52, 0.22 ],
+							"to": [ 3.52, 3.74, 4.62 ],
 							"autoUnwrap": false,
 							"uv": [ 142.0, 64.0 ],
-							"rotationOrigin": [ 0.0, 17.6, 1.1 ],
+							"rotationOrigin": [ 0.0, 3.52, 0.22 ],
 							"faces": {
 								"north": { "texture": "#ankylo", "uv": [ 36.0, 96.0, 52.0, 97.0 ], "autoUv": false, "snapUv": false },
 								"east": { "texture": "#ankylo", "uv": [ 0.0, 8.8125, 17.625, 11.75 ], "autoUv": false },
@@ -1665,11 +1563,11 @@
 						},
 						{
 							"name": "Body Front4",
-							"from": [ 2.2, -2.2, 2.75 ],
-							"to": [ 18.7, 0.0, 21.45 ],
+							"from": [ 0.44, -0.44, 0.55 ],
+							"to": [ 3.74, 0.0, 4.29 ],
 							"autoUnwrap": false,
 							"uv": [ 129.0, 52.0 ],
-							"rotationOrigin": [ 2.2, -2.2, 2.75 ],
+							"rotationOrigin": [ 0.44, -0.44, 0.55 ],
 							"faces": {
 								"north": { "texture": "#ankylo", "uv": [ 37.0, 113.0, 52.0, 115.0 ], "autoUv": false, "snapUv": false },
 								"east": { "texture": "#ankylo", "uv": [ 3.6719, 3.6719, 20.5625, 5.1406 ], "autoUv": false },
@@ -1681,11 +1579,11 @@
 						},
 						{
 							"name": "Leg Front L",
-							"from": [ 1.1, -3.85, 22.0 ],
-							"to": [ 7.7, 4.95, 26.62 ],
+							"from": [ 0.22, -0.77, 4.4 ],
+							"to": [ 1.54, 0.99, 5.324 ],
 							"autoUnwrap": false,
 							"uv": [ 156.0, 80.0 ],
-							"rotationOrigin": [ 4.4, 3.85, 24.2 ],
+							"rotationOrigin": [ 0.88, 0.77, 4.84 ],
 							"faces": {
 								"north": { "texture": "#ankylo", "uv": [ 36.0, 128.0, 42.0, 136.0 ], "rotation": 180, "autoUv": false, "snapUv": false },
 								"east": { "texture": "#ankylo", "uv": [ 42.0, 128.0, 46.2, 136.0 ], "autoUv": false, "snapUv": false },
@@ -1697,11 +1595,11 @@
 							"children": [
 								{
 									"name": "Leg Front L2",
-									"from": [ 0.0, -8.8, 0.11 ],
-									"to": [ 4.4, 2.2, 4.51 ],
+									"from": [ 0.0, -1.76, 0.022 ],
+									"to": [ 0.88, 0.44, 0.902 ],
 									"autoUnwrap": false,
 									"uv": [ 162.0, 120.0 ],
-									"rotationOrigin": [ 2.2, 1.1, 2.31 ],
+									"rotationOrigin": [ 0.44, 0.22, 0.462 ],
 									"rotationZ": -14.0,
 									"faces": {
 										"north": { "texture": "#ankylo", "uv": [ 36.0, 140.0, 40.0, 150.0 ], "rotation": 180, "autoUv": false, "snapUv": false },
@@ -1714,11 +1612,11 @@
 									"children": [
 										{
 											"name": "Leg Front L3",
-											"from": [ 0.0, 3.19, 0.11 ],
-											"to": [ 4.18, 11.99, 4.29 ],
+											"from": [ 0.0, 0.638, 0.022 ],
+											"to": [ 0.836, 2.398, 0.858 ],
 											"autoUnwrap": false,
 											"uv": [ 98.0, 124.0 ],
-											"rotationOrigin": [ 0.0, 3.19, 0.11 ],
+											"rotationOrigin": [ 0.0, 0.638, 0.022 ],
 											"rotationZ": -19.0,
 											"faces": {
 												"north": { "texture": "#ankylo", "uv": [ 41.125, 141.0, 44.0625, 146.875 ], "autoUv": false },
@@ -1731,11 +1629,11 @@
 										},
 										{
 											"name": "Foot",
-											"from": [ -1.1, -1.1, -0.55 ],
-											"to": [ 4.4, 1.1, 4.95 ],
+											"from": [ -0.22, -0.22, -0.11 ],
+											"to": [ 0.88, 0.22, 0.99 ],
 											"autoUnwrap": false,
 											"uv": [ 75.0, 132.0 ],
-											"rotationOrigin": [ 2.2, 1.1, 2.2 ],
+											"rotationOrigin": [ 0.44, 0.22, 0.44 ],
 											"rotationZ": 3.0,
 											"faces": {
 												"north": { "texture": "#ankylo", "uv": [ 35.0, 150.0, 40.0, 152.0 ], "autoUv": false, "snapUv": false },
@@ -1748,10 +1646,10 @@
 											"children": [
 												{
 													"name": "Toe",
-													"from": [ -1.1, 0.0, -0.33 ],
-													"to": [ 0.0, 1.65, 0.77 ],
+													"from": [ -0.22, 0.0, -0.066 ],
+													"to": [ 0.0, 0.33, 0.154 ],
 													"uv": [ 136.0, 4.0 ],
-													"rotationOrigin": [ 2.2, 2.2, 2.42 ],
+													"rotationOrigin": [ 0.44, 0.44, 0.484 ],
 													"faces": {
 														"north": { "texture": "#ankylo", "uv": [ 136.0, 8.0, 140.0, 12.0 ], "autoUv": false },
 														"east": { "texture": "#ankylo", "uv": [ 140.0, 8.0, 144.0, 12.0 ], "autoUv": false },
@@ -1763,10 +1661,10 @@
 												},
 												{
 													"name": "Toe2",
-													"from": [ -1.1, 0.0, 1.43 ],
-													"to": [ 0.0, 1.65, 2.53 ],
+													"from": [ -0.22, 0.0, 0.286 ],
+													"to": [ 0.0, 0.33, 0.506 ],
 													"uv": [ 136.0, 4.0 ],
-													"rotationOrigin": [ 2.2, 2.2, 4.18 ],
+													"rotationOrigin": [ 0.44, 0.44, 0.836 ],
 													"faces": {
 														"north": { "texture": "#ankylo", "uv": [ 136.0, 8.0, 140.0, 12.0 ], "autoUv": false },
 														"east": { "texture": "#ankylo", "uv": [ 140.0, 8.0, 144.0, 12.0 ], "autoUv": false },
@@ -1778,10 +1676,10 @@
 												},
 												{
 													"name": "Toe3",
-													"from": [ -1.1, 0.0, 3.08 ],
-													"to": [ 0.0, 1.65, 4.18 ],
+													"from": [ -0.22, 0.0, 0.616 ],
+													"to": [ 0.0, 0.33, 0.836 ],
 													"uv": [ 136.0, 4.0 ],
-													"rotationOrigin": [ 2.2, 2.2, 5.83 ],
+													"rotationOrigin": [ 0.44, 0.44, 1.166 ],
 													"faces": {
 														"north": { "texture": "#ankylo", "uv": [ 136.0, 8.0, 140.0, 12.0 ], "autoUv": false },
 														"east": { "texture": "#ankylo", "uv": [ 140.0, 8.0, 144.0, 12.0 ], "autoUv": false },
@@ -1793,10 +1691,10 @@
 												},
 												{
 													"name": "Toe4",
-													"from": [ -1.1, 0.0, 4.73 ],
-													"to": [ 0.0, 1.65, 5.83 ],
+													"from": [ -0.22, 0.0, 0.946 ],
+													"to": [ 0.0, 0.33, 1.166 ],
 													"uv": [ 134.0, 4.0 ],
-													"rotationOrigin": [ 2.2, 2.2, 7.48 ],
+													"rotationOrigin": [ 0.44, 0.44, 1.496 ],
 													"faces": {
 														"north": { "texture": "#ankylo", "uv": [ 136.0, 8.0, 140.0, 12.0 ], "autoUv": false },
 														"east": { "texture": "#ankylo", "uv": [ 140.0, 8.0, 144.0, 12.0 ], "autoUv": false },
@@ -1812,11 +1710,11 @@
 								},
 								{
 									"name": "Leg Front L5",
-									"from": [ -0.55, 0.55, 0.55 ],
-									"to": [ 0.0, 8.25, 3.85 ],
+									"from": [ -0.11, 0.11, 0.11 ],
+									"to": [ 0.0, 1.65, 0.77 ],
 									"autoUnwrap": false,
 									"uv": [ 125.0, 136.0 ],
-									"rotationOrigin": [ -0.55, 0.55, 0.55 ],
+									"rotationOrigin": [ -0.11, 0.11, 0.11 ],
 									"faces": {
 										"north": { "texture": "#ankylo", "uv": [ 35.0, 129.0, 35.5, 136.0 ], "autoUv": false, "snapUv": false },
 										"east": { "texture": "#ankylo", "uv": [ 12.0, 8.0, 16.0, 12.0 ], "autoUv": false },
@@ -1830,11 +1728,11 @@
 						},
 						{
 							"name": "Leg Front L7",
-							"from": [ 1.1, -3.85, -2.2 ],
-							"to": [ 7.7, 4.95, 2.42 ],
+							"from": [ 0.22, -0.77, -0.44 ],
+							"to": [ 1.54, 0.99, 0.484 ],
 							"autoUnwrap": false,
 							"uv": [ 150.0, 124.0 ],
-							"rotationOrigin": [ 4.4, 3.85, 0.0 ],
+							"rotationOrigin": [ 0.88, 0.77, 0.0 ],
 							"faces": {
 								"north": { "texture": "#ankylo", "uv": [ 36.0, 128.0, 44.0, 134.0 ], "rotation": 90, "autoUv": false, "snapUv": false },
 								"east": { "texture": "#ankylo", "uv": [ 42.0, 128.0, 46.2, 136.0 ], "autoUv": false, "snapUv": false },
@@ -1846,11 +1744,11 @@
 							"children": [
 								{
 									"name": "Leg Front L8",
-									"from": [ 0.0, -8.8, 0.11 ],
-									"to": [ 4.4, 2.2, 4.51 ],
+									"from": [ 0.0, -1.76, 0.022 ],
+									"to": [ 0.88, 0.44, 0.902 ],
 									"autoUnwrap": false,
 									"uv": [ 94.0, 128.0 ],
-									"rotationOrigin": [ 2.2, 1.1, 2.31 ],
+									"rotationOrigin": [ 0.44, 0.22, 0.462 ],
 									"rotationZ": -14.0,
 									"faces": {
 										"north": { "texture": "#ankylo", "uv": [ 36.0, 140.0, 40.0, 150.0 ], "rotation": 180, "autoUv": false, "snapUv": false },
@@ -1863,11 +1761,11 @@
 									"children": [
 										{
 											"name": "Leg Front L12",
-											"from": [ 0.0, 3.19, 0.11 ],
-											"to": [ 4.18, 11.99, 4.29 ],
+											"from": [ 0.0, 0.638, 0.022 ],
+											"to": [ 0.836, 2.398, 0.858 ],
 											"autoUnwrap": false,
 											"uv": [ 74.0, 136.0 ],
-											"rotationOrigin": [ 0.0, 3.19, 0.11 ],
+											"rotationOrigin": [ 0.0, 0.638, 0.022 ],
 											"rotationZ": -19.0,
 											"faces": {
 												"north": { "texture": "#ankylo", "uv": [ 40.0, 140.0, 43.8, 148.0 ], "autoUv": false, "snapUv": false },
@@ -1880,11 +1778,11 @@
 										},
 										{
 											"name": "Foot2",
-											"from": [ -1.1, -1.1, -0.55 ],
-											"to": [ 4.4, 1.1, 4.95 ],
+											"from": [ -0.22, -0.22, -0.11 ],
+											"to": [ 0.88, 0.22, 0.99 ],
 											"autoUnwrap": false,
 											"uv": [ 119.0, 132.0 ],
-											"rotationOrigin": [ 2.2, 1.1, 2.2 ],
+											"rotationOrigin": [ 0.44, 0.22, 0.44 ],
 											"rotationZ": 3.0,
 											"faces": {
 												"north": { "texture": "#ankylo", "uv": [ 35.0, 150.0, 40.0, 152.0 ], "autoUv": false, "snapUv": false },
@@ -1897,10 +1795,10 @@
 											"children": [
 												{
 													"name": "Toe5",
-													"from": [ -1.1, 0.0, -0.33 ],
-													"to": [ 0.0, 1.65, 0.77 ],
+													"from": [ -0.22, 0.0, -0.066 ],
+													"to": [ 0.0, 0.33, 0.154 ],
 													"uv": [ 136.0, 4.0 ],
-													"rotationOrigin": [ 2.2, 2.2, 2.42 ],
+													"rotationOrigin": [ 0.44, 0.44, 0.484 ],
 													"faces": {
 														"north": { "texture": "#ankylo", "uv": [ 136.0, 8.0, 140.0, 12.0 ], "autoUv": false },
 														"east": { "texture": "#ankylo", "uv": [ 140.0, 8.0, 144.0, 12.0 ], "autoUv": false },
@@ -1912,10 +1810,10 @@
 												},
 												{
 													"name": "Toe6",
-													"from": [ -1.1, 0.0, 1.43 ],
-													"to": [ 0.0, 1.65, 2.53 ],
+													"from": [ -0.22, 0.0, 0.286 ],
+													"to": [ 0.0, 0.33, 0.506 ],
 													"uv": [ 136.0, 4.0 ],
-													"rotationOrigin": [ 2.2, 2.2, 4.18 ],
+													"rotationOrigin": [ 0.44, 0.44, 0.836 ],
 													"faces": {
 														"north": { "texture": "#ankylo", "uv": [ 136.0, 8.0, 140.0, 12.0 ], "autoUv": false },
 														"east": { "texture": "#ankylo", "uv": [ 140.0, 8.0, 144.0, 12.0 ], "autoUv": false },
@@ -1927,10 +1825,10 @@
 												},
 												{
 													"name": "Toe7",
-													"from": [ -1.1, 0.0, 3.08 ],
-													"to": [ 0.0, 1.65, 4.18 ],
+													"from": [ -0.22, 0.0, 0.616 ],
+													"to": [ 0.0, 0.33, 0.836 ],
 													"uv": [ 136.0, 4.0 ],
-													"rotationOrigin": [ 2.2, 2.2, 5.83 ],
+													"rotationOrigin": [ 0.44, 0.44, 1.166 ],
 													"faces": {
 														"north": { "texture": "#ankylo", "uv": [ 136.0, 8.0, 140.0, 12.0 ], "autoUv": false },
 														"east": { "texture": "#ankylo", "uv": [ 140.0, 8.0, 144.0, 12.0 ], "autoUv": false },
@@ -1942,10 +1840,10 @@
 												},
 												{
 													"name": "Toe8",
-													"from": [ -1.1, 0.0, 4.73 ],
-													"to": [ 0.0, 1.65, 5.83 ],
+													"from": [ -0.22, 0.0, 0.946 ],
+													"to": [ 0.0, 0.33, 1.166 ],
 													"uv": [ 136.0, 4.0 ],
-													"rotationOrigin": [ 2.2, 2.2, 7.48 ],
+													"rotationOrigin": [ 0.44, 0.44, 1.496 ],
 													"faces": {
 														"north": { "texture": "#ankylo", "uv": [ 136.0, 8.0, 140.0, 12.0 ], "autoUv": false },
 														"east": { "texture": "#ankylo", "uv": [ 140.0, 8.0, 144.0, 12.0 ], "autoUv": false },
@@ -1961,11 +1859,11 @@
 								},
 								{
 									"name": "Leg Front L13",
-									"from": [ -0.55, 0.55, 0.55 ],
-									"to": [ 0.0, 8.25, 3.85 ],
+									"from": [ -0.11, 0.11, 0.11 ],
+									"to": [ 0.0, 1.65, 0.77 ],
 									"autoUnwrap": false,
 									"uv": [ 70.0, 128.0 ],
-									"rotationOrigin": [ -0.55, 0.55, 0.55 ],
+									"rotationOrigin": [ -0.11, 0.11, 0.11 ],
 									"faces": {
 										"north": { "texture": "#ankylo", "uv": [ 35.0, 129.0, 35.5, 136.0 ], "autoUv": false, "snapUv": false },
 										"east": { "texture": "#ankylo", "uv": [ 6.0, 4.0, 9.0, 11.0 ], "autoUv": false, "snapUv": false },
@@ -1979,11 +1877,11 @@
 						},
 						{
 							"name": "Body Front3",
-							"from": [ 0.0, -0.99, 0.99 ],
-							"to": [ 17.6, 0.11, 22.99 ],
+							"from": [ 0.0, -0.198, 0.198 ],
+							"to": [ 3.52, 0.022, 4.598 ],
 							"autoUnwrap": false,
 							"uv": [ 116.0, 44.0 ],
-							"rotationOrigin": [ 0.0, -0.99, 0.99 ],
+							"rotationOrigin": [ 0.0, -0.198, 0.198 ],
 							"faces": {
 								"north": { "texture": "#ankylo", "uv": [ 36.0, 113.0, 52.0, 114.0 ], "autoUv": false, "snapUv": false },
 								"east": { "texture": "#ankylo", "uv": [ 0.0, 3.6719, 19.8281, 4.4063 ], "autoUv": false },
@@ -1995,10 +1893,10 @@
 						},
 						{
 							"name": "Derm collection2",
-							"from": [ -0.8967, -1.5489, -2.2 ],
-							"to": [ -0.8967, -1.5489, -2.2 ],
+							"from": [ -0.1793, -0.3098, -0.44 ],
+							"to": [ -0.1793, -0.3098, -0.44 ],
 							"uv": [ 0.0, 4.0 ],
-							"rotationOrigin": [ -0.8979, -1.5489, -2.2 ],
+							"rotationOrigin": [ -0.1796, -0.3098, -0.44 ],
 							"faces": {
 								"north": { "texture": "#ankylo", "uv": [ 0.0, 8.0, 4.0, 12.0 ], "autoUv": false },
 								"east": { "texture": "#ankylo", "uv": [ 4.0, 8.0, 8.0, 12.0 ], "autoUv": false },
@@ -2010,10 +1908,10 @@
 							"children": [
 								{
 									"name": "Derm19",
-									"from": [ 1.1, 15.4, 0.0 ],
-									"to": [ 5.5, 18.15, 2.2 ],
+									"from": [ 0.22, 3.08, 0.0 ],
+									"to": [ 1.1, 3.63, 0.44 ],
 									"uv": [ 96.0, 4.0 ],
-									"rotationOrigin": [ 5.5, 15.4, 2.2 ],
+									"rotationOrigin": [ 1.1, 3.08, 0.44 ],
 									"rotationY": 17.0,
 									"faces": {
 										"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
@@ -2026,10 +1924,10 @@
 								},
 								{
 									"name": "Derm20",
-									"from": [ 1.1, 9.9, 0.0 ],
-									"to": [ 5.5, 12.65, 2.2 ],
+									"from": [ 0.22, 1.98, 0.0 ],
+									"to": [ 1.1, 2.53, 0.44 ],
 									"uv": [ 96.0, 4.0 ],
-									"rotationOrigin": [ 5.5, 9.9, 2.2 ],
+									"rotationOrigin": [ 1.1, 1.98, 0.44 ],
 									"rotationY": 17.0,
 									"faces": {
 										"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
@@ -2042,10 +1940,10 @@
 								},
 								{
 									"name": "Derm21",
-									"from": [ 6.6, 15.4, 0.0 ],
-									"to": [ 11.0, 18.15, 2.2 ],
+									"from": [ 1.32, 3.08, 0.0 ],
+									"to": [ 2.2, 3.63, 0.44 ],
 									"uv": [ 96.0, 4.0 ],
-									"rotationOrigin": [ 11.0, 15.4, 2.2 ],
+									"rotationOrigin": [ 2.2, 3.08, 0.44 ],
 									"rotationY": 17.0,
 									"faces": {
 										"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
@@ -2058,10 +1956,10 @@
 								},
 								{
 									"name": "Derm24",
-									"from": [ 6.6, 9.9, 0.0 ],
-									"to": [ 11.0, 12.65, 2.2 ],
+									"from": [ 1.32, 1.98, 0.0 ],
+									"to": [ 2.2, 2.53, 0.44 ],
 									"uv": [ 96.0, 4.0 ],
-									"rotationOrigin": [ 11.0, 9.9, 2.2 ],
+									"rotationOrigin": [ 2.2, 1.98, 0.44 ],
 									"rotationY": 17.0,
 									"faces": {
 										"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
@@ -2074,10 +1972,10 @@
 								},
 								{
 									"name": "Derm25",
-									"from": [ 1.1, 15.4, 26.4 ],
-									"to": [ 5.5, 18.15, 28.6 ],
+									"from": [ 0.22, 3.08, 5.28 ],
+									"to": [ 1.1, 3.63, 5.72 ],
 									"uv": [ 96.0, 4.0 ],
-									"rotationOrigin": [ 5.5, 15.4, 26.4 ],
+									"rotationOrigin": [ 1.1, 3.08, 5.28 ],
 									"rotationY": -17.0,
 									"faces": {
 										"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
@@ -2090,10 +1988,10 @@
 								},
 								{
 									"name": "Derm26",
-									"from": [ 6.6, 15.4, 26.4 ],
-									"to": [ 11.0, 18.15, 28.6 ],
+									"from": [ 1.32, 3.08, 5.28 ],
+									"to": [ 2.2, 3.63, 5.72 ],
 									"uv": [ 96.0, 4.0 ],
-									"rotationOrigin": [ 11.0, 15.4, 26.4 ],
+									"rotationOrigin": [ 2.2, 3.08, 5.28 ],
 									"rotationY": -17.0,
 									"faces": {
 										"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
@@ -2106,10 +2004,10 @@
 								},
 								{
 									"name": "Derm28",
-									"from": [ 1.1, 9.9, 26.4 ],
-									"to": [ 5.5, 12.65, 28.6 ],
+									"from": [ 0.22, 1.98, 5.28 ],
+									"to": [ 1.1, 2.53, 5.72 ],
 									"uv": [ 96.0, 4.0 ],
-									"rotationOrigin": [ 5.5, 9.9, 26.4 ],
+									"rotationOrigin": [ 1.1, 1.98, 5.28 ],
 									"rotationY": -17.0,
 									"faces": {
 										"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
@@ -2122,10 +2020,10 @@
 								},
 								{
 									"name": "Derm29",
-									"from": [ 6.6, 9.9, 26.4 ],
-									"to": [ 11.0, 12.65, 28.6 ],
+									"from": [ 1.32, 1.98, 5.28 ],
+									"to": [ 2.2, 2.53, 5.72 ],
 									"uv": [ 96.0, 4.0 ],
-									"rotationOrigin": [ 11.0, 9.9, 26.4 ],
+									"rotationOrigin": [ 2.2, 1.98, 5.28 ],
 									"rotationY": -17.0,
 									"faces": {
 										"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
@@ -2140,10 +2038,10 @@
 						},
 						{
 							"name": "Cube9",
-							"from": [ 1.0861, 16.6727, 19.8 ],
-							"to": [ 1.0861, 16.6727, 19.8 ],
+							"from": [ 0.2172, 3.3345, 3.96 ],
+							"to": [ 0.2172, 3.3345, 3.96 ],
 							"uv": [ 0.0, 4.0 ],
-							"rotationOrigin": [ 1.0865, 16.6727, 19.8 ],
+							"rotationOrigin": [ 0.2173, 3.3345, 3.96 ],
 							"rotationZ": 19.0,
 							"faces": {
 								"north": { "texture": "#ankylo", "uv": [ 0.0, 8.0, 4.0, 12.0 ], "autoUv": false },
@@ -2170,10 +2068,10 @@
 									"children": [
 										{
 											"name": "Derm75",
-											"from": [ 0.0, 0.0, -0.11 ],
-											"to": [ 4.4, 2.75, 3.19 ],
+											"from": [ 0.0, 0.0, -0.022 ],
+											"to": [ 0.88, 0.55, 0.638 ],
 											"uv": [ 96.0, 4.0 ],
-											"rotationOrigin": [ 4.4, 0.0, -0.11 ],
+											"rotationOrigin": [ 0.88, 0.0, -0.022 ],
 											"faces": {
 												"north": { "texture": "#ankylo", "uv": [ 96.3281, 7.0313, 99.8438, 9.1406 ], "autoUv": false },
 												"east": { "texture": "#ankylo", "uv": [ 99.8438, 7.0313, 102.6563, 9.1406 ], "autoUv": false },
@@ -2185,10 +2083,10 @@
 										},
 										{
 											"name": "Derm88",
-											"from": [ 0.0, 0.0, -6.05 ],
-											"to": [ 4.4, 2.75, -2.75 ],
+											"from": [ 0.0, 0.0, -1.21 ],
+											"to": [ 0.88, 0.55, -0.55 ],
 											"uv": [ 96.0, 4.0 ],
-											"rotationOrigin": [ 4.4, 0.0, -6.05 ],
+											"rotationOrigin": [ 0.88, 0.0, -1.21 ],
 											"faces": {
 												"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
 												"east": { "texture": "#ankylo", "uv": [ 100.0, 8.0, 104.0, 12.0 ], "autoUv": false },
@@ -2200,10 +2098,10 @@
 										},
 										{
 											"name": "Derm89",
-											"from": [ 0.0, 0.0, -12.65 ],
-											"to": [ 4.4, 2.75, -9.35 ],
+											"from": [ 0.0, 0.0, -2.53 ],
+											"to": [ 0.88, 0.55, -1.87 ],
 											"uv": [ 96.0, 4.0 ],
-											"rotationOrigin": [ 4.4, 0.0, -12.65 ],
+											"rotationOrigin": [ 0.88, 0.0, -2.53 ],
 											"faces": {
 												"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
 												"east": { "texture": "#ankylo", "uv": [ 100.0, 8.0, 104.0, 12.0 ], "autoUv": false },
@@ -2215,10 +2113,10 @@
 										},
 										{
 											"name": "Derm90",
-											"from": [ 0.0, 0.0, -18.59 ],
-											"to": [ 4.4, 2.75, -15.29 ],
+											"from": [ 0.0, 0.0, -3.718 ],
+											"to": [ 0.88, 0.55, -3.058 ],
 											"uv": [ 96.0, 4.0 ],
-											"rotationOrigin": [ 4.4, 0.0, -18.59 ],
+											"rotationOrigin": [ 0.88, 0.0, -3.718 ],
 											"faces": {
 												"north": { "texture": "#ankylo", "uv": [ 96.3281, 7.0313, 99.8438, 9.1406 ], "autoUv": false },
 												"east": { "texture": "#ankylo", "uv": [ 99.8438, 7.0313, 102.6563, 9.1406 ], "autoUv": false },
@@ -2232,10 +2130,10 @@
 								},
 								{
 									"name": "Cube14",
-									"from": [ 7.3583, -2.2513, 0.0 ],
-									"to": [ 7.3583, -2.2513, 0.0 ],
+									"from": [ 1.4717, -0.4503, 0.0 ],
+									"to": [ 1.4717, -0.4503, 0.0 ],
 									"uv": [ 4.0, 4.0 ],
-									"rotationOrigin": [ 7.3635, -2.2513, 0.0 ],
+									"rotationOrigin": [ 1.4727, -0.4503, 0.0 ],
 									"faces": {
 										"north": { "texture": "#ankylo", "uv": [ 4.0, 8.0, 8.0, 12.0 ], "autoUv": false },
 										"east": { "texture": "#ankylo", "uv": [ 8.0, 8.0, 12.0, 12.0 ], "autoUv": false },
@@ -2247,10 +2145,10 @@
 									"children": [
 										{
 											"name": "Derm91",
-											"from": [ -2.2, 0.33, -0.11 ],
-											"to": [ 2.2, 3.08, 3.19 ],
+											"from": [ -0.44, 0.066, -0.022 ],
+											"to": [ 0.44, 0.616, 0.638 ],
 											"uv": [ 96.0, 4.0 ],
-											"rotationOrigin": [ 2.2, 0.33, -0.11 ],
+											"rotationOrigin": [ 0.44, 0.066, -0.022 ],
 											"faces": {
 												"north": { "texture": "#ankylo", "uv": [ 96.3281, 7.0313, 99.8438, 9.1406 ], "autoUv": false },
 												"east": { "texture": "#ankylo", "uv": [ 99.8438, 7.0313, 102.6563, 9.1406 ], "autoUv": false },
@@ -2262,10 +2160,10 @@
 										},
 										{
 											"name": "Derm92",
-											"from": [ -2.2, 0.33, -6.05 ],
-											"to": [ 2.2, 3.08, -2.75 ],
+											"from": [ -0.44, 0.066, -1.21 ],
+											"to": [ 0.44, 0.616, -0.55 ],
 											"uv": [ 96.0, 4.0 ],
-											"rotationOrigin": [ 2.2, 0.33, -6.05 ],
+											"rotationOrigin": [ 0.44, 0.066, -1.21 ],
 											"faces": {
 												"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
 												"east": { "texture": "#ankylo", "uv": [ 100.0, 8.0, 104.0, 12.0 ], "autoUv": false },
@@ -2277,10 +2175,10 @@
 										},
 										{
 											"name": "Derm93",
-											"from": [ -2.2, 0.33, -12.65 ],
-											"to": [ 2.2, 3.08, -9.35 ],
+											"from": [ -0.44, 0.066, -2.53 ],
+											"to": [ 0.44, 0.616, -1.87 ],
 											"uv": [ 96.0, 4.0 ],
-											"rotationOrigin": [ 2.2, 0.33, -12.65 ],
+											"rotationOrigin": [ 0.44, 0.066, -2.53 ],
 											"faces": {
 												"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
 												"east": { "texture": "#ankylo", "uv": [ 100.0, 8.0, 104.0, 12.0 ], "autoUv": false },
@@ -2292,10 +2190,10 @@
 										},
 										{
 											"name": "Derm94",
-											"from": [ -2.2, 0.33, -18.59 ],
-											"to": [ 2.2, 3.08, -15.29 ],
+											"from": [ -0.44, 0.066, -3.718 ],
+											"to": [ 0.44, 0.616, -3.058 ],
 											"uv": [ 96.0, 4.0 ],
-											"rotationOrigin": [ 2.2, 0.33, -18.59 ],
+											"rotationOrigin": [ 0.44, 0.066, -3.718 ],
 											"faces": {
 												"north": { "texture": "#ankylo", "uv": [ 96.3281, 7.0313, 99.8438, 9.1406 ], "autoUv": false },
 												"east": { "texture": "#ankylo", "uv": [ 99.8438, 7.0313, 102.6563, 9.1406 ], "autoUv": false },
@@ -2313,11 +2211,11 @@
 				},
 				{
 					"name": "Body Back",
-					"from": [ 4.4, 15.95, -12.1 ],
-					"to": [ 22.0, 32.45, 12.1 ],
+					"from": [ 0.88, 3.19, -2.42 ],
+					"to": [ 4.4, 6.49, 2.42 ],
 					"autoUnwrap": false,
 					"uv": [ 116.0, 80.0 ],
-					"rotationOrigin": [ 4.4, 24.75, 0.0 ],
+					"rotationOrigin": [ 0.88, 4.95, 0.0 ],
 					"rotationZ": -6.0,
 					"faces": {
 						"north": { "texture": "#ankylo", "uv": [ 60.0, 96.0, 76.0, 111.0 ], "autoUv": false, "snapUv": false },
@@ -2330,11 +2228,11 @@
 					"children": [
 						{
 							"name": "Tail",
-							"from": [ 12.1, 3.3, 4.4 ],
-							"to": [ 26.4, 14.3, 19.8 ],
+							"from": [ 2.42, 0.66, 0.88 ],
+							"to": [ 5.28, 2.86, 3.96 ],
 							"autoUnwrap": false,
 							"uv": [ 126.0, 80.0 ],
-							"rotationOrigin": [ 17.6, 8.8, 12.1 ],
+							"rotationOrigin": [ 3.52, 1.76, 2.42 ],
 							"rotationZ": 3.0,
 							"faces": {
 								"north": { "texture": "#ankylo", "uv": [ 72.0, 98.0, 85.0, 108.0 ], "autoUv": false, "snapUv": false },
@@ -2347,11 +2245,11 @@
 							"children": [
 								{
 									"name": "Tail4",
-									"from": [ 0.0, -3.3, 2.2 ],
-									"to": [ 14.3, 0.0, 13.2 ],
+									"from": [ 0.0, -0.66, 0.44 ],
+									"to": [ 2.86, 0.0, 2.64 ],
 									"autoUnwrap": false,
 									"uv": [ 118.0, 68.0 ],
-									"rotationOrigin": [ 0.0, -3.3, 2.2 ],
+									"rotationOrigin": [ 0.0, -0.66, 0.44 ],
 									"faces": {
 										"north": { "texture": "#ankylo", "uv": [ 72.0, 108.0, 85.0, 111.0 ], "autoUv": false, "snapUv": false },
 										"east": { "texture": "#ankylo", "uv": [ 153.0, 40.0, 163.0, 43.0 ], "autoUv": false, "snapUv": false },
@@ -2363,11 +2261,11 @@
 								},
 								{
 									"name": "Tail7",
-									"from": [ 0.0, 11.0, 2.2 ],
-									"to": [ 14.3, 12.1, 13.2 ],
+									"from": [ 0.0, 2.2, 0.44 ],
+									"to": [ 2.86, 2.42, 2.64 ],
 									"autoUnwrap": false,
 									"uv": [ 138.0, 88.0 ],
-									"rotationOrigin": [ 0.0, 11.0, 2.2 ],
+									"rotationOrigin": [ 0.0, 2.2, 0.44 ],
 									"faces": {
 										"north": { "texture": "#ankylo", "uv": [ 72.0, 97.0, 85.0, 98.0 ], "autoUv": false, "snapUv": false },
 										"east": { "texture": "#ankylo", "uv": [ 153.0, 31.0, 163.0, 32.0 ], "autoUv": false, "snapUv": false },
@@ -2379,11 +2277,11 @@
 								},
 								{
 									"name": "Tail6",
-									"from": [ 9.9, 1.1, 1.1 ],
-									"to": [ 24.2, 9.9, 14.3 ],
+									"from": [ 1.98, 0.22, 0.22 ],
+									"to": [ 4.84, 1.98, 2.86 ],
 									"autoUnwrap": false,
 									"uv": [ 144.0, 76.0 ],
-									"rotationOrigin": [ 14.3, 5.5, 7.7 ],
+									"rotationOrigin": [ 2.86, 1.1, 1.54 ],
 									"rotationZ": 3.0,
 									"faces": {
 										"north": { "texture": "#ankylo", "uv": [ 80.0, 99.0, 93.0, 107.0 ], "autoUv": false, "snapUv": false },
@@ -2396,11 +2294,11 @@
 									"children": [
 										{
 											"name": "Tail10",
-											"from": [ 0.0, -2.2, 2.2 ],
-											"to": [ 14.3, 0.0, 11.0 ],
+											"from": [ 0.0, -0.44, 0.44 ],
+											"to": [ 2.86, 0.0, 2.2 ],
 											"autoUnwrap": false,
 											"uv": [ 142.0, 80.0 ],
-											"rotationOrigin": [ 0.0, -2.2, 2.2 ],
+											"rotationOrigin": [ 0.0, -0.44, 0.44 ],
 											"faces": {
 												"north": { "texture": "#ankylo", "uv": [ 80.0, 107.0, 93.0, 109.0 ], "autoUv": false, "snapUv": false },
 												"east": { "texture": "#ankylo", "uv": [ 167.0625, 40.0, 175.0625, 42.0 ], "autoUv": false, "snapUv": false },
@@ -2412,11 +2310,11 @@
 										},
 										{
 											"name": "Tail11",
-											"from": [ 0.0, 8.8, 2.2 ],
-											"to": [ 14.3, 9.9, 11.0 ],
+											"from": [ 0.0, 1.76, 0.44 ],
+											"to": [ 2.86, 1.98, 2.2 ],
 											"autoUnwrap": false,
 											"uv": [ 152.0, 76.0 ],
-											"rotationOrigin": [ 0.0, 8.8, 2.2 ],
+											"rotationOrigin": [ 0.0, 1.76, 0.44 ],
 											"faces": {
 												"north": { "texture": "#ankylo", "uv": [ 80.0, 98.0, 93.0, 99.0 ], "autoUv": false, "snapUv": false },
 												"east": { "texture": "#ankylo", "uv": [ 167.0625, 31.0, 175.0625, 32.0 ], "autoUv": false, "snapUv": false },
@@ -2428,11 +2326,11 @@
 										},
 										{
 											"name": "Tail2",
-											"from": [ 8.8, 1.1, 2.75 ],
-											"to": [ 30.8, 6.6, 10.45 ],
+											"from": [ 1.76, 0.22, 0.55 ],
+											"to": [ 6.16, 1.32, 2.09 ],
 											"autoUnwrap": false,
 											"uv": [ 168.0, 92.0 ],
-											"rotationOrigin": [ 14.3, 3.3, 6.6 ],
+											"rotationOrigin": [ 2.86, 0.66, 1.32 ],
 											"faces": {
 												"north": { "texture": "#ankylo", "uv": [ 88.0, 100.0, 108.0, 105.0 ], "autoUv": false, "snapUv": false },
 												"east": { "texture": "#ankylo", "uv": [ 180.0625, 34.0, 187.0625, 39.0 ], "autoUv": false, "snapUv": false },
@@ -2444,11 +2342,11 @@
 											"children": [
 												{
 													"name": "Tail3",
-													"from": [ 22.0, 1.1, 1.1 ],
-													"to": [ 40.7, 4.4, 6.6 ],
+													"from": [ 4.4, 0.22, 0.22 ],
+													"to": [ 8.14, 0.88, 1.32 ],
 													"autoUnwrap": false,
 													"uv": [ 136.0, 96.0 ],
-													"rotationOrigin": [ 22.0, 1.1, 1.1 ],
+													"rotationOrigin": [ 4.4, 0.22, 0.22 ],
 													"faces": {
 														"north": { "texture": "#ankylo", "uv": [ 108.0, 101.0, 125.0, 104.0 ], "autoUv": false, "snapUv": false },
 														"east": { "texture": "#ankylo", "uv": [ 12.0, 8.0, 16.0, 12.0 ], "autoUv": false },
@@ -2460,27 +2358,27 @@
 													"children": [
 														{
 															"name": "Club",
-															"from": [ 15.84, -1.98, -2.2 ],
-															"to": [ 25.74, 4.95, 7.7 ],
+															"from": [ 3.18, -0.3, -0.14 ],
+															"to": [ 4.665, 0.7395, 1.345 ],
 															"unwrapMode": 4,
 															"uv": [ 155.0, 4.0 ],
-															"rotationOrigin": [ 15.84, -1.98, -2.2 ],
+															"rotationOrigin": [ 2.376, -0.297, -0.33 ],
 															"faces": {
-																"north": { "texture": "#ankylo", "uv": [ 156.0, 12.0, 164.0, 16.0 ], "autoUv": false },
-																"east": { "texture": "#ankylo", "uv": [ 180.0, 12.0, 188.0, 16.0 ], "autoUv": false },
-																"south": { "texture": "#ankylo", "uv": [ 172.0, 12.0, 180.0, 16.0 ], "autoUv": false },
-																"west": { "texture": "#ankylo", "uv": [ 164.0, 12.0, 172.0, 16.0 ], "autoUv": false },
+																"north": { "texture": "#ankylo", "uv": [ 155.0, 13.0, 164.0, 16.0 ], "autoUv": false },
+																"east": { "texture": "#ankylo", "uv": [ 180.0, 13.0, 188.0, 16.0 ], "autoUv": false },
+																"south": { "texture": "#ankylo", "uv": [ 172.0, 13.0, 180.0, 16.0 ], "autoUv": false },
+																"west": { "texture": "#ankylo", "uv": [ 164.0, 13.0, 172.0, 16.0 ], "autoUv": false },
 																"up": { "texture": "#ankylo", "uv": [ 164.0, 4.0, 173.0, 13.0 ], "rotation": 90, "autoUv": false },
 																"down": { "texture": "#ankylo", "uv": [ 164.0, 16.0, 173.0, 25.0 ], "rotation": 90, "autoUv": false }
 															},
 															"children": [
 																{
 																	"name": "Club3",
-																	"from": [ 9.9, 0.99, 0.99 ],
-																	"to": [ 12.98, 5.94, 8.91 ],
+																	"from": [ 1.485, 0.1485, 0.1485 ],
+																	"to": [ 1.947, 0.891, 1.3365 ],
 																	"unwrapMode": 4,
 																	"uv": [ 162.0, 8.0 ],
-																	"rotationOrigin": [ 9.9, 0.99, 0.99 ],
+																	"rotationOrigin": [ 1.485, 0.1485, 0.1485 ],
 																	"faces": {
 																		"north": { "texture": "#ankylo", "uv": [ 162.0, 10.0, 164.0, 14.0 ], "autoUv": false },
 																		"east": { "texture": "#ankylo", "uv": [ 173.0, 10.0, 180.0, 14.0 ], "autoUv": false },
@@ -2492,11 +2390,11 @@
 																},
 																{
 																	"name": "Club2",
-																	"from": [ 12.98, 0.99, 1.98 ],
-																	"to": [ 14.96, 3.96, 7.92 ],
+																	"from": [ 1.947, 0.1485, 0.297 ],
+																	"to": [ 2.244, 0.594, 1.188 ],
 																	"unwrapMode": 4,
 																	"uv": [ 166.0, 8.0 ],
-																	"rotationOrigin": [ 12.98, 0.99, 1.98 ],
+																	"rotationOrigin": [ 1.947, 0.1485, 0.297 ],
 																	"faces": {
 																		"north": { "texture": "#ankylo", "uv": [ 167.0, 9.0, 168.0, 11.0 ], "autoUv": false },
 																		"east": { "texture": "#ankylo", "uv": [ 174.0, 9.0, 179.0, 11.0 ], "autoUv": false },
@@ -2508,11 +2406,11 @@
 																},
 																{
 																	"name": "Club1",
-																	"from": [ 0.99, 0.99, -1.32 ],
-																	"to": [ 8.91, 5.94, 11.44 ],
+																	"from": [ 0.1485, 0.1485, -0.198 ],
+																	"to": [ 1.3365, 0.891, 1.716 ],
 																	"unwrapMode": 4,
 																	"uv": [ 160.0, 7.0 ],
-																	"rotationOrigin": [ 0.99, 0.99, -1.32 ],
+																	"rotationOrigin": [ 0.1485, 0.1485, -0.198 ],
 																	"faces": {
 																		"north": { "texture": "#ankylo", "uv": [ 160.0, 12.0, 164.0, 16.0 ], "autoUv": false },
 																		"east": { "texture": "#ankylo", "uv": [ 176.0, 12.0, 184.0, 16.0 ], "autoUv": false },
@@ -2526,10 +2424,10 @@
 														},
 														{
 															"name": "Derm collection9",
-															"from": [ -0.319, -9.746, -11.55 ],
-															"to": [ -0.319, -9.746, -11.55 ],
+															"from": [ -0.0638, -1.9492, -2.31 ],
+															"to": [ -0.0638, -1.9492, -2.31 ],
 															"uv": [ 4.0, 0.0 ],
-															"rotationOrigin": [ -0.3226, -9.7475, -11.55 ],
+															"rotationOrigin": [ -0.0645, -1.9495, -2.31 ],
 															"faces": {
 																"north": { "texture": "#ankylo", "uv": [ 4.0, 4.0, 8.0, 8.0 ], "autoUv": false },
 																"east": { "texture": "#ankylo", "uv": [ 8.0, 4.0, 12.0, 8.0 ], "autoUv": false },
@@ -2541,10 +2439,10 @@
 															"children": [
 																{
 																	"name": "Derm54",
-																	"from": [ 1.87, 9.9, 9.9 ],
-																	"to": [ 5.17, 12.65, 12.1 ],
+																	"from": [ 0.374, 1.98, 1.98 ],
+																	"to": [ 1.034, 2.53, 2.42 ],
 																	"uv": [ 96.0, 4.0 ],
-																	"rotationOrigin": [ 6.27, 9.9, 12.1 ],
+																	"rotationOrigin": [ 1.254, 1.98, 2.42 ],
 																	"rotationY": 17.0,
 																	"faces": {
 																		"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
@@ -2557,10 +2455,10 @@
 																},
 																{
 																	"name": "Derm55",
-																	"from": [ 1.87, 9.9, 16.5 ],
-																	"to": [ 5.17, 12.65, 18.7 ],
+																	"from": [ 0.374, 1.98, 3.3 ],
+																	"to": [ 1.034, 2.53, 3.74 ],
 																	"uv": [ 96.0, 4.0 ],
-																	"rotationOrigin": [ 6.27, 9.9, 16.5 ],
+																	"rotationOrigin": [ 1.254, 1.98, 3.3 ],
 																	"rotationY": -17.0,
 																	"faces": {
 																		"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
@@ -2573,10 +2471,10 @@
 																},
 																{
 																	"name": "Derm56",
-																	"from": [ 7.37, 9.9, 9.9 ],
-																	"to": [ 10.67, 12.65, 12.1 ],
+																	"from": [ 1.474, 1.98, 1.98 ],
+																	"to": [ 2.134, 2.53, 2.42 ],
 																	"uv": [ 96.0, 4.0 ],
-																	"rotationOrigin": [ 11.77, 9.9, 12.1 ],
+																	"rotationOrigin": [ 2.354, 1.98, 2.42 ],
 																	"rotationY": 17.0,
 																	"faces": {
 																		"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
@@ -2589,10 +2487,10 @@
 																},
 																{
 																	"name": "Derm57",
-																	"from": [ 7.37, 9.9, 16.5 ],
-																	"to": [ 10.67, 12.65, 18.7 ],
+																	"from": [ 1.474, 1.98, 3.3 ],
+																	"to": [ 2.134, 2.53, 3.74 ],
 																	"uv": [ 96.0, 4.0 ],
-																	"rotationOrigin": [ 11.77, 9.9, 16.5 ],
+																	"rotationOrigin": [ 2.354, 1.98, 3.3 ],
 																	"rotationY": -17.0,
 																	"faces": {
 																		"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
@@ -2605,10 +2503,10 @@
 																},
 																{
 																	"name": "Derm58",
-																	"from": [ 12.87, 9.9, 9.9 ],
-																	"to": [ 16.17, 12.65, 12.1 ],
+																	"from": [ 2.574, 1.98, 1.98 ],
+																	"to": [ 3.234, 2.53, 2.42 ],
 																	"uv": [ 96.0, 4.0 ],
-																	"rotationOrigin": [ 17.27, 9.9, 12.1 ],
+																	"rotationOrigin": [ 3.454, 1.98, 2.42 ],
 																	"rotationY": 17.0,
 																	"faces": {
 																		"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
@@ -2621,10 +2519,10 @@
 																},
 																{
 																	"name": "Derm59",
-																	"from": [ 12.87, 9.9, 16.5 ],
-																	"to": [ 16.17, 12.65, 18.7 ],
+																	"from": [ 2.574, 1.98, 3.3 ],
+																	"to": [ 3.234, 2.53, 3.74 ],
 																	"uv": [ 96.0, 4.0 ],
-																	"rotationOrigin": [ 17.27, 9.9, 16.5 ],
+																	"rotationOrigin": [ 3.454, 1.98, 3.3 ],
 																	"rotationY": -17.0,
 																	"faces": {
 																		"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
@@ -2637,10 +2535,10 @@
 																},
 																{
 																	"name": "Derm85",
-																	"from": [ 1.98, 11.374, 12.65 ],
-																	"to": [ 5.28, 14.124, 15.95 ],
+																	"from": [ 0.396, 2.2748, 2.53 ],
+																	"to": [ 1.056, 2.8248, 3.19 ],
 																	"uv": [ 96.0, 4.0 ],
-																	"rotationOrigin": [ 6.3812, 11.3746, 12.65 ],
+																	"rotationOrigin": [ 1.2762, 2.2749, 2.53 ],
 																	"rotationZ": 8.0,
 																	"faces": {
 																		"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
@@ -2653,10 +2551,10 @@
 																},
 																{
 																	"name": "Derm86",
-																	"from": [ 7.48, 11.374, 12.65 ],
-																	"to": [ 10.78, 14.124, 15.95 ],
+																	"from": [ 1.496, 2.2748, 2.53 ],
+																	"to": [ 2.156, 2.8248, 3.19 ],
 																	"uv": [ 96.0, 4.0 ],
-																	"rotationOrigin": [ 11.8812, 11.3746, 12.65 ],
+																	"rotationOrigin": [ 2.3762, 2.2749, 2.53 ],
 																	"rotationZ": 8.0,
 																	"faces": {
 																		"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
@@ -2669,10 +2567,10 @@
 																},
 																{
 																	"name": "Derm87",
-																	"from": [ 12.98, 11.374, 12.65 ],
-																	"to": [ 16.28, 14.124, 15.95 ],
+																	"from": [ 2.596, 2.2748, 2.53 ],
+																	"to": [ 3.256, 2.8248, 3.19 ],
 																	"uv": [ 96.0, 4.0 ],
-																	"rotationOrigin": [ 17.3812, 11.3746, 12.65 ],
+																	"rotationOrigin": [ 3.4762, 2.2749, 2.53 ],
 																	"rotationZ": 8.0,
 																	"faces": {
 																		"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
@@ -2689,11 +2587,11 @@
 												},
 												{
 													"name": "Tail5",
-													"from": [ 5.5, 5.5, 1.1 ],
-													"to": [ 22.0, 6.6, 6.6 ],
+													"from": [ 1.1, 1.1, 0.22 ],
+													"to": [ 4.4, 1.32, 1.32 ],
 													"autoUnwrap": false,
 													"uv": [ 169.0, 80.0 ],
-													"rotationOrigin": [ 5.5, 5.5, 1.1 ],
+													"rotationOrigin": [ 1.1, 1.1, 0.22 ],
 													"faces": {
 														"north": { "texture": "#ankylo", "uv": [ 93.0, 99.0, 108.0, 100.0 ], "autoUv": false, "snapUv": false },
 														"east": { "texture": "#ankylo", "uv": [ 181.0625, 33.0, 186.0625, 34.0 ], "autoUv": false, "snapUv": false },
@@ -2705,11 +2603,11 @@
 												},
 												{
 													"name": "Tail8",
-													"from": [ 5.5, -1.1, 1.1 ],
-													"to": [ 22.0, 0.0, 6.6 ],
+													"from": [ 1.1, -0.22, 0.22 ],
+													"to": [ 4.4, 0.0, 1.32 ],
 													"autoUnwrap": false,
 													"uv": [ 153.0, 108.0 ],
-													"rotationOrigin": [ 5.5, -1.1, 1.1 ],
+													"rotationOrigin": [ 1.1, -0.22, 0.22 ],
 													"faces": {
 														"north": { "texture": "#ankylo", "uv": [ 93.0, 105.0, 108.0, 106.0 ], "autoUv": false, "snapUv": false },
 														"east": { "texture": "#ankylo", "uv": [ 181.0625, 39.0, 186.0625, 40.0 ], "autoUv": false, "snapUv": false },
@@ -2721,10 +2619,10 @@
 												},
 												{
 													"name": "Derm collection8",
-													"from": [ 5.181, -7.546, -10.45 ],
-													"to": [ 5.181, -7.546, -10.45 ],
+													"from": [ 1.0362, -1.5092, -2.09 ],
+													"to": [ 1.0362, -1.5092, -2.09 ],
 													"uv": [ 4.0, 4.0 ],
-													"rotationOrigin": [ 5.1774, -7.5475, -10.45 ],
+													"rotationOrigin": [ 1.0355, -1.5095, -2.09 ],
 													"faces": {
 														"north": { "texture": "#ankylo", "uv": [ 4.0, 8.0, 8.0, 12.0 ], "autoUv": false },
 														"east": { "texture": "#ankylo", "uv": [ 8.0, 8.0, 12.0, 12.0 ], "autoUv": false },
@@ -2736,10 +2634,10 @@
 													"children": [
 														{
 															"name": "Derm44",
-															"from": [ 1.87, 9.9, 8.8 ],
-															"to": [ 5.17, 12.65, 11.0 ],
+															"from": [ 0.374, 1.98, 1.76 ],
+															"to": [ 1.034, 2.53, 2.2 ],
 															"uv": [ 96.0, 4.0 ],
-															"rotationOrigin": [ 6.27, 9.9, 11.0 ],
+															"rotationOrigin": [ 1.254, 1.98, 2.2 ],
 															"rotationY": 17.0,
 															"faces": {
 																"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
@@ -2752,10 +2650,10 @@
 														},
 														{
 															"name": "Derm50",
-															"from": [ 1.87, 9.9, 17.6 ],
-															"to": [ 5.17, 12.65, 19.8 ],
+															"from": [ 0.374, 1.98, 3.52 ],
+															"to": [ 1.034, 2.53, 3.96 ],
 															"uv": [ 96.0, 4.0 ],
-															"rotationOrigin": [ 6.27, 9.9, 17.6 ],
+															"rotationOrigin": [ 1.254, 1.98, 3.52 ],
 															"rotationY": -17.0,
 															"faces": {
 																"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
@@ -2768,10 +2666,10 @@
 														},
 														{
 															"name": "Derm47",
-															"from": [ 7.37, 9.9, 8.8 ],
-															"to": [ 10.67, 12.65, 11.0 ],
+															"from": [ 1.474, 1.98, 1.76 ],
+															"to": [ 2.134, 2.53, 2.2 ],
 															"uv": [ 96.0, 4.0 ],
-															"rotationOrigin": [ 11.77, 9.9, 11.0 ],
+															"rotationOrigin": [ 2.354, 1.98, 2.2 ],
 															"rotationY": 17.0,
 															"faces": {
 																"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
@@ -2784,10 +2682,10 @@
 														},
 														{
 															"name": "Derm51",
-															"from": [ 7.37, 9.9, 17.6 ],
-															"to": [ 10.67, 12.65, 19.8 ],
+															"from": [ 1.474, 1.98, 3.52 ],
+															"to": [ 2.134, 2.53, 3.96 ],
 															"uv": [ 96.0, 4.0 ],
-															"rotationOrigin": [ 11.77, 9.9, 17.6 ],
+															"rotationOrigin": [ 2.354, 1.98, 3.52 ],
 															"rotationY": -17.0,
 															"faces": {
 																"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
@@ -2800,10 +2698,10 @@
 														},
 														{
 															"name": "Derm52",
-															"from": [ 12.87, 9.9, 8.8 ],
-															"to": [ 16.17, 12.65, 11.0 ],
+															"from": [ 2.574, 1.98, 1.76 ],
+															"to": [ 3.234, 2.53, 2.2 ],
 															"uv": [ 96.0, 4.0 ],
-															"rotationOrigin": [ 17.27, 9.9, 11.0 ],
+															"rotationOrigin": [ 3.454, 1.98, 2.2 ],
 															"rotationY": 17.0,
 															"faces": {
 																"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
@@ -2816,10 +2714,10 @@
 														},
 														{
 															"name": "Derm53",
-															"from": [ 12.87, 9.9, 17.6 ],
-															"to": [ 16.17, 12.65, 19.8 ],
+															"from": [ 2.574, 1.98, 3.52 ],
+															"to": [ 3.234, 2.53, 3.96 ],
 															"uv": [ 96.0, 4.0 ],
-															"rotationOrigin": [ 17.27, 9.9, 17.6 ],
+															"rotationOrigin": [ 3.454, 1.98, 3.52 ],
 															"rotationY": -17.0,
 															"faces": {
 																"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
@@ -2832,10 +2730,10 @@
 														},
 														{
 															"name": "Cube11",
-															"from": [ 3.19, 10.703, 22.0 ],
-															"to": [ 3.19, 10.703, 22.0 ],
+															"from": [ 0.638, 2.1406, 4.4 ],
+															"to": [ 0.638, 2.1406, 4.4 ],
 															"uv": [ 4.0, 4.0 ],
-															"rotationOrigin": [ 3.1953, 10.701, 22.0 ],
+															"rotationOrigin": [ 0.6391, 2.1402, 4.4 ],
 															"rotationZ": 8.0,
 															"faces": {
 																"north": { "texture": "#ankylo", "uv": [ 4.0, 8.0, 8.0, 12.0 ], "autoUv": false },
@@ -2848,10 +2746,10 @@
 															"children": [
 																{
 																	"name": "Derm80",
-																	"from": [ -1.1, 1.43, -9.35 ],
-																	"to": [ 2.2, 4.18, -6.05 ],
+																	"from": [ -0.22, 0.286, -1.87 ],
+																	"to": [ 0.44, 0.836, -1.21 ],
 																	"uv": [ 96.0, 4.0 ],
-																	"rotationOrigin": [ 3.3, 1.43, -9.35 ],
+																	"rotationOrigin": [ 0.66, 0.286, -1.87 ],
 																	"faces": {
 																		"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
 																		"east": { "texture": "#ankylo", "uv": [ 100.0, 8.0, 104.0, 12.0 ], "autoUv": false },
@@ -2863,10 +2761,10 @@
 																},
 																{
 																	"name": "Derm81",
-																	"from": [ 4.4, 0.55, -9.35 ],
-																	"to": [ 7.7, 3.3, -6.05 ],
+																	"from": [ 0.88, 0.11, -1.87 ],
+																	"to": [ 1.54, 0.66, -1.21 ],
 																	"uv": [ 96.0, 4.0 ],
-																	"rotationOrigin": [ 8.8, 0.55, -9.35 ],
+																	"rotationOrigin": [ 1.76, 0.11, -1.87 ],
 																	"faces": {
 																		"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
 																		"east": { "texture": "#ankylo", "uv": [ 100.0, 8.0, 104.0, 12.0 ], "autoUv": false },
@@ -2878,10 +2776,10 @@
 																},
 																{
 																	"name": "Derm84",
-																	"from": [ 9.9, -0.22, -9.35 ],
-																	"to": [ 13.2, 2.53, -6.05 ],
+																	"from": [ 1.98, -0.044, -1.87 ],
+																	"to": [ 2.64, 0.506, -1.21 ],
 																	"uv": [ 96.0, 4.0 ],
-																	"rotationOrigin": [ 14.3, -0.22, -9.35 ],
+																	"rotationOrigin": [ 2.86, -0.044, -1.87 ],
 																	"faces": {
 																		"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
 																		"east": { "texture": "#ankylo", "uv": [ 100.0, 8.0, 104.0, 12.0 ], "autoUv": false },
@@ -2899,10 +2797,10 @@
 										},
 										{
 											"name": "Derm collection7",
-											"from": [ 6.281, -9.746, -7.7 ],
-											"to": [ 6.281, -9.746, -7.7 ],
+											"from": [ 1.2562, -1.9492, -1.54 ],
+											"to": [ 1.2562, -1.9492, -1.54 ],
 											"uv": [ 4.0, 4.0 ],
-											"rotationOrigin": [ 6.2774, -9.7475, -7.7 ],
+											"rotationOrigin": [ 1.2555, -1.9495, -1.54 ],
 											"faces": {
 												"north": { "texture": "#ankylo", "uv": [ 4.0, 8.0, 8.0, 12.0 ], "autoUv": false },
 												"east": { "texture": "#ankylo", "uv": [ 8.0, 8.0, 12.0, 12.0 ], "autoUv": false },
@@ -2914,10 +2812,10 @@
 											"children": [
 												{
 													"name": "Derm41",
-													"from": [ 1.1, 15.4, 5.5 ],
-													"to": [ 5.5, 18.15, 7.7 ],
+													"from": [ 0.22, 3.08, 1.1 ],
+													"to": [ 1.1, 3.63, 1.54 ],
 													"uv": [ 96.0, 4.0 ],
-													"rotationOrigin": [ 5.5, 15.4, 7.7 ],
+													"rotationOrigin": [ 1.1, 3.08, 1.54 ],
 													"rotationY": 17.0,
 													"faces": {
 														"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
@@ -2930,10 +2828,10 @@
 												},
 												{
 													"name": "Derm42",
-													"from": [ 1.87, 9.9, 5.5 ],
-													"to": [ 5.17, 12.65, 7.7 ],
+													"from": [ 0.374, 1.98, 1.1 ],
+													"to": [ 1.034, 2.53, 1.54 ],
 													"uv": [ 96.0, 4.0 ],
-													"rotationOrigin": [ 6.27, 9.9, 7.7 ],
+													"rotationOrigin": [ 1.254, 1.98, 1.54 ],
 													"rotationY": 17.0,
 													"faces": {
 														"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
@@ -2946,10 +2844,10 @@
 												},
 												{
 													"name": "Derm46",
-													"from": [ 1.1, 15.4, 20.9 ],
-													"to": [ 5.5, 18.15, 23.1 ],
+													"from": [ 0.22, 3.08, 4.18 ],
+													"to": [ 1.1, 3.63, 4.62 ],
 													"uv": [ 96.0, 4.0 ],
-													"rotationOrigin": [ 5.5, 15.4, 20.9 ],
+													"rotationOrigin": [ 1.1, 3.08, 4.18 ],
 													"rotationY": -17.0,
 													"faces": {
 														"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
@@ -2962,10 +2860,10 @@
 												},
 												{
 													"name": "Derm49",
-													"from": [ 1.87, 9.9, 20.9 ],
-													"to": [ 5.17, 12.65, 23.1 ],
+													"from": [ 0.374, 1.98, 4.18 ],
+													"to": [ 1.034, 2.53, 4.62 ],
 													"uv": [ 96.0, 4.0 ],
-													"rotationOrigin": [ 6.27, 9.9, 20.9 ],
+													"rotationOrigin": [ 1.254, 1.98, 4.18 ],
 													"rotationY": -17.0,
 													"faces": {
 														"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
@@ -2978,10 +2876,10 @@
 												},
 												{
 													"name": "Cube12",
-													"from": [ 2.09, 17.303, 22.0 ],
-													"to": [ 2.09, 17.303, 22.0 ],
+													"from": [ 0.418, 3.4606, 4.4 ],
+													"to": [ 0.418, 3.4606, 4.4 ],
 													"uv": [ 4.0, 4.0 ],
-													"rotationOrigin": [ 2.0953, 17.301, 22.0 ],
+													"rotationOrigin": [ 0.4191, 3.4602, 4.4 ],
 													"rotationZ": 8.0,
 													"faces": {
 														"north": { "texture": "#ankylo", "uv": [ 4.0, 8.0, 8.0, 12.0 ], "autoUv": false },
@@ -2994,10 +2892,10 @@
 													"children": [
 														{
 															"name": "Derm82",
-															"from": [ -1.1, 0.55, -6.05 ],
-															"to": [ 3.3, 3.3, -2.75 ],
+															"from": [ -0.22, 0.11, -1.21 ],
+															"to": [ 0.66, 0.66, -0.55 ],
 															"uv": [ 96.0, 4.0 ],
-															"rotationOrigin": [ 3.3, 0.55, -6.05 ],
+															"rotationOrigin": [ 0.66, 0.11, -1.21 ],
 															"faces": {
 																"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
 																"east": { "texture": "#ankylo", "uv": [ 100.0, 8.0, 104.0, 12.0 ], "autoUv": false },
@@ -3009,10 +2907,10 @@
 														},
 														{
 															"name": "Derm83",
-															"from": [ -1.1, 0.55, -12.65 ],
-															"to": [ 3.3, 3.3, -9.35 ],
+															"from": [ -0.22, 0.11, -2.53 ],
+															"to": [ 0.66, 0.66, -1.87 ],
 															"uv": [ 96.0, 4.0 ],
-															"rotationOrigin": [ 3.3, 0.55, -12.65 ],
+															"rotationOrigin": [ 0.66, 0.11, -2.53 ],
 															"faces": {
 																"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
 																"east": { "texture": "#ankylo", "uv": [ 100.0, 8.0, 104.0, 12.0 ], "autoUv": false },
@@ -3030,10 +2928,10 @@
 								},
 								{
 									"name": "Derm collection6",
-									"from": [ 6.677, -7.722, -6.6 ],
-									"to": [ 6.677, -7.722, -6.6 ],
+									"from": [ 1.3354, -1.5444, -1.32 ],
+									"to": [ 1.3354, -1.5444, -1.32 ],
 									"uv": [ 0.0, 8.0 ],
-									"rotationOrigin": [ 6.6773, -7.7267, -6.6 ],
+									"rotationOrigin": [ 1.3355, -1.5453, -1.32 ],
 									"faces": {
 										"north": { "texture": "#ankylo", "uv": [ 0.0, 12.0, 4.0, 16.0 ], "autoUv": false },
 										"east": { "texture": "#ankylo", "uv": [ 4.0, 12.0, 8.0, 16.0 ], "autoUv": false },
@@ -3045,10 +2943,10 @@
 									"children": [
 										{
 											"name": "Derm39",
-											"from": [ 1.1, 15.4, 4.4 ],
-											"to": [ 5.5, 18.15, 6.6 ],
+											"from": [ 0.22, 3.08, 0.88 ],
+											"to": [ 1.1, 3.63, 1.32 ],
 											"uv": [ 96.0, 4.0 ],
-											"rotationOrigin": [ 5.5, 15.4, 6.6 ],
+											"rotationOrigin": [ 1.1, 3.08, 1.32 ],
 											"rotationY": 17.0,
 											"faces": {
 												"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
@@ -3061,10 +2959,10 @@
 										},
 										{
 											"name": "Derm40",
-											"from": [ 1.1, 9.9, 4.4 ],
-											"to": [ 5.5, 12.65, 6.6 ],
+											"from": [ 0.22, 1.98, 0.88 ],
+											"to": [ 1.1, 2.53, 1.32 ],
 											"uv": [ 96.0, 4.0 ],
-											"rotationOrigin": [ 5.5, 9.9, 6.6 ],
+											"rotationOrigin": [ 1.1, 1.98, 1.32 ],
 											"rotationY": 17.0,
 											"faces": {
 												"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
@@ -3077,10 +2975,10 @@
 										},
 										{
 											"name": "Derm45",
-											"from": [ 1.1, 15.4, 22.0 ],
-											"to": [ 5.5, 18.15, 24.2 ],
+											"from": [ 0.22, 3.08, 4.4 ],
+											"to": [ 1.1, 3.63, 4.84 ],
 											"uv": [ 96.0, 4.0 ],
-											"rotationOrigin": [ 5.5, 15.4, 22.0 ],
+											"rotationOrigin": [ 1.1, 3.08, 4.4 ],
 											"rotationY": -17.0,
 											"faces": {
 												"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
@@ -3093,10 +2991,10 @@
 										},
 										{
 											"name": "Derm48",
-											"from": [ 1.1, 9.9, 22.0 ],
-											"to": [ 5.5, 12.65, 24.2 ],
+											"from": [ 0.22, 1.98, 4.4 ],
+											"to": [ 1.1, 2.53, 4.84 ],
 											"uv": [ 96.0, 4.0 ],
-											"rotationOrigin": [ 5.5, 9.9, 22.0 ],
+											"rotationOrigin": [ 1.1, 1.98, 4.4 ],
 											"rotationY": -17.0,
 											"faces": {
 												"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
@@ -3109,10 +3007,10 @@
 										},
 										{
 											"name": "Cube10",
-											"from": [ 2.288, 17.446, 22.0 ],
-											"to": [ 2.288, 17.446, 22.0 ],
+											"from": [ 0.4576, 3.4892, 4.4 ],
+											"to": [ 0.4576, 3.4892, 4.4 ],
 											"uv": [ 4.0, 4.0 ],
-											"rotationOrigin": [ 2.289, 17.4415, 22.0 ],
+											"rotationOrigin": [ 0.4578, 3.4883, 4.4 ],
 											"rotationZ": 11.0,
 											"faces": {
 												"north": { "texture": "#ankylo", "uv": [ 4.0, 8.0, 8.0, 12.0 ], "autoUv": false },
@@ -3125,10 +3023,10 @@
 											"children": [
 												{
 													"name": "Derm78",
-													"from": [ -1.1, 1.1, -6.05 ],
-													"to": [ 3.3, 3.85, -2.75 ],
+													"from": [ -0.22, 0.22, -1.21 ],
+													"to": [ 0.66, 0.77, -0.55 ],
 													"uv": [ 96.0, 4.0 ],
-													"rotationOrigin": [ 3.3, 1.1, -6.05 ],
+													"rotationOrigin": [ 0.66, 0.22, -1.21 ],
 													"faces": {
 														"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
 														"east": { "texture": "#ankylo", "uv": [ 100.0, 8.0, 104.0, 12.0 ], "autoUv": false },
@@ -3140,10 +3038,10 @@
 												},
 												{
 													"name": "Derm79",
-													"from": [ -1.1, 1.1, -12.65 ],
-													"to": [ 3.3, 3.85, -9.35 ],
+													"from": [ -0.22, 0.22, -2.53 ],
+													"to": [ 0.66, 0.77, -1.87 ],
 													"uv": [ 96.0, 4.0 ],
-													"rotationOrigin": [ 3.3, 1.1, -12.65 ],
+													"rotationOrigin": [ 0.66, 0.22, -2.53 ],
 													"faces": {
 														"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
 														"east": { "texture": "#ankylo", "uv": [ 100.0, 8.0, 104.0, 12.0 ], "autoUv": false },
@@ -3161,11 +3059,11 @@
 						},
 						{
 							"name": "Body Back3",
-							"from": [ 0.0, 16.5, 1.1 ],
-							"to": [ 17.6, 17.6, 23.1 ],
+							"from": [ 0.0, 3.3, 0.22 ],
+							"to": [ 3.52, 3.52, 4.62 ],
 							"autoUnwrap": false,
 							"uv": [ 162.0, 80.0 ],
-							"rotationOrigin": [ 0.0, 16.5, 1.1 ],
+							"rotationOrigin": [ 0.0, 3.3, 0.22 ],
 							"faces": {
 								"north": { "texture": "#ankylo", "uv": [ 60.0, 95.0, 76.0, 96.0 ], "autoUv": false, "snapUv": false },
 								"east": { "texture": "#ankylo", "uv": [ 129.0, 28.0, 149.0, 29.0 ], "autoUv": false, "snapUv": false },
@@ -3177,11 +3075,11 @@
 						},
 						{
 							"name": "Body Back2",
-							"from": [ 0.0, -3.3, 3.3 ],
-							"to": [ 17.6, 0.0, 20.9 ],
+							"from": [ 0.0, -0.66, 0.66 ],
+							"to": [ 3.52, 0.0, 4.18 ],
 							"autoUnwrap": false,
 							"uv": [ 138.0, 80.0 ],
-							"rotationOrigin": [ 0.0, -3.3, 3.3 ],
+							"rotationOrigin": [ 0.0, -0.66, 0.66 ],
 							"faces": {
 								"north": { "texture": "#ankylo", "uv": [ 60.0, 111.0, 76.0, 114.0 ], "autoUv": false, "snapUv": false },
 								"east": { "texture": "#ankylo", "uv": [ 131.0, 44.0, 147.0, 47.0 ], "autoUv": false, "snapUv": false },
@@ -3193,11 +3091,11 @@
 						},
 						{
 							"name": "Leg Front L4",
-							"from": [ 7.7, -3.85, 22.0 ],
-							"to": [ 16.72, 12.65, 26.62 ],
+							"from": [ 1.54, -0.77, 4.4 ],
+							"to": [ 3.344, 2.53, 5.324 ],
 							"autoUnwrap": false,
 							"uv": [ 157.0, 124.0 ],
-							"rotationOrigin": [ 12.1, 9.35, 24.2 ],
+							"rotationOrigin": [ 2.42, 1.87, 4.84 ],
 							"rotationZ": 6.0,
 							"faces": {
 								"north": { "texture": "#ankylo", "uv": [ 76.0, 120.0, 84.2, 135.0 ], "rotation": 180, "autoUv": false, "snapUv": false },
@@ -3210,11 +3108,11 @@
 							"children": [
 								{
 									"name": "Leg Front L9",
-									"from": [ 1.1, -9.9, 0.11 ],
-									"to": [ 5.5, 1.1, 4.51 ],
+									"from": [ 0.22, -1.98, 0.022 ],
+									"to": [ 1.1, 0.22, 0.902 ],
 									"autoUnwrap": false,
 									"uv": [ 110.0, 120.0 ],
-									"rotationOrigin": [ 3.3, 0.0, 2.31 ],
+									"rotationOrigin": [ 0.66, 0.0, 0.462 ],
 									"rotationZ": 22.0,
 									"faces": {
 										"north": { "texture": "#ankylo", "uv": [ 78.0, 138.0, 82.0, 148.0 ], "rotation": 180, "autoUv": false, "snapUv": false },
@@ -3227,11 +3125,11 @@
 									"children": [
 										{
 											"name": "Leg Front L10",
-											"from": [ 0.0, 3.3, 0.11 ],
-											"to": [ 4.18, 12.1, 4.29 ],
+											"from": [ 0.0, 0.66, 0.022 ],
+											"to": [ 0.836, 2.42, 0.858 ],
 											"autoUnwrap": false,
 											"uv": [ 102.0, 124.0 ],
-											"rotationOrigin": [ 0.0, 3.3, 0.11 ],
+											"rotationOrigin": [ 0.0, 0.66, 0.022 ],
 											"rotationZ": -19.0,
 											"faces": {
 												"north": { "texture": "#ankylo", "uv": [ 82.0, 140.0, 85.8, 148.0 ], "autoUv": false, "snapUv": false },
@@ -3244,11 +3142,11 @@
 										},
 										{
 											"name": "Foot3",
-											"from": [ -1.1, -1.1, -0.55 ],
-											"to": [ 4.4, 1.1, 4.95 ],
+											"from": [ -0.22, -0.22, -0.11 ],
+											"to": [ 0.88, 0.22, 0.99 ],
 											"autoUnwrap": false,
 											"uv": [ 143.0, 136.0 ],
-											"rotationOrigin": [ 2.2, 1.1, 2.2 ],
+											"rotationOrigin": [ 0.44, 0.22, 0.44 ],
 											"rotationZ": -22.0,
 											"faces": {
 												"north": { "texture": "#ankylo", "uv": [ 77.0, 150.0, 82.0, 152.0 ], "autoUv": false, "snapUv": false },
@@ -3261,10 +3159,10 @@
 											"children": [
 												{
 													"name": "Toe9",
-													"from": [ -1.1, 0.0, -0.33 ],
-													"to": [ 0.0, 1.65, 0.77 ],
+													"from": [ -0.22, 0.0, -0.066 ],
+													"to": [ 0.0, 0.33, 0.154 ],
 													"uv": [ 136.0, 4.0 ],
-													"rotationOrigin": [ 2.2, 2.2, 2.42 ],
+													"rotationOrigin": [ 0.44, 0.44, 0.484 ],
 													"faces": {
 														"north": { "texture": "#ankylo", "uv": [ 136.0, 8.0, 140.0, 12.0 ], "autoUv": false },
 														"east": { "texture": "#ankylo", "uv": [ 140.0, 8.0, 144.0, 12.0 ], "autoUv": false },
@@ -3276,10 +3174,10 @@
 												},
 												{
 													"name": "Toe10",
-													"from": [ -1.1, 0.0, 1.43 ],
-													"to": [ 0.0, 1.65, 2.53 ],
+													"from": [ -0.22, 0.0, 0.286 ],
+													"to": [ 0.0, 0.33, 0.506 ],
 													"uv": [ 136.0, 4.0 ],
-													"rotationOrigin": [ 2.2, 2.2, 4.18 ],
+													"rotationOrigin": [ 0.44, 0.44, 0.836 ],
 													"faces": {
 														"north": { "texture": "#ankylo", "uv": [ 136.0, 8.0, 140.0, 12.0 ], "autoUv": false },
 														"east": { "texture": "#ankylo", "uv": [ 140.0, 8.0, 144.0, 12.0 ], "autoUv": false },
@@ -3291,10 +3189,10 @@
 												},
 												{
 													"name": "Toe11",
-													"from": [ -1.1, 0.0, 3.08 ],
-													"to": [ 0.0, 1.65, 4.18 ],
+													"from": [ -0.22, 0.0, 0.616 ],
+													"to": [ 0.0, 0.33, 0.836 ],
 													"uv": [ 136.0, 4.0 ],
-													"rotationOrigin": [ 2.2, 2.2, 5.83 ],
+													"rotationOrigin": [ 0.44, 0.44, 1.166 ],
 													"faces": {
 														"north": { "texture": "#ankylo", "uv": [ 136.0, 8.0, 140.0, 12.0 ], "autoUv": false },
 														"east": { "texture": "#ankylo", "uv": [ 140.0, 8.0, 144.0, 12.0 ], "autoUv": false },
@@ -3306,10 +3204,10 @@
 												},
 												{
 													"name": "Toe12",
-													"from": [ -1.1, 0.0, 4.73 ],
-													"to": [ 0.0, 1.65, 5.83 ],
+													"from": [ -0.22, 0.0, 0.946 ],
+													"to": [ 0.0, 0.33, 1.166 ],
 													"uv": [ 136.0, 4.0 ],
-													"rotationOrigin": [ 2.2, 2.2, 7.48 ],
+													"rotationOrigin": [ 0.44, 0.44, 1.496 ],
 													"faces": {
 														"north": { "texture": "#ankylo", "uv": [ 136.0, 8.0, 140.0, 12.0 ], "autoUv": false },
 														"east": { "texture": "#ankylo", "uv": [ 140.0, 8.0, 144.0, 12.0 ], "autoUv": false },
@@ -3325,11 +3223,11 @@
 								},
 								{
 									"name": "Leg Front L11",
-									"from": [ -1.1, 0.55, 0.55 ],
-									"to": [ 0.0, 15.95, 3.85 ],
+									"from": [ -0.22, 0.11, 0.11 ],
+									"to": [ 0.0, 3.19, 0.77 ],
 									"autoUnwrap": false,
 									"uv": [ 127.0, 136.0 ],
-									"rotationOrigin": [ -1.1, 0.55, 0.55 ],
+									"rotationOrigin": [ -0.22, 0.11, 0.11 ],
 									"faces": {
 										"north": { "texture": "#ankylo", "uv": [ 75.0, 120.0, 76.0, 134.0 ], "autoUv": false, "snapUv": false },
 										"east": { "texture": "#ankylo", "uv": [ 12.0, 0.0, 16.0, 12.0 ], "autoUv": false },
@@ -3341,11 +3239,11 @@
 								},
 								{
 									"name": "Leg Front L6",
-									"from": [ 1.1, 0.66, 4.4 ],
-									"to": [ 7.04, 16.06, 5.5 ],
+									"from": [ 0.22, 0.132, 0.88 ],
+									"to": [ 1.408, 3.212, 1.1 ],
 									"autoUnwrap": false,
 									"uv": [ 142.0, 116.0 ],
-									"rotationOrigin": [ 4.4, 8.36, 6.6 ],
+									"rotationOrigin": [ 0.88, 1.672, 1.32 ],
 									"faces": {
 										"north": { "texture": "#ankylo", "uv": [ 77.0, 121.0, 82.4, 135.0 ], "autoUv": false, "snapUv": false },
 										"east": { "texture": "#ankylo", "uv": [ 84.0, 121.0, 85.0, 135.0 ], "autoUv": false, "snapUv": false },
@@ -3359,11 +3257,11 @@
 						},
 						{
 							"name": "Leg Front L14",
-							"from": [ 7.7, -3.85, -2.2 ],
-							"to": [ 16.72, 12.65, 2.42 ],
+							"from": [ 1.54, -0.77, -0.44 ],
+							"to": [ 3.344, 2.53, 0.484 ],
 							"autoUnwrap": false,
 							"uv": [ 120.0, 124.0 ],
-							"rotationOrigin": [ 12.1, 9.35, 0.0 ],
+							"rotationOrigin": [ 2.42, 1.87, 0.0 ],
 							"rotationZ": 6.0,
 							"faces": {
 								"north": { "texture": "#ankylo", "uv": [ 95.0, 120.0, 103.2, 135.0 ], "autoUv": false, "snapUv": false },
@@ -3376,11 +3274,11 @@
 							"children": [
 								{
 									"name": "Leg Front L15",
-									"from": [ 1.1, -9.9, 0.11 ],
-									"to": [ 5.5, 1.1, 4.51 ],
+									"from": [ 0.22, -1.98, 0.022 ],
+									"to": [ 1.1, 0.22, 0.902 ],
 									"autoUnwrap": false,
 									"uv": [ 133.0, 120.0 ],
-									"rotationOrigin": [ 3.3, 0.0, 2.31 ],
+									"rotationOrigin": [ 0.66, 0.0, 0.462 ],
 									"rotationZ": 22.0,
 									"faces": {
 										"north": { "texture": "#ankylo", "uv": [ 78.0, 138.0, 82.0, 148.0 ], "rotation": 180, "autoUv": false, "snapUv": false },
@@ -3393,11 +3291,11 @@
 									"children": [
 										{
 											"name": "Leg Front L16",
-											"from": [ 0.0, 3.19, 0.11 ],
-											"to": [ 4.18, 11.99, 4.29 ],
+											"from": [ 0.0, 0.638, 0.022 ],
+											"to": [ 0.836, 2.398, 0.858 ],
 											"autoUnwrap": false,
 											"uv": [ 143.0, 120.0 ],
-											"rotationOrigin": [ 0.0, 3.19, 0.11 ],
+											"rotationOrigin": [ 0.0, 0.638, 0.022 ],
 											"rotationZ": -19.0,
 											"faces": {
 												"north": { "texture": "#ankylo", "uv": [ 82.0, 140.0, 85.8, 148.0 ], "autoUv": false, "snapUv": false },
@@ -3410,11 +3308,11 @@
 										},
 										{
 											"name": "Foot4",
-											"from": [ -1.1, -1.1, -0.55 ],
-											"to": [ 4.4, 1.1, 4.95 ],
+											"from": [ -0.22, -0.22, -0.11 ],
+											"to": [ 0.88, 0.22, 0.99 ],
 											"autoUnwrap": false,
 											"uv": [ 146.0, 96.0 ],
-											"rotationOrigin": [ 2.2, 1.1, 2.2 ],
+											"rotationOrigin": [ 0.44, 0.22, 0.44 ],
 											"rotationZ": -22.0,
 											"faces": {
 												"north": { "texture": "#ankylo", "uv": [ 77.0, 150.0, 82.0, 152.0 ], "autoUv": false, "snapUv": false },
@@ -3427,10 +3325,10 @@
 											"children": [
 												{
 													"name": "Toe13",
-													"from": [ -1.1, 0.0, -0.33 ],
-													"to": [ 0.0, 1.65, 0.77 ],
+													"from": [ -0.22, 0.0, -0.066 ],
+													"to": [ 0.0, 0.33, 0.154 ],
 													"uv": [ 136.0, 4.0 ],
-													"rotationOrigin": [ 2.2, 2.2, 2.42 ],
+													"rotationOrigin": [ 0.44, 0.44, 0.484 ],
 													"faces": {
 														"north": { "texture": "#ankylo", "uv": [ 136.0, 8.0, 140.0, 12.0 ], "autoUv": false },
 														"east": { "texture": "#ankylo", "uv": [ 140.0, 8.0, 144.0, 12.0 ], "autoUv": false },
@@ -3442,10 +3340,10 @@
 												},
 												{
 													"name": "Toe14",
-													"from": [ -1.1, 0.0, 1.43 ],
-													"to": [ 0.0, 1.65, 2.53 ],
+													"from": [ -0.22, 0.0, 0.286 ],
+													"to": [ 0.0, 0.33, 0.506 ],
 													"uv": [ 136.0, 4.0 ],
-													"rotationOrigin": [ 2.2, 2.2, 4.18 ],
+													"rotationOrigin": [ 0.44, 0.44, 0.836 ],
 													"faces": {
 														"north": { "texture": "#ankylo", "uv": [ 136.0, 8.0, 140.0, 12.0 ], "autoUv": false },
 														"east": { "texture": "#ankylo", "uv": [ 140.0, 8.0, 144.0, 12.0 ], "autoUv": false },
@@ -3457,10 +3355,10 @@
 												},
 												{
 													"name": "Toe15",
-													"from": [ -1.1, 0.0, 3.08 ],
-													"to": [ 0.0, 1.65, 4.18 ],
+													"from": [ -0.22, 0.0, 0.616 ],
+													"to": [ 0.0, 0.33, 0.836 ],
 													"uv": [ 136.0, 4.0 ],
-													"rotationOrigin": [ 2.2, 2.2, 5.83 ],
+													"rotationOrigin": [ 0.44, 0.44, 1.166 ],
 													"faces": {
 														"north": { "texture": "#ankylo", "uv": [ 136.0, 8.0, 140.0, 12.0 ], "autoUv": false },
 														"east": { "texture": "#ankylo", "uv": [ 140.0, 8.0, 144.0, 12.0 ], "autoUv": false },
@@ -3472,10 +3370,10 @@
 												},
 												{
 													"name": "Toe16",
-													"from": [ -1.1, 0.0, 4.73 ],
-													"to": [ 0.0, 1.65, 5.83 ],
+													"from": [ -0.22, 0.0, 0.946 ],
+													"to": [ 0.0, 0.33, 1.166 ],
 													"uv": [ 136.0, 4.0 ],
-													"rotationOrigin": [ 2.2, 2.2, 7.48 ],
+													"rotationOrigin": [ 0.44, 0.44, 1.496 ],
 													"faces": {
 														"north": { "texture": "#ankylo", "uv": [ 136.0, 8.0, 140.0, 12.0 ], "autoUv": false },
 														"east": { "texture": "#ankylo", "uv": [ 140.0, 8.0, 144.0, 12.0 ], "autoUv": false },
@@ -3491,11 +3389,11 @@
 								},
 								{
 									"name": "Leg Front L17",
-									"from": [ -1.1, 0.55, 0.55 ],
-									"to": [ 0.0, 15.95, 3.85 ],
+									"from": [ -0.22, 0.11, 0.11 ],
+									"to": [ 0.0, 3.19, 0.77 ],
 									"autoUnwrap": false,
 									"uv": [ 95.0, 120.0 ],
-									"rotationOrigin": [ -1.1, 0.55, 0.55 ],
+									"rotationOrigin": [ -0.22, 0.11, 0.11 ],
 									"faces": {
 										"north": { "texture": "#ankylo", "uv": [ 75.0, 120.0, 76.0, 134.0 ], "autoUv": false, "snapUv": false },
 										"east": { "texture": "#ankylo", "uv": [ 8.0, 0.0, 11.0, 14.0 ], "autoUv": false, "snapUv": false },
@@ -3507,11 +3405,11 @@
 								},
 								{
 									"name": "Leg Front L18",
-									"from": [ 1.1, 0.66, -1.1 ],
-									"to": [ 7.04, 16.06, 0.0 ],
+									"from": [ 0.22, 0.132, -0.22 ],
+									"to": [ 1.408, 3.212, 0.0 ],
 									"autoUnwrap": false,
 									"uv": [ 117.0, 124.0 ],
-									"rotationOrigin": [ 4.4, 8.36, 1.1 ],
+									"rotationOrigin": [ 0.88, 1.672, 0.22 ],
 									"faces": {
 										"north": { "texture": "#ankylo", "uv": [ 96.0, 121.0, 101.4, 135.0 ], "autoUv": false, "snapUv": false },
 										"east": { "texture": "#ankylo", "uv": [ 84.0, 121.0, 85.0, 135.0 ], "autoUv": false, "snapUv": false },
@@ -3525,10 +3423,10 @@
 						},
 						{
 							"name": "Derm collection3",
-							"from": [ 6.6, -0.55, -2.2 ],
-							"to": [ 6.6, -0.55, -2.2 ],
+							"from": [ 1.32, -0.11, -0.44 ],
+							"to": [ 1.32, -0.11, -0.44 ],
 							"uv": [ 4.0, 4.0 ],
-							"rotationOrigin": [ 6.6, -0.55, -2.2 ],
+							"rotationOrigin": [ 1.32, -0.11, -0.44 ],
 							"faces": {
 								"north": { "texture": "#ankylo", "uv": [ 4.0, 8.0, 8.0, 12.0 ], "autoUv": false },
 								"east": { "texture": "#ankylo", "uv": [ 8.0, 8.0, 12.0, 12.0 ], "autoUv": false },
@@ -3540,10 +3438,10 @@
 							"children": [
 								{
 									"name": "Derm22",
-									"from": [ 0.0, 13.2, 0.0 ],
-									"to": [ 4.4, 15.95, 2.2 ],
+									"from": [ 0.0, 2.64, 0.0 ],
+									"to": [ 0.88, 3.19, 0.44 ],
 									"uv": [ 96.0, 4.0 ],
-									"rotationOrigin": [ 4.4, 13.2, 2.2 ],
+									"rotationOrigin": [ 0.88, 2.64, 0.44 ],
 									"rotationY": 17.0,
 									"faces": {
 										"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
@@ -3556,10 +3454,10 @@
 								},
 								{
 									"name": "Derm27",
-									"from": [ 6.6, 13.2, 0.0 ],
-									"to": [ 11.0, 15.95, 2.2 ],
+									"from": [ 1.32, 2.64, 0.0 ],
+									"to": [ 2.2, 3.19, 0.44 ],
 									"uv": [ 96.0, 4.0 ],
-									"rotationOrigin": [ 11.0, 13.2, 2.2 ],
+									"rotationOrigin": [ 2.2, 2.64, 0.44 ],
 									"rotationY": 17.0,
 									"faces": {
 										"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
@@ -3572,10 +3470,10 @@
 								},
 								{
 									"name": "Derm33",
-									"from": [ 0.0, 13.2, 26.4 ],
-									"to": [ 4.4, 15.95, 28.6 ],
+									"from": [ 0.0, 2.64, 5.28 ],
+									"to": [ 0.88, 3.19, 5.72 ],
 									"uv": [ 96.0, 4.0 ],
-									"rotationOrigin": [ 4.4, 13.2, 26.4 ],
+									"rotationOrigin": [ 0.88, 2.64, 5.28 ],
 									"rotationY": -17.0,
 									"faces": {
 										"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
@@ -3588,10 +3486,10 @@
 								},
 								{
 									"name": "Derm34",
-									"from": [ 6.6, 13.2, 26.4 ],
-									"to": [ 11.0, 15.95, 28.6 ],
+									"from": [ 1.32, 2.64, 5.28 ],
+									"to": [ 2.2, 3.19, 5.72 ],
 									"uv": [ 96.0, 4.0 ],
-									"rotationOrigin": [ 11.0, 13.2, 26.4 ],
+									"rotationOrigin": [ 2.2, 2.64, 5.28 ],
 									"rotationY": -17.0,
 									"faces": {
 										"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
@@ -3606,10 +3504,10 @@
 						},
 						{
 							"name": "Cube6",
-							"from": [ 6.149, 15.73, 19.8 ],
-							"to": [ 6.149, 15.73, 19.8 ],
+							"from": [ 1.2298, 3.146, 3.96 ],
+							"to": [ 1.2298, 3.146, 3.96 ],
 							"uv": [ 4.0, 4.0 ],
-							"rotationOrigin": [ 6.1493, 15.7335, 19.8 ],
+							"rotationOrigin": [ 1.2299, 3.1467, 3.96 ],
 							"rotationZ": 14.0,
 							"faces": {
 								"north": { "texture": "#ankylo", "uv": [ 4.0, 8.0, 8.0, 12.0 ], "autoUv": false },
@@ -3636,10 +3534,10 @@
 									"children": [
 										{
 											"name": "Derm71",
-											"from": [ 0.0, 0.0, -0.11 ],
-											"to": [ 4.4, 2.75, 3.19 ],
+											"from": [ 0.0, 0.0, -0.022 ],
+											"to": [ 0.88, 0.55, 0.638 ],
 											"uv": [ 96.0, 4.0 ],
-											"rotationOrigin": [ 4.4, 0.0, -0.11 ],
+											"rotationOrigin": [ 0.88, 0.0, -0.022 ],
 											"faces": {
 												"north": { "texture": "#ankylo", "uv": [ 96.9375, 8.8125, 99.875, 11.75 ], "autoUv": false },
 												"east": { "texture": "#ankylo", "uv": [ 99.875, 8.8125, 102.8125, 11.75 ], "autoUv": false },
@@ -3651,10 +3549,10 @@
 										},
 										{
 											"name": "Derm72",
-											"from": [ 0.0, 0.0, -6.05 ],
-											"to": [ 4.4, 2.75, -2.75 ],
+											"from": [ 0.0, 0.0, -1.21 ],
+											"to": [ 0.88, 0.55, -0.55 ],
 											"uv": [ 96.0, 4.0 ],
-											"rotationOrigin": [ 4.4, 0.0, -6.05 ],
+											"rotationOrigin": [ 0.88, 0.0, -1.21 ],
 											"faces": {
 												"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
 												"east": { "texture": "#ankylo", "uv": [ 100.0, 8.0, 104.0, 12.0 ], "autoUv": false },
@@ -3666,10 +3564,10 @@
 										},
 										{
 											"name": "Derm73",
-											"from": [ 0.0, 0.0, -12.65 ],
-											"to": [ 4.4, 2.75, -9.35 ],
+											"from": [ 0.0, 0.0, -2.53 ],
+											"to": [ 0.88, 0.55, -1.87 ],
 											"uv": [ 96.0, 4.0 ],
-											"rotationOrigin": [ 4.4, 0.0, -12.65 ],
+											"rotationOrigin": [ 0.88, 0.0, -2.53 ],
 											"faces": {
 												"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
 												"east": { "texture": "#ankylo", "uv": [ 100.0, 8.0, 104.0, 12.0 ], "autoUv": false },
@@ -3681,10 +3579,10 @@
 										},
 										{
 											"name": "Derm74",
-											"from": [ 0.0, 0.0, -18.59 ],
-											"to": [ 4.4, 2.75, -15.29 ],
+											"from": [ 0.0, 0.0, -3.718 ],
+											"to": [ 0.88, 0.55, -3.058 ],
 											"uv": [ 96.0, 4.0 ],
-											"rotationOrigin": [ 4.4, 0.0, -18.59 ],
+											"rotationOrigin": [ 0.88, 0.0, -3.718 ],
 											"faces": {
 												"north": { "texture": "#ankylo", "uv": [ 96.9375, 8.8125, 99.875, 11.75 ], "autoUv": false },
 												"east": { "texture": "#ankylo", "uv": [ 99.875, 8.8125, 102.8125, 11.75 ], "autoUv": false },
@@ -3698,10 +3596,10 @@
 								},
 								{
 									"name": "Cube8",
-									"from": [ 7.3583, -2.2513, 0.0 ],
-									"to": [ 7.3583, -2.2513, 0.0 ],
+									"from": [ 1.4717, -0.4503, 0.0 ],
+									"to": [ 1.4717, -0.4503, 0.0 ],
 									"uv": [ 4.0, 4.0 ],
-									"rotationOrigin": [ 7.3635, -2.2513, 0.0 ],
+									"rotationOrigin": [ 1.4727, -0.4503, 0.0 ],
 									"faces": {
 										"north": { "texture": "#ankylo", "uv": [ 4.0, 8.0, 8.0, 12.0 ], "autoUv": false },
 										"east": { "texture": "#ankylo", "uv": [ 8.0, 8.0, 12.0, 12.0 ], "autoUv": false },
@@ -3713,10 +3611,10 @@
 									"children": [
 										{
 											"name": "Derm76",
-											"from": [ -1.1, 1.1, -6.05 ],
-											"to": [ 3.3, 3.85, -2.75 ],
+											"from": [ -0.22, 0.22, -1.21 ],
+											"to": [ 0.66, 0.77, -0.55 ],
 											"uv": [ 96.0, 4.0 ],
-											"rotationOrigin": [ 3.3, 1.1, -6.05 ],
+											"rotationOrigin": [ 0.66, 0.22, -1.21 ],
 											"faces": {
 												"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
 												"east": { "texture": "#ankylo", "uv": [ 100.0, 8.0, 104.0, 12.0 ], "autoUv": false },
@@ -3728,10 +3626,10 @@
 										},
 										{
 											"name": "Derm77",
-											"from": [ -1.1, 1.1, -12.65 ],
-											"to": [ 3.3, 3.85, -9.35 ],
+											"from": [ -0.22, 0.22, -2.53 ],
+											"to": [ 0.66, 0.77, -1.87 ],
 											"uv": [ 96.0, 4.0 ],
-											"rotationOrigin": [ 3.3, 1.1, -12.65 ],
+											"rotationOrigin": [ 0.66, 0.22, -2.53 ],
 											"faces": {
 												"north": { "texture": "#ankylo", "uv": [ 96.0, 8.0, 100.0, 12.0 ], "autoUv": false },
 												"east": { "texture": "#ankylo", "uv": [ 100.0, 8.0, 104.0, 12.0 ], "autoUv": false },
@@ -3774,7 +3672,7 @@
 						"Leg Front L14": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -6.0 },
 						"Leg Front L15": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 28.0 },
 						"Foot4": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 8.0 },
-						"Center": { "offsetX": 0.0, "offsetY": -0.275, "offsetZ": 0.0 },
+						"Center": { "offsetX": 0.0, "offsetY": -0.055, "offsetZ": 0.0 },
 						"Body Front 1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
 						"Body Back": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
 						"Head": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 3.0 },
@@ -3798,7 +3696,7 @@
 						"Leg Front L10": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
 						"Leg Front L9": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -14.0 },
 						"Foot3": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 33.0 },
-						"Center": { "offsetX": -1.1, "offsetY": 0.0, "offsetZ": 0.0 },
+						"Center": { "offsetX": -0.22, "offsetY": 0.0, "offsetZ": 0.0 },
 						"Body Front 1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 3.0 },
 						"Body Front": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 6.0 },
 						"Body Back": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 1.0 },
@@ -3821,7 +3719,7 @@
 						"Leg Front L4": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 3.0 },
 						"Leg Front L9": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 17.0 },
 						"Foot3": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 3.0 },
-						"Center": { "offsetX": 0.0, "offsetY": -0.275, "offsetZ": 0.0 },
+						"Center": { "offsetX": 0.0, "offsetY": -0.055, "offsetZ": 0.0 },
 						"Body Front 1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
 						"Body Front": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 5.0 },
 						"Body Back": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
@@ -3845,7 +3743,7 @@
 						"Leg Front L7": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
 						"Leg Front L8": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
 						"Foot2": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
-						"Center": { "offsetX": -1.1, "offsetY": 0.0, "offsetZ": 0.0 },
+						"Center": { "offsetX": -0.22, "offsetY": 0.0, "offsetZ": 0.0 },
 						"Body Front 1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 3.0 },
 						"Body Front": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 6.0 },
 						"Body Back": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 1.0 },
@@ -3880,7 +3778,7 @@
 						"Leg Front L14": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -6.0 },
 						"Leg Front L15": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 28.0 },
 						"Foot4": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 8.0 },
-						"Center": { "offsetX": 0.0, "offsetY": -0.275, "offsetZ": 0.0 },
+						"Center": { "offsetX": 0.0, "offsetY": -0.055, "offsetZ": 0.0 },
 						"Body Front 1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 8.0 },
 						"Body Back": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
 						"Head": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 17.0 },
@@ -3906,7 +3804,7 @@
 						"Leg Front L10": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
 						"Leg Front L9": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -14.0 },
 						"Foot3": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 33.0 },
-						"Center": { "offsetX": -1.1, "offsetY": 0.0, "offsetZ": 0.0 },
+						"Center": { "offsetX": -0.22, "offsetY": 0.0, "offsetZ": 0.0 },
 						"Body Front 1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 5.0 },
 						"Body Front": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 6.0 },
 						"Body Back": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 1.0 },
@@ -3930,7 +3828,7 @@
 						"Leg Front L4": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 3.0 },
 						"Leg Front L9": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 17.0 },
 						"Foot3": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 3.0 },
-						"Center": { "offsetX": 0.0, "offsetY": -0.275, "offsetZ": 0.0 },
+						"Center": { "offsetX": 0.0, "offsetY": -0.055, "offsetZ": 0.0 },
 						"Body Front 1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 8.0 },
 						"Body Front": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 5.0 },
 						"Body Back": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
@@ -3955,7 +3853,7 @@
 						"Leg Front L7": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
 						"Leg Front L8": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
 						"Foot2": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
-						"Center": { "offsetX": -1.1, "offsetY": 0.0, "offsetZ": 0.0 },
+						"Center": { "offsetX": -0.22, "offsetY": 0.0, "offsetZ": 0.0 },
 						"Body Front 1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 8.0 },
 						"Body Front": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 6.0 },
 						"Body Back": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 1.0 },
@@ -3995,7 +3893,7 @@
 						"Body Front 1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -11.0 },
 						"Head": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 8.0 },
 						"Tail2": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 6.0 },
-						"Center": { "offsetX": -2.2, "offsetY": -0.55, "offsetZ": 0.0 }
+						"Center": { "offsetX": -0.44, "offsetY": -0.11, "offsetZ": 0.0 }
 					}
 				},
 				{
@@ -4042,7 +3940,7 @@
 						"Foot": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 47.0 },
 						"Head": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 11.0 },
 						"Tail2": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
-						"Center": { "offsetX": -2.2, "offsetY": -0.55, "offsetZ": 0.0 }
+						"Center": { "offsetX": -0.44, "offsetY": -0.11, "offsetZ": 0.0 }
 					}
 				},
 				{
@@ -4087,7 +3985,7 @@
 						"Leg Front L7": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 19.0 },
 						"Leg Front L4": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -6.0 },
 						"Leg Front L14": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 36.0 },
-						"Center": { "offsetX": 2.2, "offsetY": 0.0, "offsetZ": 0.0 },
+						"Center": { "offsetX": 0.44, "offsetY": 0.0, "offsetZ": 0.0 },
 						"Leg Front L8": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 44.0 },
 						"Leg Front L9": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 33.0 },
 						"Leg Front L15": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
@@ -4106,7 +4004,7 @@
 						"Leg Front L7": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -11.0 },
 						"Leg Front L4": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 36.0 },
 						"Leg Front L14": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
-						"Center": { "offsetX": 0.0, "offsetY": 1.1, "offsetZ": 0.0 },
+						"Center": { "offsetX": 0.0, "offsetY": 0.22, "offsetZ": 0.0 },
 						"Leg Front L2": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 28.0 },
 						"Leg Front L8": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.0 },
 						"Leg Front L9": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 30.0 },
@@ -4122,7 +4020,7 @@
 						"Leg Front L7": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -25.0 },
 						"Leg Front L4": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -3.0 },
 						"Leg Front L14": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -22.0 },
-						"Center": { "offsetX": 2.2, "offsetY": 0.0, "offsetZ": 0.0 },
+						"Center": { "offsetX": 0.44, "offsetY": 0.0, "offsetZ": 0.0 },
 						"Leg Front L2": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 58.0 },
 						"Leg Front L8": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -8.0 },
 						"Leg Front L9": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 19.0 },
@@ -4139,7 +4037,7 @@
 						"Leg Front L7": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 17.0 },
 						"Leg Front L4": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -19.0 },
 						"Leg Front L14": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 30.0 },
-						"Center": { "offsetX": 0.0, "offsetY": 1.1, "offsetZ": 0.0 },
+						"Center": { "offsetX": 0.0, "offsetY": 0.22, "offsetZ": 0.0 },
 						"Leg Front L2": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 14.0 },
 						"Leg Front L8": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 75.0 },
 						"Leg Front L9": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -25.0 },
@@ -4161,7 +4059,7 @@
 				{
 					"frame": 0,
 					"elements": {
-						"Body": { "offsetX": 0.0, "offsetY": -0.275, "offsetZ": 0.0 },
+						"Body": { "offsetX": 0.0, "offsetY": -0.055, "offsetZ": 0.0 },
 						"Tail": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
 						"Body Front 1": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 }
 					}
@@ -4215,7 +4113,7 @@
 				{
 					"frame": 0,
 					"elements": {
-						"Center": { "offsetX": 0.0, "offsetY": -11.0, "offsetZ": 0.0 },
+						"Center": { "offsetX": 0.0, "offsetY": -2.2, "offsetZ": 0.0 },
 						"Leg Front L": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 58.0 },
 						"Leg Front L2": { "rotationX": 19.0, "rotationY": 0.0, "rotationZ": -138.0 },
 						"Leg Front L4": { "rotationX": -11.0, "rotationY": -3.0, "rotationZ": -30.0 },
@@ -4230,7 +4128,7 @@
 						"Tail3": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 17.0 },
 						"Body Front 1": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -14.0 },
 						"Head": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 17.0 },
-						"Body": { "offsetX": 0.0, "offsetY": 0.275, "offsetZ": 0.0 }
+						"Body": { "offsetX": 0.0, "offsetY": 0.055, "offsetZ": 0.0 }
 					}
 				},
 				{
@@ -4238,7 +4136,7 @@
 					"elements": {
 						"Head": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.0 },
 						"Body": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 0.0 },
-						"Body Front 1": { "offsetX": 0.0, "offsetY": -0.11, "offsetZ": 0.0 }
+						"Body Front 1": { "offsetX": 0.0, "offsetY": -0.022, "offsetZ": 0.0 }
 					}
 				}
 			]
@@ -4254,7 +4152,7 @@
 				{
 					"frame": 0,
 					"elements": {
-						"Center": { "offsetX": 0.0, "offsetY": -11.0, "offsetZ": 0.0 },
+						"Center": { "offsetX": 0.0, "offsetY": -2.2, "offsetZ": 0.0 },
 						"Leg Front L": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 58.0 },
 						"Leg Front L2": { "rotationX": 19.0, "rotationY": 0.0, "rotationZ": -138.0 },
 						"Leg Front L4": { "rotationX": -11.0, "rotationY": -3.0, "rotationZ": -30.0 },
@@ -4268,11 +4166,11 @@
 						"Tail": { "rotationX": 0.0, "rotationY": -30.0, "rotationZ": -14.0 },
 						"Tail3": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
 						"Body Front 1": { "rotationX": 0.0, "rotationY": 30.0, "rotationZ": 19.0 },
-						"Body": { "offsetX": 0.0, "offsetY": 0.275, "offsetZ": 0.0 },
+						"Body": { "offsetX": 0.0, "offsetY": 0.055, "offsetZ": 0.0 },
 						"Head": { "rotationX": 44.0, "rotationY": 28.0, "rotationZ": -44.0 },
 						"Neck": { "rotationX": 0.0, "rotationY": 25.0, "rotationZ": 17.0 },
 						"Head3": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
-						"Eyes": { "offsetX": 2.2, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Eyes": { "offsetX": 0.44, "offsetY": 0.0, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
 						"Body Back": { "rotationX": 0.0, "rotationY": -8.0, "rotationZ": 0.0 },
 						"Tail6": { "rotationX": 0.0, "rotationY": -36.0, "rotationZ": 0.0 },
 						"Tail2": { "rotationX": 11.0, "rotationY": -39.0, "rotationZ": 0.0 }
@@ -4323,7 +4221,7 @@
 					"frame": 29,
 					"elements": {
 						"Body": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
-						"Center": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 15.4, "rotationX": -90.0, "rotationY": 0.0, "rotationZ": 0.0 },
+						"Center": { "offsetX": 0.0, "offsetY": 0.0, "offsetZ": 3.08, "rotationX": -90.0, "rotationY": 0.0, "rotationZ": 0.0 },
 						"Body Front 1": { "rotationX": 0.0, "rotationY": -39.0, "rotationZ": -22.0 },
 						"Lower Jar": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 36.0 },
 						"Leg Front L": { "rotationX": 39.0, "rotationY": 0.0, "rotationZ": 0.0 },
@@ -4434,7 +4332,7 @@
 				{
 					"frame": 0,
 					"elements": {
-						"Center": { "offsetX": 0.0, "offsetY": -11.0, "offsetZ": 0.0 },
+						"Center": { "offsetX": 0.0, "offsetY": -2.2, "offsetZ": 0.0 },
 						"Leg Front L": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 58.0 },
 						"Leg Front L2": { "rotationX": 19.0, "rotationY": 0.0, "rotationZ": -138.0 },
 						"Leg Front L4": { "rotationX": -11.0, "rotationY": -3.0, "rotationZ": -30.0 },
@@ -4447,8 +4345,8 @@
 						"Foot4": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 72.0 },
 						"Tail": { "rotationX": 0.0, "rotationY": -30.0, "rotationZ": -14.0 },
 						"Tail3": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
-						"Body Front 1": { "offsetX": 0.0, "offsetY": 0.165, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 3.0, "rotationZ": 3.0 },
-						"Body": { "offsetX": 0.0, "offsetY": 0.275, "offsetZ": 0.0 },
+						"Body Front 1": { "offsetX": 0.0, "offsetY": 0.033, "offsetZ": 0.0, "rotationX": 0.0, "rotationY": 3.0, "rotationZ": 3.0 },
+						"Body": { "offsetX": 0.0, "offsetY": 0.055, "offsetZ": 0.0 },
 						"Head": { "rotationX": -8.0, "rotationY": -11.0, "rotationZ": -33.0 },
 						"Neck": { "rotationX": 0.0, "rotationY": -3.0, "rotationZ": 25.0 },
 						"Head3": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
@@ -4659,11 +4557,11 @@
 						"Leg Front L8": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
 						"Leg Front L15": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
 						"Body Back": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -6.0 },
-						"Body": { "offsetX": 0.0, "offsetY": 0.275, "offsetZ": 0.0 },
+						"Body": { "offsetX": 0.0, "offsetY": 0.055, "offsetZ": 0.0 },
 						"Head": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -8.0 },
 						"Tail": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -3.0 },
 						"Tail2": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -12.0 },
-						"Center": { "offsetX": -1.1, "offsetY": 0.0, "offsetZ": 0.0 }
+						"Center": { "offsetX": -0.22, "offsetY": 0.0, "offsetZ": 0.0 }
 					}
 				},
 				{
@@ -4683,7 +4581,7 @@
 						"Leg Front L15": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -3.0 },
 						"Body Front": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
 						"Body Back": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
-						"Body": { "offsetX": 0.0, "offsetY": 0.385, "offsetZ": 0.0 },
+						"Body": { "offsetX": 0.0, "offsetY": 0.077, "offsetZ": 0.0 },
 						"Head": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
 						"Tail": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
 						"Tail2": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
@@ -4707,11 +4605,11 @@
 						"Foot4": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 22.0 },
 						"Body Front": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 11.0 },
 						"Body Back": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -6.0 },
-						"Body": { "offsetX": 0.0, "offsetY": 0.275, "offsetZ": 0.0 },
+						"Body": { "offsetX": 0.0, "offsetY": 0.055, "offsetZ": 0.0 },
 						"Head": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -8.0 },
 						"Tail": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -3.0 },
 						"Tail2": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": -12.0 },
-						"Center": { "offsetX": -1.1, "offsetY": 0.0, "offsetZ": 0.0 }
+						"Center": { "offsetX": -0.22, "offsetY": 0.0, "offsetZ": 0.0 }
 					}
 				},
 				{
@@ -4731,7 +4629,7 @@
 						"Foot4": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 33.0 },
 						"Body Front": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
 						"Body Back": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
-						"Body": { "offsetX": 0.0, "offsetY": 0.385, "offsetZ": 0.0 },
+						"Body": { "offsetX": 0.0, "offsetY": 0.077, "offsetZ": 0.0 },
 						"Head": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
 						"Tail": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
 						"Tail2": { "rotationX": 0.0, "rotationY": 0.0, "rotationZ": 0.0 },
