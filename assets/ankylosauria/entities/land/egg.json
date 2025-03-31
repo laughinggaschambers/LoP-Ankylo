@@ -1,8 +1,8 @@
 {
-	"code": "ceratopsidae",
+	"code": "ankylosauria",
 	"class": "EntityAgent",
 	"variantgroups": [
-		{"code": "type","states": ["triceratops","pentaceratops","styracosaurus","centrosaurus","nasutoceratops","pachyrhinosaurus"]},
+		{"code": "type","states": ["ankylosaurus","tarchia","euoplocephalus","edmontonia","ziapelta","pinacosaurus","antarctopelta","struthiosaurus",]},
 		{ "code": "age", "states": ["egg"] },
 		{ "code": "state", "states": ["raw"] }
 	],
@@ -25,10 +25,10 @@
 	"weightByType": {
 		"*": 1
 	},
-	"drops": [{ "type": "item", "code": "creature-ceratopsidae-{type}-egg-raw" }],
+	"drops": [{ "type": "item", "code": "creature-ankylosauria-{type}-egg-raw" }],
 	"attributes": {
 		"handbook": {
-			"groupcode": "creaturegroup-ceratopsidae"
+			"groupcode": "creaturegroup-ankylosauria"
 		}
 	},
 	"client": {
@@ -62,7 +62,7 @@
 			{
 				"code": "grow",
 				"hoursToGrow": 160,
-				"adultEntityCodesByType": {"*": ["ceratopsidae:ceratopsidae-{type}-baby-male","ceratopsidae:ceratopsidae-{type}-baby-female"]}
+				"adultEntityCodesByType": {"*": ["ankylosauria:ankylosauria-{type}-baby-male","ankylosauria:ankylosauria-{type}-baby-female"]}
 				},
 			{
 				"code": "taskai",
@@ -90,7 +90,7 @@
 				"maxQuantity": 1,
 				"spawnCapPlayerScaling": 0.0,
 				"maxQuantityByGroup": {
-					"code": "ceratopsidae-*",
+					"code": "ankylosauria-*",
 					"maxQuantity": 1
 				},
 				"chanceByType": {

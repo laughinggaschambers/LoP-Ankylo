@@ -4,7 +4,7 @@
 	"maxstacksize": 32,
 	"variantgroups": [
 		{"code": "family","states": ["ankylosauria",]},
-		{"code": "type","states": ["ankylosaurus",]},
+		{"code": "type","states": ["ankylosaurus","tarchia","euoplocephalus","edmontonia","ziapelta","pinacosaurus","antarctopelta","struthiosaurus",]},
 		{ "code": "age", "states": ["egg"] },
 		{ "code": "state", "states": ["raw"] }
 	],

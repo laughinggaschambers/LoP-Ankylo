@@ -8,16 +8,45 @@
       "states": [ 
 	  "ankylosauria-ankylosaurus-adult-male","ankylosauria-ankylosaurus-adult-female", "ankylosauria-ankylosaurus-baby-male", "ankylosauria-ankylosaurus-baby-female", "ankylosauria-ankylosaurus-nest-incubating","ankylosauria-ankylosaurus-nest-mature", "ankylosauria-ankylosaurus-nest-empty",
 
+	  "ankylosauria-tarchia-adult-male","ankylosauria-tarchia-adult-female", "ankylosauria-tarchia-baby-male", "ankylosauria-tarchia-baby-female", "ankylosauria-tarchia-nest-incubating","ankylosauria-tarchia-nest-mature", "ankylosauria-tarchia-nest-empty",
+
+	  "ankylosauria-euoplocephalus-adult-male","ankylosauria-euoplocephalus-adult-female", "ankylosauria-euoplocephalus-baby-male", "ankylosauria-euoplocephalus-baby-female", "ankylosauria-euoplocephalus-nest-incubating","ankylosauria-euoplocephalus-nest-mature", "ankylosauria-euoplocephalus-nest-empty",
+
+	  "ankylosauria-edmontonia-adult-male","ankylosauria-edmontonia-adult-female", "ankylosauria-edmontonia-baby-male", "ankylosauria-edmontonia-baby-female", "ankylosauria-edmontonia-nest-incubating","ankylosauria-edmontonia-nest-mature", "ankylosauria-edmontonia-nest-empty",
+
+	  "ankylosauria-ziapelta-adult-male","ankylosauria-ziapelta-adult-female", "ankylosauria-ziapelta-baby-male", "ankylosauria-ziapelta-baby-female", "ankylosauria-ziapelta-nest-incubating","ankylosauria-ziapelta-nest-mature", "ankylosauria-ziapelta-nest-empty",
+
+	  "ankylosauria-pinacosaurus-adult-male","ankylosauria-pinacosaurus-adult-female", "ankylosauria-pinacosaurus-baby-male", "ankylosauria-pinacosaurus-baby-female", "ankylosauria-pinacosaurus-nest-incubating","ankylosauria-pinacosaurus-nest-mature", "ankylosauria-pinacosaurus-nest-empty",
+
+	  "ankylosauria-antarctopelta-adult-male","ankylosauria-antarctopelta-adult-female", "ankylosauria-antarctopelta-baby-male", "ankylosauria-antarctopelta-baby-female", "ankylosauria-antarctopelta-nest-incubating","ankylosauria-antarctopelta-nest-mature", "ankylosauria-antarctopelta-nest-empty",
+
+	  "ankylosauria-struthiosaurus-adult-male","ankylosauria-struthiosaurus-adult-female", "ankylosauria-struthiosaurus-baby-male", "ankylosauria-struthiosaurus-baby-female", "ankylosauria-struthiosaurus-nest-incubating","ankylosauria-struthiosaurus-nest-mature", "ankylosauria-struthiosaurus-nest-empty",
+
+
 	  ]
     }
   ],
   "shapeByType": {
-	 "*-ankylosaurus-adult-*":{"base": "entity/land/ankylosauria/ankylosaurus/adult"},"*-ankylosaurus-baby-*":{"base": "entity/land/ankylosauria/ankylosaurus/baby"},
-	 "*-nest-*":{"base": "entity/land/nest"}, "*-nest-empty":{"base": "entity/land/nest-empty"},
+	"*-ankylosaurus-adult-*":{"base": "entity/land/ankylosauria/ankylosaurus/adult"},"*-ankylosaurus-baby-*":{"base": "entity/land/ankylosauria/ankylosaurus/baby"},
+	"*-tarchia-adult-*":{"base": "entity/land/ankylosauria/tarchia/adult"},"*-tarchia-baby-*":{"base": "entity/land/ankylosauria/tarchia/baby"},
+	"*-euoplocephalus-adult-*":{"base": "entity/land/ankylosauria/euoplocephalus/adult"},"*-euoplocephalus-baby-*":{"base": "entity/land/ankylosauria/euoplocephalus/baby"},
+	"*-edmontonia-adult-*":{"base": "entity/land/ankylosauria/edmontonia/adult"},"*-edmontonia-baby-*":{"base": "entity/land/ankylosauria/edmontonia/baby"},
+	"*-ziapelta-adult-*":{"base": "entity/land/ankylosauria/ziapelta/adult"},"*-ziapelta-baby-*":{"base": "entity/land/ankylosauria/ziapelta/baby"},
+	"*-pinacosaurus-adult-*":{"base": "entity/land/ankylosauria/pinacosaurus/adult"},"*-pinacosaurus-baby-*":{"base": "entity/land/ankylosauria/pinacosaurus/baby"},
+	"*-antarctopelta-adult-*":{"base": "entity/land/ankylosauria/antarctopelta/adult"},"*-antarctopelta-baby-*":{"base": "entity/land/ankylosauria/antarctopelta/baby"},
+	"*-struthiosaurus-adult-*":{"base": "entity/land/ankylosauria/struthiosaurus/adult"},"*-struthiosaurus-baby-*":{"base": "entity/land/ankylosauria/struthiosaurus/baby"},
+	"*-nest-*":{"base": "entity/land/nest"}, "*-nest-empty":{"base": "entity/land/nest-empty"},
   },
   "textureByType": {
-	 "*-ankylosaurus-adult-*":{"base": "entity/ankylosaurus-adult"},"*-ankylosaurus-baby-*":{"base": "entity/ankylosaurus-adult"},
-  },
+	"*-ankylosaurus-adult-*":{"base": "entity/ankylosaurus-adult"},"*-ankylosaurus-baby-*":{"base": "entity/ankylosaurus-adult"},
+	"*-tarchia-adult-*":{"base": "entity/tarchia-adult"},"*-tarchia-baby-*":{"base": "entity/tarchia-adult"},
+	"*-euoplocephalus-adult-*":{"base": "entity/euoplocephalus-adult"},"*-euoplocephalus-baby-*":{"base": "entity/euoplocephalus-adult"},
+	"*-edmontonia-adult-*":{"base": "entity/edmontonia-adult"},"*-edmontonia-baby-*":{"base": "entity/edmontonia-adult"},
+	"*-ziapelta-adult-*":{"base": "entity/ziapelta-adult"},"*-ziapelta-baby-*":{"base": "entity/ziapelta-adult"},
+	"*-pinacosaurus-adult-*":{"base": "entity/pinacosaurus-adult"},"*-pinacosaurus-baby-*":{"base": "entity/pinacosaurus-adult"},
+	"*-antarctopelta-adult-*":{"base": "entity/antarctopelta-adult"},"*-antarctopelta-baby-*":{"base": "entity/antarctopelta-adult"},
+	"*-struthiosaurus-adult-*":{"base": "entity/struthiosaurus-adult"},"*-struthiosaurus-baby-*":{"base": "entity/struthiosaurus-adult"},
+ },
   "creativeinventory": { "general": ["*"], "items": ["*"], "creatures": ["*"] },
 	"materialDensity": 600,
 	"guiTransformByType": {

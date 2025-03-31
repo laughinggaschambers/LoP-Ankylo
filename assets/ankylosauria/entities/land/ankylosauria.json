@@ -2,13 +2,20 @@
     "code": "ankylosauria",
     "class": "EntityAgent",
     "variantgroups": [
-        {"code": "type","states": ["ankylosaurus",]},
+        {"code": "type","states": ["ankylosaurus","tarchia","euoplocephalus","edmontonia","ziapelta","pinacosaurus","antarctopelta","struthiosaurus",]},
         {"code": "age","states": [ "adult","baby"]},
         {"code": "gender","states": ["male","female"]},
     ],
     "fallDamageMultiplierByType": { "*-baby-*" :2,"*-adult-*" :5},
     "hitBoxSizeByType": {
-			"*-ankylosaurus-adult-male": {"x": 2.5,"y": 2},"*-ankylosaurus-adult-female": {"x": 2.5,"y": 2},"*-ankylosaurus-baby-*": {"x": 0.75,"y": 0.75},
+			"*-ankylosaurus-adult-male": {"x": 3,"y": 2},"*-ankylosaurus-adult-female": {"x": 3,"y": 2},"*-ankylosaurus-baby-*": {"x": 0.5,"y": 0.5},
+			"*-tarchia-adult-male": {"x": 3,"y": 2},"*-tarchia-adult-female": {"x": 3,"y": 2},"*-tarchia-baby-*": {"x": 0.5,"y": 0.5},
+			"*-euoplocephalus-adult-male": {"x": 2.5,"y": 2},"*-euoplocephalus-adult-female": {"x": 2.5,"y": 2},"*-euoplocephalus-baby-*": {"x": 0.5,"y": 0.5},
+			"*-edmontonia-adult-male": {"x": 2.5,"y": 2},"*-edmontonia-adult-female": {"x": 2.5,"y": 2},"*-edmontonia-baby-*": {"x": 0.5,"y": 0.5},
+			"*-ziapelta-adult-male": {"x": 2.5,"y": 1.5},"*-ziapelta-adult-female": {"x": 2.5,"y": 1.5},"*-ziapelta-baby-*": {"x": 0.5,"y": 0.3},
+			"*-pinacosaurus-adult-male": {"x": 2.5,"y": 1.5},"*-pinacosaurus-adult-female": {"x": 2.5,"y": 1.5},"*-pinacosaurus-baby-*": {"x": 0.4,"y": 0.3},
+			"*-antarctopelta-adult-male": {"x": 2,"y": 1},"*-antarctopelta-adult-female": {"x": 2,"y": 1},"*-antarctopelta-baby-*": {"x": 0.4,"y": 0.3},
+			"*-struthiosaurus-adult-male": {"x": 1.25,"y": 1},"*-struthiosaurus-adult-female": {"x": 1.25,"y": 1},"*-struthiosaurus-baby-*": {"x": 0.3,"y": 0.2},
 		},
 
     "deadhitBoxSizeByType": {"*-adult-*":{	"x": 3,"y": 3},"*-baby-*":{	"x": 1,"y": 1}},
@@ -258,14 +265,35 @@
         "renderer": "Shape",
         "shapeByType": {
 			"*-ankylosaurus-adult-*":{"base": "entity/land/ankylosauria/ankylosaurus/adult"},"*-ankylosaurus-baby-*":{"base": "entity/land/ankylosauria/ankylosaurus/baby"},
+			"*-tarchia-adult-*":{"base": "entity/land/ankylosauria/tarchia/adult"},"*-tarchia-baby-*":{"base": "entity/land/ankylosauria/tarchia/baby"},
+			"*-euoplocephalus-adult-*":{"base": "entity/land/ankylosauria/euoplocephalus/adult"},"*-euoplocephalus-baby-*":{"base": "entity/land/ankylosauria/euoplocephalus/baby"},
+			"*-edmontonia-adult-*":{"base": "entity/land/ankylosauria/edmontonia/adult"},"*-edmontonia-baby-*":{"base": "entity/land/ankylosauria/edmontonia/baby"},
+			"*-ziapelta-adult-*":{"base": "entity/land/ankylosauria/ziapelta/adult"},"*-ziapelta-baby-*":{"base": "entity/land/ankylosauria/ziapelta/baby"},
+			"*-pinacosaurus-adult-*":{"base": "entity/land/ankylosauria/pinacosaurus/adult"},"*-pinacosaurus-baby-*":{"base": "entity/land/ankylosauria/pinacosaurus/baby"},
+			"*-antarctopelta-adult-*":{"base": "entity/land/ankylosauria/antarctopelta/adult"},"*-antarctopelta-baby-*":{"base": "entity/land/ankylosauria/antarctopelta/baby"},
+			"*-struthiosaurus-adult-*":{"base": "entity/land/ankylosauria/struthiosaurus/adult"},"*-struthiosaurus-baby-*":{"base": "entity/land/ankylosauria/struthiosaurus/baby"},
 		},
          "textureByType": {
             "*-ankylosaurus-adult-*":{"base": "entity/ankylosaurus-adult"},"*-ankylosaurus-baby-*":{"base": "entity/ankylosaurus-adult"},
+            "*-tarchia-adult-*":{"base": "entity/tarchia-adult"},"*-tarchia-baby-*":{"base": "entity/tarchia-adult"},
+            "*-euoplocephalus-adult-*":{"base": "entity/euoplocephalus-adult"},"*-euoplocephalus-baby-*":{"base": "entity/euoplocephalus-adult"},
+            "*-edmontonia-adult-*":{"base": "entity/edmontonia-adult"},"*-edmontonia-baby-*":{"base": "entity/edmontonia-adult"},
+            "*-ziapelta-adult-*":{"base": "entity/ziapelta-adult"},"*-ziapelta-baby-*":{"base": "entity/ziapelta-adult"},
+            "*-pinacosaurus-adult-*":{"base": "entity/pinacosaurus-adult"},"*-pinacosaurus-baby-*":{"base": "entity/pinacosaurus-adult"},
+            "*-antarctopelta-adult-*":{"base": "entity/antarctopelta-adult"},"*-antarctopelta-baby-*":{"base": "entity/antarctopelta-adult"},
+            "*-struthiosaurus-adult-*":{"base": "entity/struthiosaurus-adult"},"*-struthiosaurus-baby-*":{"base": "entity/struthiosaurus-adult"},
         },
         "sizeByType": {
 			"*-ankylosaurus-adult-male": 1.0,"*-ankylosaurus-adult-female": 0.9,"*-ankylosaurus-baby-*": 1.0,
-
+			"*-tarchia-adult-male": 0.95,"*-tarchia-adult-female": 0.85,"*-tarchia-baby-*": 1.0,
+			"*-euoplocephalus-adult-male": 0.8,"*-euoplocephalus-adult-female": 0.7,"*-euoplocephalus-baby-*": 0.9,
+			"*-edmontonia-adult-male": 0.8,"*-edmontonia-adult-female": 0.7,"*-edmontonia-baby-*": 0.9,
+			"*-ziapelta-adult-male": 0.7,"*-ziapelta-adult-female": 0.6,"*-ziapelta-baby-*": 0.8,
+			"*-pinacosaurus-adult-male": 0.7,"*-pinacosaurus-adult-female": 0.6,"*-pinacosaurus-baby-*": 0.8,
+			"*-antarctopelta-adult-male": 0.65,"*-antarctopelta-adult-female": 0.55,"*-antarctopelta-baby-*": 0.7,
+			"*-struthiosaurus-adult-male": 0.4,"*-struthiosaurus-adult-female": 0.3,"*-struthiosaurus-baby-*": 0.5,
 		},
+
         "behaviors": [
             {"code": "repulseagents" },
 			{"code": "controlledphysics","stepHeight": 1.1251},
@@ -277,8 +305,8 @@
 			{"code": "ropetieable","minGeneration": 2},
 			{"code": "selectionboxes", "enabledByType": {  "*-baby-*": false, "*": true},"minGeneration": 3 },
 			{"code": "ownable", "enabledByType": { "*-baby-*": false,"*": true},"minGeneration": 3 },
-			{"code": "rideableaccessories", "enabledByType": {  "*-baby-*": false, "*": true},"minGeneration": 3 },
-			{"code": "rideable", "enabledByType": {  "*-baby-*": false, "*": true},"minGeneration": 3 },
+			{"code": "rideableaccessories", "enabledByType": {  "*-baby-*": false, "*": false},"minGeneration": 3 },
+			{"code": "rideable", "enabledByType": {  "*-baby-*": false, "*": false},"minGeneration": 3 },
         ],
         "animations": [
 			{"code": "attack","animation": "Attack","animationSpeed": 1.2,"weight": 10,"blendMode": "AddAverage"},
@@ -304,8 +332,8 @@
         "behaviors": [
 			{"code": "selectionboxes", "enabledByType": {  "*-baby-*": false, "*": true},"minGeneration": 3 },
 			{"code": "ownable", "enabledByType": { "*-baby-*": false,"*": true},"minGeneration": 3 },
-			{"code": "rideableaccessories", "enabledByType": {  "*-baby-*": false, "*": true},"minGeneration": 3 },
-			{"code": "rideable", "enabledByType": {  "*-baby-*": false, "*": true},"minGeneration": 3 },
+			{"code": "rideableaccessories", "enabledByType": {  "*-baby-*": false, "*": false},"minGeneration": 3 },
+			{"code": "rideable", "enabledByType": {  "*-baby-*": false, "*": false},"minGeneration": 3 },
             {"code": "repulseagents" },
             {"code": "controlledphysics","stepHeight": 1.1251},
             {"code": "despawn","minPlayerDistance": 8,"belowLightLevel": 8,"minSeconds": 300},
@@ -313,7 +341,14 @@
             {"code": "breathe"},
             {"code": "health",
                     "maxhealthByType": {
-                        "*-ankylosaurus-adult-male": 400,"*-ankylosaurus-adult-female": 390,"*-ankylosaurus-baby-*": 30,
+                        "*-ankylosaurus-adult-male": 400,"*-ankylosaurus-adult-female": 390,"*-ankylosaurus-baby-*": 20,
+                        "*-tarchia-adult-male": 390,"*-tarchia-adult-female": 380,"*-tarchia-baby-*": 18,
+						"*-euoplocephalus-adult-male": 350,"*-euoplocephalus-adult-female": 350,"*-euoplocephalus-baby-*": 15,
+						"*-edmontonia-adult-male": 350,"*-edmontonia-adult-female": 350,"*-edmontonia-baby-*": 15,
+						"*-ziapelta-adult-male": 275,"*-ziapelta-adult-female": 265,"*-ziapelta-baby-*": 12,
+						"*-pinacosaurus-adult-male": 275,"*-pinacosaurus-adult-female": 265,"*-pinacosaurus-baby-*": 12,
+						"*-antarctopelta-adult-male": 250,"*-antarctopelta-adult-female": 240,"*-antarctopelta-baby-*": 10,
+						"*-struthiosaurus-adult-male": 200,"*-struthiosaurus-adult-female": 190,"*-struthiosaurus-baby-*": 7,
                     }
 			},
             {"code": "deaddecay",
@@ -321,7 +356,7 @@
                     "decayedBlockByType": {
                     "*-adult-*": "carcass-large",
                     "*-baby-*": "carcass-medium"
-                    }
+					}
             },
             {"code": "harvestable",
 				"quantitySlots": 8,
@@ -331,6 +366,13 @@
 						"code": "game:redmeat-raw",
 						"quantityByType": {
 							"*-ankylosaurus-adult-*": {"avg": 50,"var": 10}, "*-ankylosaurus-baby-*": {"avg": 5,"var": 3},
+							"*-tarchia-adult-*": {"avg": 45,"var": 10}, "*-tarchia-baby-*": {"avg": 5,"var": 3},
+							"*-euoplocephalus-adult-*": {"avg": 40,"var": 10}, "*-euoplocephalus-baby-*": {"avg": 4,"var": 3},
+							"*-edmontonia-adult-*": {"avg": 40,"var": 10}, "*-edmontonia-baby-*": {"avg": 4,"var": 3},
+							"*-ziapelta-adult-*": {"avg": 30,"var": 10}, "*-ziapelta-baby-*": {"avg": 3,"var": 3},
+							"*-pinacosaurus-adult-*": {"avg": 30,"var": 10}, "*-pinacosaurus-baby-*": {"avg": 3,"var": 3},
+							"*-antarctopelta-adult-*": {"avg": 25,"var": 10}, "*-antarctopelta-baby-*": {"avg": 2.5,"var": 3},
+							"*-struthiosaurus-adult-*": {"avg": 10,"var": 10}, "*-struthiosaurus-baby-*": {"avg": 1,"var": 3},
 						}
 					},
 					{
@@ -338,6 +380,13 @@
 						"code": "game:fat",
 						"quantityByType": {
 							"*-ankylosaurus-adult-*": {"avg": 25,"var": 5}, "*-ankylosaurus-baby-*": {"avg": 2,"var": 3},
+							"*-tarchia-adult-*": {"avg": 20,"var": 10}, "*-tarchia-baby-*": {"avg": 2,"var": 3},
+							"*-euoplocephalus-adult-*": {"avg": 15,"var": 10}, "*-euoplocephalus-baby-*": {"avg": 2,"var": 3},
+							"*-edmontonia-adult-*": {"avg": 15,"var": 10}, "*-edmontonia-baby-*": {"avg": 4,"var": 2},
+							"*-ziapelta-adult-*": {"avg": 10,"var": 10}, "*-ziapelta-baby-*": {"avg": 2,"var": 3},
+							"*-pinacosaurus-adult-*": {"avg": 10,"var": 10}, "*-pinacosaurus-baby-*": {"avg": 2,"var": 3},
+							"*-antarctopelta-adult-*": {"avg": 8,"var": 10}, "*-antarctopelta-baby-*": {"avg": 2,"var": 3},
+							"*-struthiosaurus-adult-*": {"avg": 4,"var": 10}, "*-struthiosaurus-baby-*": {"avg": 1,"var": 3},
 						}
 					},
 					{
@@ -345,6 +394,13 @@
 						"code": "game:hide-raw-huge",
 						"quantityByType": {
 							"*-ankylosaurus-adult-*": {"avg": 3,"var": 0}, "*-ankylosaurus-baby-*": {"avg": 0,"var": 0},
+							"*-tarchia-adult-*": {"avg": 3,"var": 0}, "*-tarchia-baby-*": {"avg": 0,"var": 0},
+							"*-euoplocephalus-adult-*": {"avg": 3,"var": 0}, "*-euoplocephalus-baby-*": {"avg": 0,"var": 0},
+							"*-edmontonia-adult-*": {"avg": 3,"var": 0}, "*-edmontonia-baby-*": {"avg": 0,"var": 0},
+							"*-ziapelta-adult-*": {"avg": 3,"var": 0}, "*-ziapelta-baby-*": {"avg": 0,"var": 0},
+							"*-pinacosaurus-adult-*": {"avg": 2,"var": 0}, "*-pinacosaurus-baby-*": {"avg": 0,"var": 0},
+							"*-antarctopelta-adult-*": {"avg": 2,"var": 0}, "*-antarctopelta-baby-*": {"avg": 0,"var": 0},
+							"*-struthiosaurus-adult-*": {"avg": 1,"var": 0}, "*-struthiosaurus-baby-*": {"avg": 0,"var": 0},
 						}
 					},
 					{
@@ -414,11 +470,37 @@
 						"slot": 1,
 						"damageByType": {
 							"*-ankylosaurus-adult-male": 20,"*-ankylosaurus-adult-female": 19,"*-ankylosaurus-baby-*": 4,
+							"*-tarchia-adult-male": 19.5,"*-tarchia-adult-female": 18.5,"*-tarchia-baby-*": 3.5,
+							"*-euoplocephalus-adult-male": 17,"*-euoplocephalus-adult-female": 16,"*-euoplocephalus-baby-*": 3,
+							"*-edmontonia-adult-male": 17,"*-edmontonia-adult-female": 16,"*-edmontonia-baby-*": 3,
+							"*-ziapelta-adult-male": 15,"*-ziapelta-adult-female": 14,"*-ziapelta-baby-*": 2.5,
+							"*-pinacosaurus-adult-male": 15,"*-pinacosaurus-adult-female": 14,"*-pinacosaurus-baby-*": 2.5,
+							"*-antarctopelta-adult-male": 13,"*-antarctopelta-adult-female": 12,"*-antarctopelta-baby-*": 2,
+							"*-struthiosaurus-adult-male": 10,"*-struthiosaurus-adult-female": 9,"*-struthiosaurus-baby-*": 1,
 
 						},
-						"damageType": "SlashingAttack",
-						"knockbackStrengthByType": {"*":0.0,"*-adult-*":1},
-						"damageTierByType": {"*-baby-*":1,"*":5},
+						"knockbackStrengthByType": {
+							"*-baby-*":0.0,
+							"*-ankylosaurus-adult-*": 3,
+							"*-tarchia-adult-*": 3,
+							"*-euoplocephalus-adult-*": 2.5,
+							"*-edmontonia-adult-*": 2.5,
+							"*-ziapelta-adult-*": 2,
+							"*-pinacosaurus-adult-*": 2,
+							"*-antarctopelta-adult-*": 2,
+							"*-struthiosaurus-adult-*": 1,
+						},
+						"damageTierByType": {
+							"*-baby-*":1,
+							"*-ankylosaurus-adult-*": 5,
+							"*-tarchia-adult-*": 5,
+							"*-euoplocephalus-adult-*": 4,
+							"*-edmontonia-adult-*": 4,
+							"*-ziapelta-adult-*": 3,
+							"*-pinacosaurus-adult-*": 3,
+							"*-antarctopelta-adult-*": 2,
+							"*-struthiosaurus-adult-*": 2,
+						},
 						"attackAngleRangeDeg": 120,
 						"mincooldown": 1250,
 						"maxcooldown": 1500,
@@ -491,6 +573,11 @@
 							"*-baby-*": 5,
 							"*": 5.0
 						},
+				"*-pentaceratops-adult-male": 0.00001,"*-pentaceratops-adult-female": 0.00001,
+				"*-pachyrhinosaurus-adult-male": 0.00001,"*-pachyrhinosaurus-adult-female": 0.00001,
+				"*-styracosaurus-adult-male": 0.00001,"*-styracosaurus-adult-female": 0.00001,
+				"*-centrosaurus-adult-male": 0.00001,"*-centrosaurus-adult-female": 0.00001,
+				"*-nasutoceratops-adult-male": 0.00001,"*-nasutoceratops-adult-female": 0.00001,
 						"soundByType": {
 							"*-adult-*":"creature/roar"},
 						"whenInEmotionState": "aggressiveondamage"
@@ -658,18 +745,22 @@
 						"code": "seekfoodandeat",
 						"animation": "Walk",
 						"eatAnimation": "Eat",
-						"movespeedByType": {
-							"*-adult-*": 0.0045,
-							"*-baby-*": 0.003,
-						},
+
 						"priority": 1.34,
 						"eatSoundByType": {
 							"*":"game:creature/animal-eat*"},
 						"eatTime": 1.5,
 						"eatLooseItems": true,
+						"movespeedByType": {
+							"*-baby-*": 0.003,
+							"*-struthiosaurus-adult-*": 0.0050,
+							"*-adult-*": 0.0045,
+
+						},
 						"animationSpeedByType": {
 							"*-baby-*": 1,
-							"*": 0.75
+							"*-struthiosaurus-adult-*": 1.5,
+							"*-adult-*": 1,
 						},
 						"mincooldownHours": 1,
 						"maxcooldownHours": 4,
@@ -715,12 +806,15 @@
 						"priority": 1.0,
 						"priorityForCancel": 1.35,
 						"movespeedByType": {
-							"*-adult-*": 0.0045,
 							"*-baby-*": 0.003,
+							"*-struthiosaurus-adult-*": 0.0050,
+							"*-adult-*": 0.0045,
+
 						},
 						"animationSpeedByType": {
 							"*-baby-*": 1,
-							"*": 0.7
+							"*-struthiosaurus-adult-*": 1.5,
+							"*-adult-*": 1,
 						},
 						"preferredLightLevel": 14,
 						"soundByType": {"*":"game:creature/animal-eat*"},
@@ -732,15 +826,17 @@
 						"priority": 1.0,
 						"priorityForCancel": 1.35,
 						"chance": 0.0005,
+						"duringDayTimeFramesByType": {"*-adult-*":[{"fromHour": 18,"toHour": 19},{"fromHour": 6,"toHour": 7}]},
 						"movespeedByType": {
-							"*-adult-*": 0.0045,
 							"*-baby-*": 0.003,
+							"*-struthiosaurus-adult-*": 0.0050,
+							"*-adult-*": 0.0045,
+
 						},
-						"duringDayTimeFramesByType": {
-							"*-adult-*":[{"fromHour": 18,"toHour": 19},{"fromHour": 6,"toHour": 7}]},
 						"animationSpeedByType": {
 							"*-baby-*": 1,
-							"*": 1
+							"*-struthiosaurus-adult-*": 1.5,
+							"*-adult-*": 1,
 						},
 						"preferredLightLevel": 24,
 						"whenNotInEmotionState": "aggressiveondamage|aggressivearoundentities|fleeondamage"
@@ -759,7 +855,7 @@
 			"insideBlockCodes": ["game:air","game:tallgrass-*","game:gravel-*","game:sand-*","game:snowlayer-1","game:soil-*"],
 			"groupSizeByType": {
 				"*-adult-male":{ "dist": "uniform","avg": 3,"var": 2},
-				"*-adult-female":{ "dist": "uniform","avg": 10,"var": 5},
+				"*-adult-female":{ "dist": "uniform","avg": 35,"var": 5},
 			},
 			"companionsByType":{
 				"*-adult-male":["ankylosauria:ankylosauria-{type}-adult-male"],
@@ -774,11 +870,6 @@
 			"tryOnlySurface": true,
 			"chanceByType": {
 				"*-ankylosaurus-adult-male": 0.00001,"*-ankylosaurus-adult-female": 0.00001,
-				"*-pentaceratops-adult-male": 0.00001,"*-pentaceratops-adult-female": 0.00001,
-				"*-pachyrhinosaurus-adult-male": 0.00001,"*-pachyrhinosaurus-adult-female": 0.00001,
-				"*-styracosaurus-adult-male": 0.00001,"*-styracosaurus-adult-female": 0.00001,
-				"*-centrosaurus-adult-male": 0.00001,"*-centrosaurus-adult-female": 0.00001,
-				"*-nasutoceratops-adult-male": 0.00001,"*-nasutoceratops-adult-female": 0.00001,
 				"*":0.00,
 			},
 			"maxQuantity": 1,
@@ -810,8 +901,97 @@
 					"maxY": 1.6
 				},
 			},
-
-
+			"*-tarchia-adult-*": {
+				"climate": {
+					"minTemp": 10,
+					"maxTemp": 40,
+					"minRain": 0.2,
+					"maxRain": 0.7,
+					"minForestOrShrubs": 0.3,
+					"maxForest": 0.6,
+					"maxShrubs": 0.8,
+					"minY": 0.9,
+					"maxY": 1.5
+				},
+			},
+			"*-euoplocephalus-adult-*": {
+				"climate": {
+					"minTemp": 5,
+					"maxTemp": 30,
+					"minRain": 0.3,
+					"maxRain": 0.8,
+					"minForestOrShrubs": 0.4,
+					"maxForest": 0.8,
+					"maxShrubs": 0.7,
+					"minY": 0.9,
+					"maxY": 1.6
+				},
+			},
+			"*-edmontonia-adult-*": {
+				"climate": {
+					"minTemp": 5,
+					"maxTemp": 25,
+					"minRain": 0.3,
+					"maxRain": 0.8,
+					"minForestOrShrubs": 0.4,
+					"maxForest": 0.8,
+					"maxShrubs": 0.7,
+					"minY": 0.9,
+					"maxY": 1.6
+				},
+			},
+			"*-ziapelta-adult-*": {
+				"climate": {
+					"minTemp": 5,
+					"maxTemp": 30,
+					"minRain": 0.3,
+					"maxRain": 0.8,
+					"minForestOrShrubs": 0.4,
+					"maxForest": 0.8,
+					"maxShrubs": 0.7,
+					"minY": 0.9,
+					"maxY": 1.6
+				},
+			},
+			"*-pinacosaurus-adult-*": {
+				"climate": {
+					"minTemp": 10,
+					"maxTemp": 40,
+					"minRain": 0.2,
+					"maxRain": 0.7,
+					"minForestOrShrubs": 0.3,
+					"maxForest": 0.6,
+					"maxShrubs": 0.8,
+					"minY": 0.9,
+					"maxY": 1.5
+				},
+			},
+			"*-antarctopelta-adult-*": {
+				"climate": {
+					"minTemp": -10,
+					"maxTemp": 15,
+					"minRain": 0.4,
+					"maxRain": 0.9,
+					"minForestOrShrubs": 0.5,
+					"maxForest": 0.9,
+					"maxShrubs": 0.6,
+					"minY": 1,
+					"maxY": 1.7
+				},
+			},
+			"*-struthiosaurus-adult-*": {
+				"climate": {
+					"minTemp": 5,
+					"maxTemp": 30,
+					"minRain": 0.4,
+					"maxRain": 0.9,
+					"minForestOrShrubs": 0.5,
+					"maxForest": 0.9,
+					"maxShrubs": 0.6,
+					"minY": 1,
+					"maxY": 1.7
+				},
+			},
 		}
     },
 
