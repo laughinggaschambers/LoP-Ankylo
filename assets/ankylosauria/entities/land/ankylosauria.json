@@ -31,7 +31,7 @@
 		"minGenerationToAllowHealing": 0,
 		"creatureDiet": {
 			"foodCategories": ["Fruit", "Vegetable", "Grain"],
-			"foodTags": ["fruitmash","nibblecrops", "sweetBerryBush" ]
+			"foodTags": ["fruitmash","nibblecrops", "sweetBerryBush","grass"]
 			},
 		},
 	"behaviorConfigs": {
@@ -870,6 +870,13 @@
 			"tryOnlySurface": true,
 			"chanceByType": {
 				"*-ankylosaurus-adult-male": 0.00001,"*-ankylosaurus-adult-female": 0.00001,
+				"*-tarchia-adult-male": 0.00001,"*-tarchia-adult-female": 0.00001,
+				"*-euoplocephalus-adult-male": 0.00001,"*-euoplocephalus-adult-female": 0.00001,
+				"*-edmontonia-adult-male": 0.00001,"*-edmontonia-adult-female": 0.00001,
+				"*-ziapelta-adult-male": 0.00001,"*-ziapelta-adult-female": 0.00001,
+				"*-pinacosaurus-adult-male": 0.00001,"*-pinacosaurus-adult-female": 0.00001,
+				"*-antarctopelta-adult-male": 0.00001,"*-antarctopelta-adult-female": 0.00001,
+				"*-struthiosaurus-adult-male": 0.00001,"*-struthiosaurus-adult-female": 0.00001,
 				"*":0.00,
 			},
 			"maxQuantity": 1,
@@ -879,7 +886,7 @@
 			"insideBlockCodes": ["game:air","game:tallgrass-*","game:gravel-*","game:sand-*","game:snowlayer-1","game:soil-*"],
 			"groupSizeByType": {
 				"*-adult-male":{ "dist": "uniform","avg": 3,"var": 2},
-				"*-adult-female":{ "dist": "uniform","avg": 10,"var": 5},
+				"*-adult-female":{ "dist": "uniform","avg": 8,"var": 5},
 			},
 			"companionsByType":{
 				"*-adult-male":["ankylosauria:ankylosauria-{type}-adult-male"],
