@@ -1,0 +1,72 @@
+[
+  {
+    "side": "Server",
+    "dependsOn": [{ "modid": "combatoverhaul" }],
+    "file": "ankylosauria:entities/land/ankylosauria",
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "CombatOverhaul:EntityColliders",
+      "elements": {
+        "Torso": ["Neck", "Body Front", "Body", "Body Back", "Tail", "Tail 1", "Tail 2","Tail 3",],
+        "Head": ["Head",],
+        "Arm": [],
+        "Leg": ["Leg Front L","Leg Front R","Leg Back L","Leg Back R","Shin Front L","Shin Front R","Shin Back L","Shin Back R","Foot Front L","Foot Front R","Foot Back L","Foot Back R",],
+        "Critical": [],
+        "Resistant": []
+      }
+    }
+  },
+  {
+    "side": "Server",
+    "dependsOn": [{ "modid": "combatoverhaul" }],
+    "file": "ankylosauria:entities/land/ankylosauria",
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "CombatOverhaul:EntityColliders",
+      "elements": {
+        "Torso": ["Neck", "Torso", "Body", "Tail Main", "Tail", "Tail 1", "Tail 2","Tail 3",],
+        "Head": ["Head", "Top Jaw","Top Jaw1","Top Jaw2", "Lower Jaw","Lower Jaw1","Lower Jaw2",],
+        "Arm": [],
+        "Leg": ["Leg Front L","Leg Front R","Leg Back L","Leg Back R","Shin Front L","Shin Front R","Shin Back L","Shin Back R","Foot Front L","Foot Front R","Foot Back L","Foot Back R",],
+        "Critical": [],
+        "Resistant": []
+      }
+    }
+  },
+  {
+    "side": "Server",
+    "dependsOn": [{ "modid": "combatoverhaul" }],
+    "file": "ankylosauria:entities/land/ankylosauria",
+    "op": "add",
+    "path": "/server/behaviors/-",
+    "value": {
+      "code": "CombatOverhaul:EntityDamageModel",
+      "damageModel": {
+        "TorsoDamageMultiplier": 1,
+        "LimbsDamageMultiplier": 0.75,
+        "HeadDamageMultiplier": 1.5,
+        "CriticalDamageMultiplier": 2,
+        "DefaultResists": {"BluntAttack": 10, "SlashingAttack": 10, "PiercingAttack": 4}
+      }
+    }
+  },
+  {
+    "side": "Server",
+    "dependsOn": [{ "modid": "combatoverhaul" }],
+    "file": "ankylosauria:entities/land/ankylosauria",
+    "op": "add",
+    "path": "/client/behaviors/-",
+    "value": {
+      "code": "CombatOverhaul:EntityDamageModel",
+      "damageModel": {
+        "TorsoDamageMultiplier": 1,
+        "LimbsDamageMultiplier": 0.75,
+        "HeadDamageMultiplier": 1.5,
+        "CriticalDamageMultiplier": 2,
+        "DefaultResists": {"BluntAttack": 10, "SlashingAttack": 10, "PiercingAttack": 4}
+      }
+    }
+  }
+]
