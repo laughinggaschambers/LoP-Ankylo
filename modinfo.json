@@ -4,7 +4,7 @@
   "name": "Legacy of the Phanerozoic: Fused Body",
   "author": "laughinggas",
   "description": "Adds the family of ankylosaurian dinosaurs to Vintage Story",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "dependency": {
     "game": "1.5.3"
   }
