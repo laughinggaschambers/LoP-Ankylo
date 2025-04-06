@@ -8,12 +8,12 @@
     "value": {
       "code": "CombatOverhaul:EntityColliders",
       "elements": {
-        "Torso": ["Neck", "Body Front", "Body", "Body Back", "Tail", "Tail 1", "Tail 2","Tail 3",],
-        "Head": ["Head",],
+        "Torso": ["Belly1","Belly","Body Front 2","Tail4","Tail8","Tail10","Body Back2"],
+        "Head": ["Top Jar","Lower Jaw","Lower Jaw1","Lower Jaw2","Lower Jar3","Lower Jar4","Lower Jar5","Lower face"],
         "Arm": [],
         "Leg": ["Leg Front L","Leg Front R","Leg Back L","Leg Back R","Shin Front L","Shin Front R","Shin Back L","Shin Back R","Foot Front L","Foot Front R","Foot Back L","Foot Back R",],
-        "Critical": [],
-        "Resistant": []
+        "Critical": ["Eyes"],
+        "Resistant": ["Neck", "Body Front", "Body", "Body Back", "Tail", "Tail1", "Tail2","Tail3","Club","Head","Top Jar1","Top Jar2","Top Jar5", "Top Jar4","Top Jar6","Eyeplate","Eyeplate1"]
       }
     }
   },
@@ -26,12 +26,12 @@
     "value": {
       "code": "CombatOverhaul:EntityColliders",
       "elements": {
-        "Torso": ["Neck", "Torso", "Body", "Tail Main", "Tail", "Tail 1", "Tail 2","Tail 3",],
-        "Head": ["Head", "Top Jaw","Top Jaw1","Top Jaw2", "Lower Jaw","Lower Jaw1","Lower Jaw2",],
+        "Torso": ["Belly1","Belly","Body Front 2","Tail4","Tail8","Tail10","Body Back2"],
+        "Head": ["Top Jar","Lower Jaw","Lower Jaw1","Lower Jaw2","Lower Jar3","Lower Jar4","Lower Jar5","Lower face"],
         "Arm": [],
         "Leg": ["Leg Front L","Leg Front R","Leg Back L","Leg Back R","Shin Front L","Shin Front R","Shin Back L","Shin Back R","Foot Front L","Foot Front R","Foot Back L","Foot Back R",],
-        "Critical": [],
-        "Resistant": []
+        "Critical": ["Eyes"],
+        "Resistant": ["Neck", "Body Front", "Body", "Body Back", "Tail", "Tail1", "Tail2","Tail3","Club","Head","Top Jar1","Top Jar2","Top Jar5", "Top Jar4","Top Jar6","Eyeplate","Eyeplate1"]
       }
     }
   },
@@ -46,8 +46,8 @@
       "damageModel": {
         "TorsoDamageMultiplier": 1,
         "LimbsDamageMultiplier": 0.75,
-        "HeadDamageMultiplier": 1.5,
-        "CriticalDamageMultiplier": 2,
+        "HeadDamageMultiplier": 2.5,
+        "CriticalDamageMultiplier": 25,
         "DefaultResists": {"BluntAttack": 10, "SlashingAttack": 10, "PiercingAttack": 4}
       }
     }
@@ -63,8 +63,8 @@
       "damageModel": {
         "TorsoDamageMultiplier": 1,
         "LimbsDamageMultiplier": 0.75,
-        "HeadDamageMultiplier": 1.5,
-        "CriticalDamageMultiplier": 2,
+        "HeadDamageMultiplier": 2.5,
+        "CriticalDamageMultiplier": 25,
         "DefaultResists": {"BluntAttack": 10, "SlashingAttack": 10, "PiercingAttack": 4}
       }
     }
