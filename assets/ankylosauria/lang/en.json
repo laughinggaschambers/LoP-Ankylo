@@ -6,252 +6,208 @@
   "item-creature-ankylosauria-ankylosaurus-adult-female": "Ankylosaurus (Female)",
   "item-creature-ankylosauria-ankylosaurus-baby-male": "Ankylosaurus (Juvenile Male)",
   "item-creature-ankylosauria-ankylosaurus-baby-female": "Ankylosaurus (Juvenile Female)",
-
   "item-dead-creature-ankylosauria-ankylosaurus-adult-male": "Dead Ankylosaurus (Male)",
   "item-dead-creature-ankylosauria-ankylosaurus-adult-female": "Dead Ankylosaurus (Female)",
   "item-dead-creature-ankylosauria-ankylosaurus-baby-male": "Dead Ankylosaurus (Juvenile Male)",
   "item-dead-creature-ankylosauria-ankylosaurus-baby-female": "Dead Ankylosaurus (Juvenile Female)",
-  
+  "item-dead-creature-ankylosauria-ankylosaurus-nest-incubating": "Ankylosaurus Nest",
+  "item-dead-creature-ankylosauria-ankylosaurus-nest-mature": "Ankylosaurus Nest",
+  "item-dead-creature-ankylosauria-ankylosaurus-nest-empty": "Empty Ankylosaurus Nest",
   "item-creature-ankylosauria-ankylosaurus-nest-incubating": "Ankylosaurus Nest (Incubating)",
   "item-creature-ankylosauria-ankylosaurus-nest-mature": "Ankylosaurus Nest (Matured)",
   "item-creature-ankylosauria-ankylosaurus-nest-empty": "Ankylosaurus Nest (Empty)",
   "item-creature-ankylosauria-ankylosaurus-egg-raw": "Ankylosaurus Egg (Raw)",
-
-  
   "recipeingredient-item-creature-ankylosauria-ankylosaurus-egg-raw": "ankylosaurus egg",
   "recipeingredient-item-creature-ankylosauria-ankylosaurus-egg-raw-insturmentalcase": "ankylosaurus eggs",
-  
-
-  "game:prefixandcreature-ankylosauria-cake-adult-male": "a ankylosaurus",
-  "game:prefixandcreature-ankylosauria-ankylosaurus-adult-female": "a ankylosaurus",
-  "game:prefixandcreature-ankylosauria-ankylosaurus-baby-male": "a juvenile ankylosaurus",
-  "game:prefixandcreature-ankylosauria-ankylosaurus-baby-female": "a juvenile ankylosaurus",
-  
-  "game:prefixandcreature-ankylosauria-ankylosaurus-nest-incubating": "a ankylosaurus nest",
-  "game:prefixandcreature-ankylosauria-ankylosaurus-nest-mature": "a ankylosaurus nest",
-  "game:prefixandcreature-ankylosauria-ankylosaurus-nest-empty": "an empty ankylosaurus nest",
-  "game:prefixandcreature-ankylosauria-ankylosaurus-egg": "an ankylosaurus egg",
-
+  "game:prefixandcreature-ankylosauriaankylosaurusadultmale": "a ankylosaurus",
+  "game:prefixandcreature-ankylosauriaankylosaurusadultfemale": "a ankylosaurus",
+  "game:prefixandcreature-ankylosauriaankylosaurusbabymale": "a juvenile ankylosaurus",
+  "game:prefixandcreature-ankylosauriaankylosaurusbabyfemale": "a juvenile ankylosaurus",
+  "game:prefixandcreature-ankylosauriaankylosaurusnestincubating": "an ankylosaurus nest",
+  "game:prefixandcreature-ankylosauriaankylosaurusnestmature": "a ankylosaurus nest",
+  "game:prefixandcreature-ankylosauriaankylosaurusnestempty": "an empty ankylosaurus nest",
+  "game:prefixandcreature-ankylosauriaankylosaurusegg": "a ankylosaurus egg",
 
   "item-creature-ankylosauria-tarchia-adult-male": "Tarchia (Male)",
   "item-creature-ankylosauria-tarchia-adult-female": "Tarchia (Female)",
   "item-creature-ankylosauria-tarchia-baby-male": "Tarchia (Juvenile Male)",
   "item-creature-ankylosauria-tarchia-baby-female": "Tarchia (Juvenile Female)",
-
   "item-dead-creature-ankylosauria-tarchia-adult-male": "Dead Tarchia (Male)",
   "item-dead-creature-ankylosauria-tarchia-adult-female": "Dead Tarchia (Female)",
   "item-dead-creature-ankylosauria-tarchia-baby-male": "Dead Tarchia (Juvenile Male)",
   "item-dead-creature-ankylosauria-tarchia-baby-female": "Dead Tarchia (Juvenile Female)",
-
+  "item-dead-creature-ankylosauria-tarchia-nest-incubating": "Tarchia Nest",
+  "item-dead-creature-ankylosauria-tarchia-nest-mature": "Tarchia Nest",
+  "item-dead-creature-ankylosauria-tarchia-nest-empty": "Empty Tarchia Nest",
   "item-creature-ankylosauria-tarchia-nest-incubating": "Tarchia Nest (Incubating)",
   "item-creature-ankylosauria-tarchia-nest-mature": "Tarchia Nest (Matured)",
   "item-creature-ankylosauria-tarchia-nest-empty": "Tarchia Nest (Empty)",
   "item-creature-ankylosauria-tarchia-egg-raw": "Tarchia Egg (Raw)",
-
-
   "recipeingredient-item-creature-ankylosauria-tarchia-egg-raw": "tarchia egg",
   "recipeingredient-item-creature-ankylosauria-tarchia-egg-raw-insturmentalcase": "tarchia eggs",
-
-
-  "game:prefixandcreature-ankylosauria-cake-adult-male": "a tarchia",
-  "game:prefixandcreature-ankylosauria-tarchia-adult-female": "a tarchia",
-  "game:prefixandcreature-ankylosauria-tarchia-baby-male": "a juvenile tarchia",
-  "game:prefixandcreature-ankylosauria-tarchia-baby-female": "a juvenile tarchia",
-
-  "game:prefixandcreature-ankylosauria-tarchia-nest-incubating": "a tarchia nest",
-  "game:prefixandcreature-ankylosauria-tarchia-nest-mature": "a tarchia nest",
-  "game:prefixandcreature-ankylosauria-tarchia-nest-empty": "an empty tarchia nest",
-  "game:prefixandcreature-ankylosauria-tarchia-egg": "an tarchia egg",
-
+  "game:prefixandcreature-ankylosauriatarchiaadultmale": "a tarchia",
+  "game:prefixandcreature-ankylosauriatarchiaadultfemale": "a tarchia",
+  "game:prefixandcreature-ankylosauriatarchiababymale": "a juvenile tarchia",
+  "game:prefixandcreature-ankylosauriatarchiababyfemale": "a juvenile tarchia",
+  "game:prefixandcreature-ankylosauriatarchianestincubating": "an tarchia nest",
+  "game:prefixandcreature-ankylosauriatarchianestmature": "a tarchia nest",
+  "game:prefixandcreature-ankylosauriatarchianestempty": "an empty tarchia nest",
+  "game:prefixandcreature-ankylosauriatarchiaegg": "a tarchia egg",
 
   "item-creature-ankylosauria-euoplocephalus-adult-male": "Euoplocephalus (Male)",
   "item-creature-ankylosauria-euoplocephalus-adult-female": "Euoplocephalus (Female)",
   "item-creature-ankylosauria-euoplocephalus-baby-male": "Euoplocephalus (Juvenile Male)",
   "item-creature-ankylosauria-euoplocephalus-baby-female": "Euoplocephalus (Juvenile Female)",
-
   "item-dead-creature-ankylosauria-euoplocephalus-adult-male": "Dead Euoplocephalus (Male)",
   "item-dead-creature-ankylosauria-euoplocephalus-adult-female": "Dead Euoplocephalus (Female)",
   "item-dead-creature-ankylosauria-euoplocephalus-baby-male": "Dead Euoplocephalus (Juvenile Male)",
   "item-dead-creature-ankylosauria-euoplocephalus-baby-female": "Dead Euoplocephalus (Juvenile Female)",
-
+  "item-dead-creature-ankylosauria-euoplocephalus-nest-incubating": "Euoplocephalus Nest",
+  "item-dead-creature-ankylosauria-euoplocephalus-nest-mature": "Euoplocephalus Nest",
+  "item-dead-creature-ankylosauria-euoplocephalus-nest-empty": "Empty Euoplocephalus Nest",
   "item-creature-ankylosauria-euoplocephalus-nest-incubating": "Euoplocephalus Nest (Incubating)",
   "item-creature-ankylosauria-euoplocephalus-nest-mature": "Euoplocephalus Nest (Matured)",
   "item-creature-ankylosauria-euoplocephalus-nest-empty": "Euoplocephalus Nest (Empty)",
   "item-creature-ankylosauria-euoplocephalus-egg-raw": "Euoplocephalus Egg (Raw)",
-
-
   "recipeingredient-item-creature-ankylosauria-euoplocephalus-egg-raw": "euoplocephalus egg",
   "recipeingredient-item-creature-ankylosauria-euoplocephalus-egg-raw-insturmentalcase": "euoplocephalus eggs",
-
-
-  "game:prefixandcreature-ankylosauria-cake-adult-male": "a euoplocephalus",
-  "game:prefixandcreature-ankylosauria-euoplocephalus-adult-female": "a euoplocephalus",
-  "game:prefixandcreature-ankylosauria-euoplocephalus-baby-male": "a juvenile euoplocephalus",
-  "game:prefixandcreature-ankylosauria-euoplocephalus-baby-female": "a juvenile euoplocephalus",
-
-  "game:prefixandcreature-ankylosauria-euoplocephalus-nest-incubating": "a euoplocephalus nest",
-  "game:prefixandcreature-ankylosauria-euoplocephalus-nest-mature": "a euoplocephalus nest",
-  "game:prefixandcreature-ankylosauria-euoplocephalus-nest-empty": "an empty euoplocephalus nest",
-  "game:prefixandcreature-ankylosauria-euoplocephalus-egg": "an euoplocephalus egg",
-
-
+  "game:prefixandcreature-ankylosauriaeuoplocephalusadultmale": "a euoplocephalus",
+  "game:prefixandcreature-ankylosauriaeuoplocephalusadultfemale": "a euoplocephalus",
+  "game:prefixandcreature-ankylosauriaeuoplocephalusbabymale": "a juvenile euoplocephalus",
+  "game:prefixandcreature-ankylosauriaeuoplocephalusbabyfemale": "a juvenile euoplocephalus",
+  "game:prefixandcreature-ankylosauriaeuoplocephalusnestincubating": "an euoplocephalus nest",
+  "game:prefixandcreature-ankylosauriaeuoplocephalusnestmature": "a euoplocephalus nest",
+  "game:prefixandcreature-ankylosauriaeuoplocephalusnestempty": "an empty euoplocephalus nest",
+  "game:prefixandcreature-ankylosauriaeuoplocephalusegg": "a euoplocephalus egg",
 
   "item-creature-ankylosauria-edmontonia-adult-male": "Edmontonia (Male)",
   "item-creature-ankylosauria-edmontonia-adult-female": "Edmontonia (Female)",
   "item-creature-ankylosauria-edmontonia-baby-male": "Edmontonia (Juvenile Male)",
   "item-creature-ankylosauria-edmontonia-baby-female": "Edmontonia (Juvenile Female)",
-
   "item-dead-creature-ankylosauria-edmontonia-adult-male": "Dead Edmontonia (Male)",
   "item-dead-creature-ankylosauria-edmontonia-adult-female": "Dead Edmontonia (Female)",
   "item-dead-creature-ankylosauria-edmontonia-baby-male": "Dead Edmontonia (Juvenile Male)",
   "item-dead-creature-ankylosauria-edmontonia-baby-female": "Dead Edmontonia (Juvenile Female)",
-
+  "item-dead-creature-ankylosauria-edmontonia-nest-incubating": "Edmontonia Nest",
+  "item-dead-creature-ankylosauria-edmontonia-nest-mature": "Edmontonia Nest",
+  "item-dead-creature-ankylosauria-edmontonia-nest-empty": "Empty Edmontonia Nest",
   "item-creature-ankylosauria-edmontonia-nest-incubating": "Edmontonia Nest (Incubating)",
   "item-creature-ankylosauria-edmontonia-nest-mature": "Edmontonia Nest (Matured)",
   "item-creature-ankylosauria-edmontonia-nest-empty": "Edmontonia Nest (Empty)",
   "item-creature-ankylosauria-edmontonia-egg-raw": "Edmontonia Egg (Raw)",
-
-
   "recipeingredient-item-creature-ankylosauria-edmontonia-egg-raw": "edmontonia egg",
   "recipeingredient-item-creature-ankylosauria-edmontonia-egg-raw-insturmentalcase": "edmontonia eggs",
-
-
-  "game:prefixandcreature-ankylosauria-cake-adult-male": "a edmontonia",
-  "game:prefixandcreature-ankylosauria-edmontonia-adult-female": "a edmontonia",
-  "game:prefixandcreature-ankylosauria-edmontonia-baby-male": "a juvenile edmontonia",
-  "game:prefixandcreature-ankylosauria-edmontonia-baby-female": "a juvenile edmontonia",
-
-  "game:prefixandcreature-ankylosauria-edmontonia-nest-incubating": "a edmontonia nest",
-  "game:prefixandcreature-ankylosauria-edmontonia-nest-mature": "a edmontonia nest",
-  "game:prefixandcreature-ankylosauria-edmontonia-nest-empty": "an empty edmontonia nest",
-  "game:prefixandcreature-ankylosauria-edmontonia-egg": "an edmontonia egg",
-
-
+  "game:prefixandcreature-ankylosauriaedmontoniaadultmale": "a edmontonia",
+  "game:prefixandcreature-ankylosauriaedmontoniaadultfemale": "a edmontonia",
+  "game:prefixandcreature-ankylosauriaedmontoniababymale": "a juvenile edmontonia",
+  "game:prefixandcreature-ankylosauriaedmontoniababyfemale": "a juvenile edmontonia",
+  "game:prefixandcreature-ankylosauriaedmontonianestincubating": "an edmontonia nest",
+  "game:prefixandcreature-ankylosauriaedmontonianestmature": "a edmontonia nest",
+  "game:prefixandcreature-ankylosauriaedmontonianestempty": "an empty edmontonia nest",
+  "game:prefixandcreature-ankylosauriaedmontoniaegg": "a edmontonia egg",
 
   "item-creature-ankylosauria-ziapelta-adult-male": "Ziapelta (Male)",
   "item-creature-ankylosauria-ziapelta-adult-female": "Ziapelta (Female)",
   "item-creature-ankylosauria-ziapelta-baby-male": "Ziapelta (Juvenile Male)",
   "item-creature-ankylosauria-ziapelta-baby-female": "Ziapelta (Juvenile Female)",
-
   "item-dead-creature-ankylosauria-ziapelta-adult-male": "Dead Ziapelta (Male)",
   "item-dead-creature-ankylosauria-ziapelta-adult-female": "Dead Ziapelta (Female)",
   "item-dead-creature-ankylosauria-ziapelta-baby-male": "Dead Ziapelta (Juvenile Male)",
   "item-dead-creature-ankylosauria-ziapelta-baby-female": "Dead Ziapelta (Juvenile Female)",
-
+  "item-dead-creature-ankylosauria-ziapelta-nest-incubating": "Ziapelta Nest",
+  "item-dead-creature-ankylosauria-ziapelta-nest-mature": "Ziapelta Nest",
+  "item-dead-creature-ankylosauria-ziapelta-nest-empty": "Empty Ziapelta Nest",
   "item-creature-ankylosauria-ziapelta-nest-incubating": "Ziapelta Nest (Incubating)",
   "item-creature-ankylosauria-ziapelta-nest-mature": "Ziapelta Nest (Matured)",
   "item-creature-ankylosauria-ziapelta-nest-empty": "Ziapelta Nest (Empty)",
   "item-creature-ankylosauria-ziapelta-egg-raw": "Ziapelta Egg (Raw)",
-
-
   "recipeingredient-item-creature-ankylosauria-ziapelta-egg-raw": "ziapelta egg",
   "recipeingredient-item-creature-ankylosauria-ziapelta-egg-raw-insturmentalcase": "ziapelta eggs",
-
-
-  "game:prefixandcreature-ankylosauria-cake-adult-male": "a ziapelta",
-  "game:prefixandcreature-ankylosauria-ziapelta-adult-female": "a ziapelta",
-  "game:prefixandcreature-ankylosauria-ziapelta-baby-male": "a juvenile ziapelta",
-  "game:prefixandcreature-ankylosauria-ziapelta-baby-female": "a juvenile ziapelta",
-
-  "game:prefixandcreature-ankylosauria-ziapelta-nest-incubating": "a ziapelta nest",
-  "game:prefixandcreature-ankylosauria-ziapelta-nest-mature": "a ziapelta nest",
-  "game:prefixandcreature-ankylosauria-ziapelta-nest-empty": "an empty ziapelta nest",
-  "game:prefixandcreature-ankylosauria-ziapelta-egg": "an ziapelta egg",
-
-
+  "game:prefixandcreature-ankylosauriaziapeltaadultmale": "a ziapelta",
+  "game:prefixandcreature-ankylosauriaziapeltaadultfemale": "a ziapelta",
+  "game:prefixandcreature-ankylosauriaziapeltababymale": "a juvenile ziapelta",
+  "game:prefixandcreature-ankylosauriaziapeltababyfemale": "a juvenile ziapelta",
+  "game:prefixandcreature-ankylosauriaziapeltanestincubating": "an ziapelta nest",
+  "game:prefixandcreature-ankylosauriaziapeltanestmature": "a ziapelta nest",
+  "game:prefixandcreature-ankylosauriaziapeltanestempty": "an empty ziapelta nest",
+  "game:prefixandcreature-ankylosauriaziapeltaegg": "a ziapelta egg",
 
   "item-creature-ankylosauria-pinacosaurus-adult-male": "Pinacosaurus (Male)",
   "item-creature-ankylosauria-pinacosaurus-adult-female": "Pinacosaurus (Female)",
   "item-creature-ankylosauria-pinacosaurus-baby-male": "Pinacosaurus (Juvenile Male)",
   "item-creature-ankylosauria-pinacosaurus-baby-female": "Pinacosaurus (Juvenile Female)",
-
   "item-dead-creature-ankylosauria-pinacosaurus-adult-male": "Dead Pinacosaurus (Male)",
   "item-dead-creature-ankylosauria-pinacosaurus-adult-female": "Dead Pinacosaurus (Female)",
   "item-dead-creature-ankylosauria-pinacosaurus-baby-male": "Dead Pinacosaurus (Juvenile Male)",
   "item-dead-creature-ankylosauria-pinacosaurus-baby-female": "Dead Pinacosaurus (Juvenile Female)",
-
+  "item-dead-creature-ankylosauria-pinacosaurus-nest-incubating": "Pinacosaurus Nest",
+  "item-dead-creature-ankylosauria-pinacosaurus-nest-mature": "Pinacosaurus Nest",
+  "item-dead-creature-ankylosauria-pinacosaurus-nest-empty": "Empty Pinacosaurus Nest",
   "item-creature-ankylosauria-pinacosaurus-nest-incubating": "Pinacosaurus Nest (Incubating)",
   "item-creature-ankylosauria-pinacosaurus-nest-mature": "Pinacosaurus Nest (Matured)",
   "item-creature-ankylosauria-pinacosaurus-nest-empty": "Pinacosaurus Nest (Empty)",
   "item-creature-ankylosauria-pinacosaurus-egg-raw": "Pinacosaurus Egg (Raw)",
-
-
   "recipeingredient-item-creature-ankylosauria-pinacosaurus-egg-raw": "pinacosaurus egg",
   "recipeingredient-item-creature-ankylosauria-pinacosaurus-egg-raw-insturmentalcase": "pinacosaurus eggs",
-
-
-  "game:prefixandcreature-ankylosauria-cake-adult-male": "a pinacosaurus",
-  "game:prefixandcreature-ankylosauria-pinacosaurus-adult-female": "a pinacosaurus",
-  "game:prefixandcreature-ankylosauria-pinacosaurus-baby-male": "a juvenile pinacosaurus",
-  "game:prefixandcreature-ankylosauria-pinacosaurus-baby-female": "a juvenile pinacosaurus",
-
-  "game:prefixandcreature-ankylosauria-pinacosaurus-nest-incubating": "a pinacosaurus nest",
-  "game:prefixandcreature-ankylosauria-pinacosaurus-nest-mature": "a pinacosaurus nest",
-  "game:prefixandcreature-ankylosauria-pinacosaurus-nest-empty": "an empty pinacosaurus nest",
-  "game:prefixandcreature-ankylosauria-pinacosaurus-egg": "an pinacosaurus egg",
-
-
+  "game:prefixandcreature-ankylosauriapinacosaurusadultmale": "a pinacosaurus",
+  "game:prefixandcreature-ankylosauriapinacosaurusadultfemale": "a pinacosaurus",
+  "game:prefixandcreature-ankylosauriapinacosaurusbabymale": "a juvenile pinacosaurus",
+  "game:prefixandcreature-ankylosauriapinacosaurusbabyfemale": "a juvenile pinacosaurus",
+  "game:prefixandcreature-ankylosauriapinacosaurusnestincubating": "an pinacosaurus nest",
+  "game:prefixandcreature-ankylosauriapinacosaurusnestmature": "a pinacosaurus nest",
+  "game:prefixandcreature-ankylosauriapinacosaurusnestempty": "an empty pinacosaurus nest",
+  "game:prefixandcreature-ankylosauriapinacosaurusegg": "a pinacosaurus egg",
 
   "item-creature-ankylosauria-antarctopelta-adult-male": "Antarctopelta (Male)",
   "item-creature-ankylosauria-antarctopelta-adult-female": "Antarctopelta (Female)",
   "item-creature-ankylosauria-antarctopelta-baby-male": "Antarctopelta (Juvenile Male)",
   "item-creature-ankylosauria-antarctopelta-baby-female": "Antarctopelta (Juvenile Female)",
-
   "item-dead-creature-ankylosauria-antarctopelta-adult-male": "Dead Antarctopelta (Male)",
   "item-dead-creature-ankylosauria-antarctopelta-adult-female": "Dead Antarctopelta (Female)",
   "item-dead-creature-ankylosauria-antarctopelta-baby-male": "Dead Antarctopelta (Juvenile Male)",
   "item-dead-creature-ankylosauria-antarctopelta-baby-female": "Dead Antarctopelta (Juvenile Female)",
-
+  "item-dead-creature-ankylosauria-antarctopelta-nest-incubating": "Antarctopelta Nest",
+  "item-dead-creature-ankylosauria-antarctopelta-nest-mature": "Antarctopelta Nest",
+  "item-dead-creature-ankylosauria-antarctopelta-nest-empty": "Empty Antarctopelta Nest",
   "item-creature-ankylosauria-antarctopelta-nest-incubating": "Antarctopelta Nest (Incubating)",
   "item-creature-ankylosauria-antarctopelta-nest-mature": "Antarctopelta Nest (Matured)",
   "item-creature-ankylosauria-antarctopelta-nest-empty": "Antarctopelta Nest (Empty)",
   "item-creature-ankylosauria-antarctopelta-egg-raw": "Antarctopelta Egg (Raw)",
-
-
   "recipeingredient-item-creature-ankylosauria-antarctopelta-egg-raw": "antarctopelta egg",
   "recipeingredient-item-creature-ankylosauria-antarctopelta-egg-raw-insturmentalcase": "antarctopelta eggs",
-
-
-  "game:prefixandcreature-ankylosauria-cake-adult-male": "a antarctopelta",
-  "game:prefixandcreature-ankylosauria-antarctopelta-adult-female": "a antarctopelta",
-  "game:prefixandcreature-ankylosauria-antarctopelta-baby-male": "a juvenile antarctopelta",
-  "game:prefixandcreature-ankylosauria-antarctopelta-baby-female": "a juvenile antarctopelta",
-
-  "game:prefixandcreature-ankylosauria-antarctopelta-nest-incubating": "a antarctopelta nest",
-  "game:prefixandcreature-ankylosauria-antarctopelta-nest-mature": "a antarctopelta nest",
-  "game:prefixandcreature-ankylosauria-antarctopelta-nest-empty": "an empty antarctopelta nest",
-  "game:prefixandcreature-ankylosauria-antarctopelta-egg": "an antarctopelta egg",
-
-
-
+  "game:prefixandcreature-ankylosauriaantarctopeltaadultmale": "a antarctopelta",
+  "game:prefixandcreature-ankylosauriaantarctopeltaadultfemale": "a antarctopelta",
+  "game:prefixandcreature-ankylosauriaantarctopeltababymale": "a juvenile antarctopelta",
+  "game:prefixandcreature-ankylosauriaantarctopeltababyfemale": "a juvenile antarctopelta",
+  "game:prefixandcreature-ankylosauriaantarctopeltanestincubating": "an antarctopelta nest",
+  "game:prefixandcreature-ankylosauriaantarctopeltanestmature": "a antarctopelta nest",
+  "game:prefixandcreature-ankylosauriaantarctopeltanestempty": "an empty antarctopelta nest",
+  "game:prefixandcreature-ankylosauriaantarctopeltaegg": "a antarctopelta egg",
 
   "item-creature-ankylosauria-struthiosaurus-adult-male": "Struthiosaurus (Male)",
   "item-creature-ankylosauria-struthiosaurus-adult-female": "Struthiosaurus (Female)",
   "item-creature-ankylosauria-struthiosaurus-baby-male": "Struthiosaurus (Juvenile Male)",
   "item-creature-ankylosauria-struthiosaurus-baby-female": "Struthiosaurus (Juvenile Female)",
-
   "item-dead-creature-ankylosauria-struthiosaurus-adult-male": "Dead Struthiosaurus (Male)",
   "item-dead-creature-ankylosauria-struthiosaurus-adult-female": "Dead Struthiosaurus (Female)",
   "item-dead-creature-ankylosauria-struthiosaurus-baby-male": "Dead Struthiosaurus (Juvenile Male)",
   "item-dead-creature-ankylosauria-struthiosaurus-baby-female": "Dead Struthiosaurus (Juvenile Female)",
-
+  "item-dead-creature-ankylosauria-struthiosaurus-nest-incubating": "Struthiosaurus Nest",
+  "item-dead-creature-ankylosauria-struthiosaurus-nest-mature": "Struthiosaurus Nest",
+  "item-dead-creature-ankylosauria-struthiosaurus-nest-empty": "Empty Struthiosaurus Nest",
   "item-creature-ankylosauria-struthiosaurus-nest-incubating": "Struthiosaurus Nest (Incubating)",
   "item-creature-ankylosauria-struthiosaurus-nest-mature": "Struthiosaurus Nest (Matured)",
   "item-creature-ankylosauria-struthiosaurus-nest-empty": "Struthiosaurus Nest (Empty)",
   "item-creature-ankylosauria-struthiosaurus-egg-raw": "Struthiosaurus Egg (Raw)",
-
-
   "recipeingredient-item-creature-ankylosauria-struthiosaurus-egg-raw": "struthiosaurus egg",
   "recipeingredient-item-creature-ankylosauria-struthiosaurus-egg-raw-insturmentalcase": "struthiosaurus eggs",
+  "game:prefixandcreature-ankylosauriastruthiosaurusadultmale": "a struthiosaurus",
+  "game:prefixandcreature-ankylosauriastruthiosaurusadultfemale": "a struthiosaurus",
+  "game:prefixandcreature-ankylosauriastruthiosaurusbabymale": "a juvenile struthiosaurus",
+  "game:prefixandcreature-ankylosauriastruthiosaurusbabyfemale": "a juvenile struthiosaurus",
+  "game:prefixandcreature-ankylosauriastruthiosaurusnestincubating": "an struthiosaurus nest",
+  "game:prefixandcreature-ankylosauriastruthiosaurusnestmature": "a struthiosaurus nest",
+  "game:prefixandcreature-ankylosauriastruthiosaurusnestempty": "an empty struthiosaurus nest",
+  "game:prefixandcreature-ankylosauriastruthiosaurusegg": "a struthiosaurus egg",
 
-
-  "game:prefixandcreature-ankylosauria-cake-adult-male": "a struthiosaurus",
-  "game:prefixandcreature-ankylosauria-struthiosaurus-adult-female": "a struthiosaurus",
-  "game:prefixandcreature-ankylosauria-struthiosaurus-baby-male": "a juvenile struthiosaurus",
-  "game:prefixandcreature-ankylosauria-struthiosaurus-baby-female": "a juvenile struthiosaurus",
-
-  "game:prefixandcreature-ankylosauria-struthiosaurus-nest-incubating": "a struthiosaurus nest",
-  "game:prefixandcreature-ankylosauria-struthiosaurus-nest-mature": "a struthiosaurus nest",
-  "game:prefixandcreature-ankylosauria-struthiosaurus-nest-empty": "an empty struthiosaurus nest",
-  "game:prefixandcreature-ankylosauria-struthiosaurus-egg": "an struthiosaurus egg",
 }
