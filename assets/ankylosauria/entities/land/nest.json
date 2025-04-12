@@ -148,6 +148,7 @@
 			}
 
 		],
+	},
 	"spawnconditions": {
 		"worldgen": {
 			"tryOnlySurface": true,
@@ -295,6 +296,5 @@
 				},
 			},
 		}
-
 
 }

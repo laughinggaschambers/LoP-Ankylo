@@ -58,4 +58,63 @@
       }
     ]
   },
+  {
+    "file": "ankylosauria:entities/land/nest.json",
+    "op": "addmerge",
+    "path": "/attributesByType",
+    "side": "Server",
+    "value": {
+        "*-ankylosaurus-*": {
+          "biorealm": [
+            "atlantic nearctic",
+            "pacific nearctic",
+          ]
+        },
+      "*-tarchia-*": {
+          "biorealm": [
+            "eastern palearctic",
+          ]
+        },
+      "*-euoplocephalus-*": {
+          "biorealm": [
+            "atlantic nearctic",
+            "pacific nearctic",
+          ]
+        },
+      "*-edmontonia-*": {
+          "biorealm": [
+            "atlantic nearctic",
+            "pacific nearctic",
+          ]
+        },
+      "*-ziapelta-*": {
+          "biorealm": [
+            "atlantic nearctic",
+            "pacific nearctic",
+          ]
+        },
+      "*-pinacosaurus-*": {
+          "biorealm": [
+            "eastern palearctic",
+          ]
+        },
+      "*-antarctopelta-*": {
+          "biorealm": [
+            "pacific neotropic",
+            "alantic neotropic",
+          ]
+        },
+      "*-struthiosaurus-*": {
+          "biorealm": [
+            "alantic palearctic",
+          ]
+        },
+
+    },
+    "dependsOn": [
+      {
+        "modid": "biomes"
+      }
+    ]
+  },
 ]
