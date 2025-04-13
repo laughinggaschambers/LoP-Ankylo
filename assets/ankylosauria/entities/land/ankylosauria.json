@@ -37,10 +37,10 @@
 	"behaviorConfigs": {
 		"rideableaccessories": {
 			"wearableSlots": [
-				{"code": "head", "forCategoryCodes": [], "attachmentPointCode": "HeadAP" },
+				{"code": "head", "forCategoryCodes": ["ankylobridle"], "attachmentPointCode": "HeadAP" },
 				{"code": "face", "forCategoryCodes": [], "attachmentPointCode": "FaceAP" },
 				{"code": "neck", "forCategoryCodes": [], "attachmentPointCode": "NeckAP" },
-				{"code": "middleback", "forCategoryCodes": [], "attachmentPointCode": "MidAP", },
+				{"code": "middleback", "forCategoryCodes": ["ankylobsaddle"], "attachmentPointCode": "MidAP", },
 			]
 		},
 		"selectionboxes": {
@@ -120,7 +120,7 @@
 					"animation": "Walk",
 					"weight": 10,
 					"movespeedByType": {
-						"*-adult-*": 0.003,
+						"*-adult-*": 0.0045,
 					},
 					"animationSpeedByType": {
 						"*": 1
@@ -154,7 +154,7 @@
 					"animation": "Walk",
 					"weight": 10,
 					"movespeedByType": {
-						"*-adult-*": 0.003,
+						"*-adult-*": 0.0045,
 					},
 					"animationSpeedByType": {
 						"*": 1
@@ -191,13 +191,11 @@
 					"weight": 10,
 						"priority": 2.1,
 						"movespeedByType": {
-							"*-baby-*": 0.038,
-							"*-adult-*": 0.056,
+							"*-adult-*": 0.04,
 
 						},
 						"animationSpeedByType": {
-							"*-baby-*": 8,
-							"*-adult-*": 6
+							"*-adult-*": 3.5
 						},
 					"blendMode": "Average",
 					"riderAnim": {
@@ -303,10 +301,10 @@
 			{"code": "multiply", "enabledByType": { "*-adult-female": true, "*": false } },
 			{"code": "despawn","minPlayerDistance": 8,"belowLightLevel": 8,"minSeconds": 300},
 			{"code": "ropetieable","minGeneration": 2},
-			{"code": "selectionboxes", "enabledByType": {  "*-baby-*": false, "*": true},"minGeneration": 3 },
-			{"code": "ownable", "enabledByType": { "*-baby-*": false,"*": true},"minGeneration": 3 },
-			{"code": "rideableaccessories", "enabledByType": {  "*-baby-*": false, "*": false},"minGeneration": 3 },
-			{"code": "rideable", "enabledByType": {  "*-baby-*": false, "*": false},"minGeneration": 3 },
+			{"code": "selectionboxes", "enabledByType": {  "*-baby-*": false,"*-struthiosaurus-*": false, "*": true},"minGeneration": 3 },
+			{"code": "ownable", "enabledByType": { "*-baby-*": false,"*-struthiosaurus-*": false,"*": true},"minGeneration": 3 },
+			{"code": "rideableaccessories", "enabledByType": {  "*-baby-*": false,"*-struthiosaurus-*": false, "*": true},"minGeneration": 3 },
+			{"code": "rideable", "enabledByType": {  "*-baby-*": false,"*-struthiosaurus-*": false, "*": true},"minGeneration": 3 },
         ],
         "animations": [
 			{"code": "attack","animation": "Attack","animationSpeed": 1.2,"weight": 10,"blendMode": "AddAverage"},
@@ -330,10 +328,10 @@
     "server": {
 		"attributes": {"pathfinder": {"minTurnAnglePerSec": 350,"maxTurnAnglePerSec": 650}},
         "behaviors": [
-			{"code": "selectionboxes", "enabledByType": {  "*-baby-*": false, "*": true},"minGeneration": 3 },
-			{"code": "ownable", "enabledByType": { "*-baby-*": false,"*": true},"minGeneration": 3 },
-			{"code": "rideableaccessories", "enabledByType": {  "*-baby-*": false, "*": false},"minGeneration": 3 },
-			{"code": "rideable", "enabledByType": {  "*-baby-*": false, "*": false},"minGeneration": 3 },
+			{"code": "selectionboxes", "enabledByType": {  "*-baby-*": false,"*-struthiosaurus-*": false, "*": true},"minGeneration": 3 },
+			{"code": "ownable", "enabledByType": { "*-baby-*": false,"*-struthiosaurus-*": false,"*": true},"minGeneration": 3 },
+			{"code": "rideableaccessories", "enabledByType": {  "*-baby-*": false,"*-struthiosaurus-*": false, "*": true},"minGeneration": 3 },
+			{"code": "rideable", "enabledByType": {  "*-baby-*": false,"*-struthiosaurus-*": false, "*": true},"minGeneration": 3 },
             {"code": "repulseagents" },
             {"code": "controlledphysics","stepHeight": 1.1251},
             {"code": "despawn","minPlayerDistance": 8,"belowLightLevel": 8,"minSeconds": 300},

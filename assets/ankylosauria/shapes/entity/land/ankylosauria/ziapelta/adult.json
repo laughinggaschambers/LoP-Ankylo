@@ -656,7 +656,7 @@
 						},
 						{
 							"code": "Rider",
-							"posX": "10.0","posY": "12.0","posZ": "14.0",
+							"posX": "10.0","posY": "6.0","posZ": "14.0",
 							"rotationX": "0.0","rotationY": "180.0","rotationZ": "0.0"
 						}
 					]
