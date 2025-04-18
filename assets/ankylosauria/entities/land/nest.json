@@ -163,7 +163,7 @@
 			"groupSizeByType": {
 				"*": { "dist": "uniform", "avg": 1.5, "var": 0 }
 			},
-			"*":["ankylosauria:ankylosauria-{type}-adult-female"]},
+			"*":["ankylosauria:ankylosauria-{type}-adult-female","ankylosauria:ankylosauria-{type}-adult-male"]},
 
 		"runtime": {
 			"group": "neutral",
@@ -187,11 +187,11 @@
 				"game:soil-*"
 			],
 			"companionsByType": {
-			"*":["ankylosauria:ankylosauria-{type}-adult-female","ankylosauria:ankylosauria-{type}-adult-female"]}
+			"*":["ankylosauria:ankylosauria-{type}-adult-female","ankylosauria:ankylosauria-{type}-adult-male"]}
 		},
     },
 	"spawnconditionsByType": {
-			"*-ankylosaurus-adult-*": {
+			"*-ankylosaurus-*": {
 				"climate": {
 					"minTemp": 5,
 					"maxTemp": 30,
@@ -203,8 +203,11 @@
 					"minY": 0.9,
 					"maxY": 1.6
 				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "ankylosauria-*", "maxQuantity": 1 }
+				}
 			},
-			"*-tarchia-adult-*": {
+			"*-tarchia-*": {
 				"climate": {
 					"minTemp": 10,
 					"maxTemp": 40,
@@ -216,8 +219,11 @@
 					"minY": 0.9,
 					"maxY": 1.5
 				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "ankylosauria-*", "maxQuantity": 1 }
+				}
 			},
-			"*-euoplocephalus-adult-*": {
+			"*-euoplocephalus-*": {
 				"climate": {
 					"minTemp": 5,
 					"maxTemp": 30,
@@ -229,8 +235,11 @@
 					"minY": 0.9,
 					"maxY": 1.6
 				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "ankylosauria-*", "maxQuantity": 1 }
+				}
 			},
-			"*-edmontonia-adult-*": {
+			"*-edmontonia-*": {
 				"climate": {
 					"minTemp": 5,
 					"maxTemp": 25,
@@ -242,8 +251,11 @@
 					"minY": 0.9,
 					"maxY": 1.6
 				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "ankylosauria-*", "maxQuantity": 1 }
+				}
 			},
-			"*-ziapelta-adult-*": {
+			"*-ziapelta-*": {
 				"climate": {
 					"minTemp": 5,
 					"maxTemp": 30,
@@ -255,8 +267,11 @@
 					"minY": 0.9,
 					"maxY": 1.6
 				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "ankylosauria-*", "maxQuantity": 1 }
+				}
 			},
-			"*-pinacosaurus-adult-*": {
+			"*-pinacosaurus-*": {
 				"climate": {
 					"minTemp": 10,
 					"maxTemp": 40,
@@ -268,8 +283,11 @@
 					"minY": 0.9,
 					"maxY": 1.5
 				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "ankylosauria-*", "maxQuantity": 1 }
+				}
 			},
-			"*-antarctopelta-adult-*": {
+			"*-antarctopelta-*": {
 				"climate": {
 					"minTemp": -10,
 					"maxTemp": 15,
@@ -281,8 +299,11 @@
 					"minY": 1,
 					"maxY": 1.7
 				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "ankylosauria-*", "maxQuantity": 1 }
+				}
 			},
-			"*-struthiosaurus-adult-*": {
+			"*-struthiosaurus-*": {
 				"climate": {
 					"minTemp": 5,
 					"maxTemp": 30,
@@ -294,6 +315,9 @@
 					"minY": 1,
 					"maxY": 1.7
 				},
+				"runtime": {
+					"maxQuantityByGroup": { "code": "ankylosauria-*", "maxQuantity": 1 }
+				}
 			},
 		}
 

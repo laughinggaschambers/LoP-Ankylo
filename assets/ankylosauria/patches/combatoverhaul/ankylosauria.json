@@ -9,11 +9,11 @@
       "code": "CombatOverhaul:EntityColliders",
       "elements": {
         "Torso": ["Belly1","Belly","Body Front 2","Tail4","Tail8","Tail10","Body Back2"],
-        "Head": ["Top Jar","Lower Jaw","Lower Jaw1","Lower Jaw2","Lower Jar3","Lower Jar4","Lower Jar5","Lower face"],
+        "Head": ["Top Jar","Lower Jar","Lower Jar3","Lower Jar4","Lower Jar5","Lower face"],
         "Arm": [],
-        "Leg": ["Leg Front L","Leg Front R","Leg Back L","Leg Back R","Shin Front L","Shin Front R","Shin Back L","Shin Back R","Foot Front L","Foot Front R","Foot Back L","Foot Back R",],
+        "Leg": ["Leg Front L","Leg Front R","Leg Back L","Leg Back R","Leg Front L2","Leg Front R2","Leg Back L2","Leg Back R2","Foot Front L","Foot Front R","Foot Back L","Foot Back R",],
         "Critical": ["Eyes"],
-        "Resistant": ["Neck", "Body Front", "Body", "Body Back", "Tail", "Tail1", "Tail2","Tail3","Club","Head","Top Jar1","Top Jar2","Top Jar5", "Top Jar4","Top Jar6","Eyeplate","Eyeplate1"]
+        "Resistant": ["Neck", "Body Front", "Body", "Body Back", "Tail", "Tail6", "Tail2","Tail3","Club","Head","Top Jar5", "Top Jar4","Top Jar6","Eyeplate","Eyeplate1"]
       }
     }
   },
@@ -27,11 +27,11 @@
       "code": "CombatOverhaul:EntityColliders",
       "elements": {
         "Torso": ["Belly1","Belly","Body Front 2","Tail4","Tail8","Tail10","Body Back2"],
-        "Head": ["Top Jar","Lower Jaw","Lower Jaw1","Lower Jaw2","Lower Jar3","Lower Jar4","Lower Jar5","Lower face"],
+        "Head": ["Top Jar","Lower Jar","Lower Jar3","Lower Jar4","Lower Jar5","Lower face"],
         "Arm": [],
-        "Leg": ["Leg Front L","Leg Front R","Leg Back L","Leg Back R","Shin Front L","Shin Front R","Shin Back L","Shin Back R","Foot Front L","Foot Front R","Foot Back L","Foot Back R",],
+        "Leg": ["Leg Front L","Leg Front R","Leg Back L","Leg Back R","Leg Front L2","Leg Front R2","Leg Back L2","Leg Back R2","Foot Front L","Foot Front R","Foot Back L","Foot Back R",],
         "Critical": ["Eyes"],
-        "Resistant": ["Neck", "Body Front", "Body", "Body Back", "Tail", "Tail1", "Tail2","Tail3","Club","Head","Top Jar1","Top Jar2","Top Jar5", "Top Jar4","Top Jar6","Eyeplate","Eyeplate1"]
+        "Resistant": ["Neck", "Body Front", "Body", "Body Back", "Tail", "Tail6", "Tail2","Tail3","Club","Head","Top Jar5", "Top Jar4","Top Jar6","Eyeplate","Eyeplate1"]
       }
     }
   },

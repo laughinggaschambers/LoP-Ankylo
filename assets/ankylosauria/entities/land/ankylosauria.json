@@ -426,14 +426,32 @@
 				"pregnancyDaysByType": {"*": 30},
 				"multiplyCooldownDaysMinByType": {"*": 30},
 				"multiplyCooldownDaysMaxByType": {"*": 60},
-				"portionsEatenForMultiplyByType": {"*": 45}
+				"portionsEatenForMultiplyByType": {
+					"*-ankylosaurus-adult-male": 50,
+					"*-tarchia-adult-male": 48,
+					"*-euoplocephalus-adult-male": 40,
+					"*-edmontonia-adult-male": 40,
+					"*-ziapelta-adult-male": 35,
+					"*-pinacosaurus-adult-male": 35,
+					"*-antarctopelta-adult-male": 33,
+					"*-struthiosaurus-adult-male": 20,
+				}
 			},
             {"code": "grow",
 					"enabledByType": {
 					"*-baby-*": true,
 					"*": false
 				},
-				"hoursToGrowByType": {"*": 720},
+				"hoursToGrowByType": {"*": 720,
+					"*-ankylosaurus-adult-male": 720,
+					"*-tarchia-adult-male": 684,
+					"*-euoplocephalus-adult-male": 576,
+					"*-edmontonia-adult-male": 576,
+					"*-ziapelta-adult-male": 504,
+					"*-pinacosaurus-adult-male": 504,
+					"*-antarctopelta-adult-male": 468,
+					"*-struthiosaurus-adult-male": 288,
+				},
 				"adultEntityCodesByType": {
 					"*-baby-male": ["ankylosauria:ankylosauria-{type}-adult-male"],
 					"*-baby-female": ["ankylosauria:ankylosauria-{type}-adult-female"]

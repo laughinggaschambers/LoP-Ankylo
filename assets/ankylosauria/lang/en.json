@@ -2,14 +2,12 @@
   "game:creaturegroup-ankylosauria": "Ankylosaurians",
 
   "item-ankylowearable-saddle": "Saddle made for ankylosaurians",
-  "item-ankylowearable-bridle1": "Bridle made of ankylosaurians",
+  "item-ankylowearable-bridle1": "Bridle made for ankylosaurians",
   "itemdesc-ankylowearable-bridle1": "Useful for precise, short distance travel",
-  "item-ankylowearable-bridle2": "Bridle made of ankylosaurians",
+  "item-ankylowearable-bridle2": "Bridle made for ankylosaurians",
   "itemdesc-ankylowearable-bridle2": "Useful for long distance travel",
   "item-handbooktitle-ankylowearable-bridle2": "How to Use",
   "item-handbooktext-ankylowearable-bridle2": "When your mount is wearing a curb bit, you need only press forward once, rather than hold it down, to move.",
-  "creature-tyrannosauridae-*-selectionbox-HeadAP": "Bridle slot",
-  "creature-tyrannosauridae-*-selectionbox-MidAP": "Saddle",
 
 
   "item-creature-ankylosauria-ankylosaurus-adult-male": "Ankylosaurus (Male)",
