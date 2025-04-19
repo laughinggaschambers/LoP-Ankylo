@@ -870,11 +870,12 @@
         ],
 	"spawnconditions": {
 		"worldgen": {
+			"triesPerChunk": { "avg": 0.000, "var": 0},
 			"tryOnlySurface": true,
 			"insideBlockCodes": ["game:air","game:tallgrass-*","game:gravel-*","game:sand-*","game:snowlayer-1","game:soil-*"],
 			"groupSizeByType": {
 				"*-adult-male":{ "dist": "uniform","avg": 3,"var": 2},
-				"*-adult-female":{ "dist": "uniform","avg": 35,"var": 5},
+				"*-adult-female":{ "dist": "uniform","avg": 8,"var": 5},
 			},
 			"companionsByType":{
 				"*-adult-male":["ankylosauria:ankylosauria-{type}-adult-male"],
@@ -884,8 +885,7 @@
 		},
 		"runtime": {
 			"group": "neutral",
-			"TriesPerChunk": { "avg": 0.000, "var": 0 },
-			"MinDistanceToPlayer": 70,
+			"MinDistanceToPlayer": 100,
 			"tryOnlySurface": true,
 			"chanceByType": {
 				"*-ankylosaurus-adult-male": 0.00001,"*-ankylosaurus-adult-female": 0.00001,
@@ -898,7 +898,6 @@
 				"*-struthiosaurus-adult-male": 0.00001,"*-struthiosaurus-adult-female": 0.00001,
 				"*":0.00,
 			},
-			"maxQuantity": 1,
 			"maxLightLevel": 7,
 			"lightLevelType": "onlyBlockLight",
 			"spawnCapPlayerScaling": 0.0,
@@ -926,6 +925,9 @@
 					"minY": 0.9,
 					"maxY": 1.6
 				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
+				},
 				"runtime": {
 					"maxQuantityByGroup": { "code": "ankylosauria-*", "maxQuantity": 1 }
 				}
@@ -941,6 +943,9 @@
 					"maxShrubs": 0.8,
 					"minY": 0.9,
 					"maxY": 1.5
+				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
 				},
 				"runtime": {
 					"maxQuantityByGroup": { "code": "ankylosauria-*", "maxQuantity": 1 }
@@ -958,6 +963,9 @@
 					"minY": 0.9,
 					"maxY": 1.6
 				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
+				},
 				"runtime": {
 					"maxQuantityByGroup": { "code": "ankylosauria-*", "maxQuantity": 1 }
 				}
@@ -973,6 +981,9 @@
 					"maxShrubs": 0.7,
 					"minY": 0.9,
 					"maxY": 1.6
+				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
 				},
 				"runtime": {
 					"maxQuantityByGroup": { "code": "ankylosauria-*", "maxQuantity": 1 }
@@ -990,6 +1001,9 @@
 					"minY": 0.9,
 					"maxY": 1.6
 				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
+				},
 				"runtime": {
 					"maxQuantityByGroup": { "code": "ankylosauria-*", "maxQuantity": 1 }
 				}
@@ -1005,6 +1019,9 @@
 					"maxShrubs": 0.8,
 					"minY": 0.9,
 					"maxY": 1.5
+				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
 				},
 				"runtime": {
 					"maxQuantityByGroup": { "code": "ankylosauria-*", "maxQuantity": 1 }
@@ -1022,6 +1039,9 @@
 					"minY": 1,
 					"maxY": 1.7
 				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
+				},
 				"runtime": {
 					"maxQuantityByGroup": { "code": "ankylosauria-*", "maxQuantity": 1 }
 				}
@@ -1037,6 +1057,9 @@
 					"maxShrubs": 0.6,
 					"minY": 1,
 					"maxY": 1.7
+				},
+				"worldgen": {
+					"triesPerChunk": { "avg": 0.001, "var": 0}
 				},
 				"runtime": {
 					"maxQuantityByGroup": { "code": "ankylosauria-*", "maxQuantity": 1 }
