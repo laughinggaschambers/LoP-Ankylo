@@ -481,7 +481,7 @@
 						"enabledByType": {
 							"*": true},
 						"entityCodesByType": {
-							"*": [ "player","bear-*","bell-*","bowtorn-*","drifter-*","hyena-*","locust-*","shiver-*","wolf-*","tyrannosauridae-*", "spinosauridae-*","dromaeosauridae-*",]},
+							"*": [ "player","bear-*","bell-*","bowtorn-*","drifter-*","hyena-*","locust-*","shiver-*","wolf-*","tyrannosauridae-*", "spinosauridae-*","dromaeosauridae-*","abelisauridae-*",]},
 						"priority": 1.9,
 						"slot": 1,
 						"damageByType": {
@@ -532,7 +532,7 @@
 						"code": "seekentity",
 						"animation": "Trot",
 						"entityCodesByType": {
-							"*-adult-*": [ "bear-*","bell-*","bowtorn-*","drifter-*","hyena-*","locust-*","shiver-*","wolf-*","tyrannosauridae-*", "spinosauridae-*","dromaeosauridae-*",],
+							"*-adult-*": [ "bear-*","bell-*","bowtorn-*","drifter-*","hyena-*","locust-*","shiver-*","wolf-*","tyrannosauridae-*", "spinosauridae-*","dromaeosauridae-*","abelisauridae-*",],
 						},
 						"priority": 1.82,
 						"mincooldown": 600,
@@ -552,7 +552,7 @@
 						"code": "seekentity",
 						"animation": "Trot",
 						"entityCodesByType": {
-							"*-adult-*": [ "player","bear-*","bell-*","bowtorn-*","drifter-*","hyena-*","locust-*","shiver-*","wolf-*","tyrannosauridae-*", "spinosauridae-*","dromaeosauridae-*",],
+							"*-adult-*": [ "player","bear-*","bell-*","bowtorn-*","drifter-*","hyena-*","locust-*","shiver-*","wolf-*","tyrannosauridae-*", "spinosauridae-*","dromaeosauridae-*","abelisauridae-*",],
 						},
 						"priority": 1.82,
 						"mincooldown": 600,
@@ -575,7 +575,7 @@
 							"*-baby-*": false,
 							"*": true},
 						"entityCodesByType": {
-							"*-adult-*": [ "player","bear-*","bell-*","bowtorn-*","drifter-*","hyena-*","locust-*","shiver-*","wolf-*","tyrannosauridae-*", "spinosauridae-*","dromaeosauridae-*",]
+							"*-adult-*": [ "player","bear-*","bell-*","bowtorn-*","drifter-*","hyena-*","locust-*","shiver-*","wolf-*","tyrannosauridae-*", "spinosauridae-*","dromaeosauridae-*","abelisauridae-*",]
 						},
 						"priority": 1.84,
 						"mincooldown": 6000,
@@ -605,7 +605,7 @@
 							"*-baby-*": false,
 							"*": true},
 						"entityCodesByType": {
-							"*-adult-*": [ "player","bear-*","bell-*","bowtorn-*","drifter-*","hyena-*","locust-*","shiver-*","wolf-*","tyrannosauridae-*", "spinosauridae-*","dromaeosauridae-*",]
+							"*-adult-*": [ "player","bear-*","bell-*","bowtorn-*","drifter-*","hyena-*","locust-*","shiver-*","wolf-*","tyrannosauridae-*", "spinosauridae-*","dromaeosauridae-*","abelisauridae-*",]
 						},
 						"priority": 1.83,
 						"mincooldown": 6000,
@@ -628,15 +628,15 @@
 						"animation": "Trot",
 						"enabledByType": {"*-adult-*": true,"*": true},
 						"entityCodesByType": {
-							"*-baby-*":["bear-*","bell-*","bowtorn-*","drifter-*","shiver-*","hyena-male", "hyena-female","wolf-male", "wolf-female","tyrannosauridae-*"],
+							"*-baby-*":["bear-*","bell-*","bowtorn-*","drifter-*","shiver-*","hyena-male", "hyena-female","wolf-male", "wolf-female","tyrannosauridae-*","abelisauridae-*",],
 							"*": ["bell-*",
 							"tyrannosauridae-tyrannosaurus-adult-*", "tyrannosauridae-tarbosaurus-adult-*","tyrannosauridae-nanuqsaurus-adult-*","tyrannosauridae-albertosaurus-adult-*","tyrannosauridae-gorgosaurus-adult-*","tyrannosauridae-alioramus-adult-*","tyrannosauridae-qianzhousaurus-adult-*",
 
 							"spinosauridae-spinosaurus-adult-*", "spinosauridae-oxalaia-adult-*", "spinosauridae-suchomimus-adult-*", "spinosauridae-baryonyx-adult-*", "spinosauridae-ichthyovenator-adult-*","spinosauridae-irritator-adult-*",
 
-							"*-dromaeosauridae-utahraptor-adult-*","*-dromaeosauridae-dakotaraptor-adult-*","*-dromaeosauridae-achillobator-adult-*","*-dromaeosauridae-austroraptor-adult-*","*-dromaeosauridae-deinonychus-adult-*","*-dromaeosauridae-dromaeosaurus-adult-*","*-dromaeosauridae-adasaurus-adult-*","*-dromaeosauridae-velociraptor-adult-*","*-dromaeosauridae-saurornitholestes-adult-*","*-dromaeosauridae-atrociraptor-adult-*","*-dromaeosauridae-pyroraptor-adult-*","*-dromaeosauridae-buitreraptor-adult-*","*-dromaeosauridae-microraptor-adult-*","*-dromaeosauridae-rahonavis-adult-*",
+							"*-dromaeosauridae-utahraptor-adult-*","*-dromaeosauridae-dakotaraptor-adult-*","*-dromaeosauridae-achillobator-adult-*",
 
-
+							"abelisauridae-pycnonemosaurus-adult-*","abelisauridae-ekrixinatosaurus-adult-*","abelisauridae-carnotaurus-adult-*","abelisauridae-chenanisaurus-adult-*","abelisauridae-rajasaurus-adult-*","abelisauridae-abelisaurus-adult-*",
 							]
 						},
 						"priority": 1.8,
@@ -655,8 +655,7 @@
 						"code": "fleeentity",
 						"animation": "Gallop",
 						"entityCodesByType": {
-							"*-adult-*": [ "player","bear-*","bell-*","bowtorn-*","drifter-*","shiver-*","hyena-*","locust-*", "wolf-*", "tyrannosauridae-*", "spinosauridae-*","dromaeosauridae-*",],
-							"*": [ "player","bear-*","bell-*","bowtorn-*","drifter-*","shiver-*","hyena-*","locust-*", "wolf-*", "tyrannosauridae-*", "spinosauridae-*","dromaeosauridae-*",]
+							"*": [ "player","bear-*","bell-*","bowtorn-*","drifter-*","shiver-*","hyena-*","locust-*", "wolf-*", "tyrannosauridae-*", "spinosauridae-*","dromaeosauridae-*","abelisauridae-*",]
 						},
 						"priority": 2.1,
 						"movespeedByType": {
@@ -713,7 +712,7 @@
 						"duringDayTimeFramesByType": {
 							"*":[{"fromHour": 22,"toHour": 24},{"fromHour": 0,"toHour": 4},{"fromHour": 12,"toHour": 16}],
 							},
-						"stopOnNearbyEntityCodes": [ "player", "bear-*","hyena-male", "hyena-female","wolf-male", "wolf-female", "tyrannosauridae-*", "spinosauridae-*","dromaeosauridae-*",],
+						"stopOnNearbyEntityCodes": [ "player", "bear-*","hyena-male", "hyena-female","wolf-male", "wolf-female", "tyrannosauridae-*", "spinosauridae-*","dromaeosauridae-*","abelisauridae-*",],
 						"stopRange": 20,
 						"animationSpeedByType": {
 							"*-baby-*": 0.6,
@@ -734,7 +733,7 @@
 						"duringDayTimeFramesByType": {
 							"*":[{"fromHour": 22.5,"toHour": 24},{"fromHour": 0,"toHour": 4},{"fromHour": 12.5,"toHour": 16}],
 							},
-						"stopOnNearbyEntityCodes": [ "player", "bear-*","hyena-male", "hyena-female","wolf-male", "wolf-female", "tyrannosauridae-*", "spinosauridae-*","dromaeosauridae-*",],
+						"stopOnNearbyEntityCodes": [ "player", "bear-*","hyena-male", "hyena-female","wolf-male", "wolf-female", "tyrannosauridae-*", "spinosauridae-*","dromaeosauridae-*","abelisauridae-*",],
 						"stopRange": 10,
 						"animationSpeedByType": {
 							"*-baby-*": 0.6,
@@ -870,12 +869,15 @@
         ],
 	"spawnconditions": {
 		"worldgen": {
-			"triesPerChunk": { "avg": 0.000, "var": 0},
+			"chanceByType": {"*-baby-*": 0.0},
+			"maxQuantityByGroup": { "code": "ankylosauria-*", "maxQuantity": 1 },
+			"triesPerChunk": { "avg": 0.001, "var": 0},
 			"tryOnlySurface": true,
 			"insideBlockCodes": ["game:air","game:tallgrass-*","game:gravel-*","game:sand-*","game:snowlayer-1","game:soil-*"],
 			"groupSizeByType": {
 				"*-adult-male":{ "dist": "uniform","avg": 3,"var": 2},
 				"*-adult-female":{ "dist": "uniform","avg": 8,"var": 5},
+				"*":{ "dist": "uniform","avg": 0,"var": 0},
 			},
 			"companionsByType":{
 				"*-adult-male":["ankylosauria:ankylosauria-{type}-adult-male"],
@@ -887,17 +889,9 @@
 			"group": "neutral",
 			"MinDistanceToPlayer": 100,
 			"tryOnlySurface": true,
-			"chanceByType": {
-				"*-ankylosaurus-adult-male": 0.00001,"*-ankylosaurus-adult-female": 0.00001,
-				"*-tarchia-adult-male": 0.00001,"*-tarchia-adult-female": 0.00001,
-				"*-euoplocephalus-adult-male": 0.00001,"*-euoplocephalus-adult-female": 0.00001,
-				"*-edmontonia-adult-male": 0.00001,"*-edmontonia-adult-female": 0.00001,
-				"*-ziapelta-adult-male": 0.00001,"*-ziapelta-adult-female": 0.00001,
-				"*-pinacosaurus-adult-male": 0.00001,"*-pinacosaurus-adult-female": 0.00001,
-				"*-antarctopelta-adult-male": 0.00001,"*-antarctopelta-adult-female": 0.00001,
-				"*-struthiosaurus-adult-male": 0.00001,"*-struthiosaurus-adult-female": 0.00001,
-				"*":0.00,
-			},
+			"chanceByType": {"*-adult-*": 0.00001,"*":0.00,},
+			"maxQuantityByGroup": { "code": "ankylosauria-*", "maxQuantity": 1 },
+			"triesPerChunk": { "avg": 0.0, "var": 0},
 			"maxLightLevel": 7,
 			"lightLevelType": "onlyBlockLight",
 			"spawnCapPlayerScaling": 0.0,
@@ -905,6 +899,7 @@
 			"groupSizeByType": {
 				"*-adult-male":{ "dist": "uniform","avg": 3,"var": 2},
 				"*-adult-female":{ "dist": "uniform","avg": 8,"var": 5},
+				"*":{ "dist": "uniform","avg": 0,"var": 0},
 			},
 			"companionsByType":{
 				"*-adult-male":["ankylosauria:ankylosauria-{type}-adult-male"],
@@ -925,12 +920,6 @@
 					"minY": 0.9,
 					"maxY": 1.6
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "ankylosauria-*", "maxQuantity": 1 }
-				}
 			},
 			"*-tarchia-adult-*": {
 				"climate": {
@@ -944,12 +933,6 @@
 					"minY": 0.9,
 					"maxY": 1.5
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "ankylosauria-*", "maxQuantity": 1 }
-				}
 			},
 			"*-euoplocephalus-adult-*": {
 				"climate": {
@@ -963,12 +946,6 @@
 					"minY": 0.9,
 					"maxY": 1.6
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "ankylosauria-*", "maxQuantity": 1 }
-				}
 			},
 			"*-edmontonia-adult-*": {
 				"climate": {
@@ -982,12 +959,6 @@
 					"minY": 0.9,
 					"maxY": 1.6
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "ankylosauria-*", "maxQuantity": 1 }
-				}
 			},
 			"*-ziapelta-adult-*": {
 				"climate": {
@@ -1001,12 +972,6 @@
 					"minY": 0.9,
 					"maxY": 1.6
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "ankylosauria-*", "maxQuantity": 1 }
-				}
 			},
 			"*-pinacosaurus-adult-*": {
 				"climate": {
@@ -1020,12 +985,6 @@
 					"minY": 0.9,
 					"maxY": 1.5
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "ankylosauria-*", "maxQuantity": 1 }
-				}
 			},
 			"*-antarctopelta-adult-*": {
 				"climate": {
@@ -1039,12 +998,6 @@
 					"minY": 1,
 					"maxY": 1.7
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "ankylosauria-*", "maxQuantity": 1 }
-				}
 			},
 			"*-struthiosaurus-adult-*": {
 				"climate": {
@@ -1058,13 +1011,27 @@
 					"minY": 1,
 					"maxY": 1.7
 				},
-				"worldgen": {
-					"triesPerChunk": { "avg": 0.001, "var": 0}
-				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "ankylosauria-*", "maxQuantity": 1 }
-				}
 			},
+			"*": {
+						"climate": {
+							"minTemp": 40,
+							"maxTemp": 40,
+							"minRain": 0,
+							"maxRain": 0,
+							"minForestOrShrubs": 0,
+							"maxForest": 0,
+							"maxShrubs": 0,
+							"minY": 0,
+							"maxY": 0
+						},
+						"worldgen": {
+							"triesPerChunk": { "avg": 0.0, "var": 0}
+						},
+						"runtime": {
+							"maxQuantityByGroup": { "code": "ankylosauria-*", "maxQuantity": 0 },
+							"chanceByType": {"*-baby-*": 0.0},
+						}
+					},
 		}
     },
 
