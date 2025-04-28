@@ -481,7 +481,9 @@
 						"enabledByType": {
 							"*": true},
 						"entityCodesByType": {
-							"*": [ "player","bear-*","bell-*","bowtorn-*","drifter-*","hyena-*","locust-*","shiver-*","wolf-*","tyrannosauridae-*", "spinosauridae-*","dromaeosauridae-*","abelisauridae-*",]},
+							"*-adult-*": [ "player","bear-*","bell-*","bowtorn-*","drifter-*","hyena-*","locust-*","shiver-*","wolf-*","tyrannosauridae-*", "spinosauridae-*","dromaeosauridae-*","abelisauridae-*",],
+							"*": ["bear-*","bell-*","bowtorn-*","drifter-*","hyena-*","locust-*","shiver-*","wolf-*","tyrannosauridae-*", "spinosauridae-*","dromaeosauridae-*","abelisauridae-*",],
+							},
 						"priority": 1.9,
 						"slot": 1,
 						"damageByType": {
@@ -531,6 +533,7 @@
 					{
 						"code": "seekentity",
 						"animation": "Trot",
+						"enabledByType": {"*-baby-*": false,"*-adult-*": true},
 						"entityCodesByType": {
 							"*-adult-*": [ "bear-*","bell-*","bowtorn-*","drifter-*","hyena-*","locust-*","shiver-*","wolf-*","tyrannosauridae-*", "spinosauridae-*","dromaeosauridae-*","abelisauridae-*",],
 						},
@@ -551,6 +554,7 @@
 					{
 						"code": "seekentity",
 						"animation": "Trot",
+						"enabledByType": {"*-baby-*": false,"*-adult-*": true},
 						"entityCodesByType": {
 							"*-adult-*": [ "player","bear-*","bell-*","bowtorn-*","drifter-*","hyena-*","locust-*","shiver-*","wolf-*","tyrannosauridae-*", "spinosauridae-*","dromaeosauridae-*","abelisauridae-*",],
 						},
@@ -571,9 +575,7 @@
 					{
 						"code": "seekentity",
 						"animation": "Trot",
-						"enabledByType": {
-							"*-baby-*": false,
-							"*": true},
+						"enabledByType": {"*-baby-*": false,"*-adult-*": true},
 						"entityCodesByType": {
 							"*-adult-*": [ "player","bear-*","bell-*","bowtorn-*","drifter-*","hyena-*","locust-*","shiver-*","wolf-*","tyrannosauridae-*", "spinosauridae-*","dromaeosauridae-*","abelisauridae-*",]
 						},
@@ -589,11 +591,6 @@
 							"*-baby-*": 5,
 							"*": 5.0
 						},
-				"*-pentaceratops-adult-male": 0.00001,"*-pentaceratops-adult-female": 0.00001,
-				"*-pachyrhinosaurus-adult-male": 0.00001,"*-pachyrhinosaurus-adult-female": 0.00001,
-				"*-styracosaurus-adult-male": 0.00001,"*-styracosaurus-adult-female": 0.00001,
-				"*-centrosaurus-adult-male": 0.00001,"*-centrosaurus-adult-female": 0.00001,
-				"*-nasutoceratops-adult-male": 0.00001,"*-nasutoceratops-adult-female": 0.00001,
 						"soundByType": {
 							"*-adult-*":"creature/hurt"},
 						"whenInEmotionState": "aggressiveondamage"
@@ -601,9 +598,7 @@
 					{
 						"code": "seekentity",
 						"animation": "Trot",
-						"enabledByType": {
-							"*-baby-*": false,
-							"*": true},
+						"enabledByType": {"*-baby-*": false,"*-adult-*": true},
 						"entityCodesByType": {
 							"*-adult-*": [ "player","bear-*","bell-*","bowtorn-*","drifter-*","hyena-*","locust-*","shiver-*","wolf-*","tyrannosauridae-*", "spinosauridae-*","dromaeosauridae-*","abelisauridae-*",]
 						},
