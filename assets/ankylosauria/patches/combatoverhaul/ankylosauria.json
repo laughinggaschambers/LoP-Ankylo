@@ -7,14 +7,49 @@
     "path": "/client/behaviors/-",
     "value": {
       "code": "CombatOverhaul:EntityColliders",
-      "elements": {
-        "Torso": ["Belly1","Belly","Body Front 2","Tail4","Tail8","Tail10","Body Back2"],
-        "Head": ["Top Jar","Lower Jar","Lower Jar3","Lower Jar4","Lower Jar5","Lower face"],
-        "Arm": [],
-        "Leg": ["Leg Front L","Leg Front R","Leg Back L","Leg Back R","Leg Front L2","Leg Front R2","Leg Back L2","Leg Back R2","Foot Front L","Foot Front R","Foot Back L","Foot Back R",],
-        "Critical": ["Eyes"],
-        "Resistant": ["Neck", "Body Front", "Body", "Body Back", "Tail", "Tail6", "Tail2","Tail3","Club","Head","Top Jar5", "Top Jar4","Top Jar6","Eyeplate","Eyeplate1"]
-      }
+      "elementsByType":{
+        "*-struthiosaurus-adult-*": {
+          "Torso": ["Belly1","Belly","Body Front 2","Tail4","Tail8","Tail10","Body Back2"],
+          "Head": ["Top Jar","Lower Jar","Lower Jar3","Lower Jar4","Lower Jar5","Lower face","Head","Top Jar5", "Top Jar4","Top Jar6","Eyeplate","Eyeplate1","Neck",],
+          "Arm": [],
+          "Leg": ["Leg Front L","Leg Front R","Leg Back L","Leg Back R","Leg Front L2","Leg Front R2","Leg Back L2","Leg Back R2","Foot Front L","Foot Front R","Foot Back L","Foot Back R",],
+          "Critical": ["Eyes"],
+          "Resistant": ["Body Front", "Body", "Body Back", "Tail", "Tail6", "Tail2","Tail3","Club",]
+        },
+         "*-edmontonia-adult-*": {
+          "Torso": ["Belly1","Belly","Body Front 2","Tail4","Tail8","Tail10","Body Back2"],
+          "Head": ["Top Jar","Lower Jar","Lower Jar3","Lower Jar4","Lower Jar5","Lower face","Head","Top Jar5", "Top Jar4","Top Jar6","Eyeplate","Eyeplate1","Neck",],
+          "Arm": [],
+          "Leg": ["Leg Front L","Leg Front R","Leg Back L","Leg Back R","Leg Front L2","Leg Front R2","Leg Back L2","Leg Back R2","Foot Front L","Foot Front R","Foot Back L","Foot Back R",],
+          "Critical": ["Eyes"],
+          "Resistant": ["Body Front", "Body", "Body Back", "Tail", "Tail6", "Tail2","Tail3","Club",]
+        },
+        "*-antarctopelta-adult-*": {
+         "Torso": ["Belly1","Belly","Body Front 2","Tail4","Tail8","Tail10","Body Back2"],
+          "Head": ["Top Jar","Lower Jar","Lower Jar3","Lower Jar4","Lower Jar5","Lower face","Head","Top Jar5", "Top Jar4","Top Jar6","Eyeplate","Eyeplate1","Neck",],
+          "Arm": [],
+          "Leg": ["Leg Front L","Leg Front R","Leg Back L","Leg Back R","Leg Front L2","Leg Front R2","Leg Back L2","Leg Back R2","Foot Front L","Foot Front R","Foot Back L","Foot Back R",],
+          "Critical": ["Eyes"],
+          "Resistant": ["Body Front", "Body", "Body Back", "Tail", "Tail6", "Tail2","Tail3","Club",]
+        },
+        "*-adult-*": {
+          "Torso": ["Belly1","Belly","Body Front 2","Tail4","Tail8","Tail10","Body Back2"],
+          "Head": ["Neck","Top Jar","Lower Jar","Lower Jar3","Lower Jar4","Lower Jar5","Lower face"],
+          "Arm": [],
+          "Leg": ["Leg Front L","Leg Front R","Leg Back L","Leg Back R","Leg Front L2","Leg Front R2","Leg Back L2","Leg Back R2","Foot Front L","Foot Front R","Foot Back L","Foot Back R",],
+          "Critical": ["Eyes"],
+          "Resistant": ["Body Front", "Body", "Body Back", "Tail", "Tail6", "Tail2","Tail3","Club","Head","Top Jar5", "Top Jar4","Top Jar6","Eyeplate","Eyeplate1"]
+        },
+        "*-baby-*": {
+          "Torso": ["Belly1","Belly","Body Front 2","Tail4","Tail8","Tail10","Body Back2","Neck", "Body Front", "Body", "Body Back", "Tail", "Tail6", "Tail2","Tail3","Club"],
+          "Head": ["Top Jar","Lower Jar","Lower Jar3","Lower Jar4","Lower Jar5","Lower face","Head","Top Jar5", "Top Jar4","Top Jar6","Eyeplate","Eyeplate1"],
+          "Arm": [],
+          "Leg": ["Leg Front L","Leg Front R","Leg Back L","Leg Back R","Leg Front L2","Leg Front R2","Leg Back L2","Leg Back R2","Foot Front L","Foot Front R","Foot Back L","Foot Back R",],
+          "Critical": ["Eyes","Brain","Heart","Lungs"],
+          "Resistant": []
+        },
+      },
+      "defaultPenetrationResistance": 7,
     }
   },
   {
@@ -25,14 +60,49 @@
     "path": "/server/behaviors/-",
     "value": {
       "code": "CombatOverhaul:EntityColliders",
-      "elements": {
-        "Torso": ["Belly1","Belly","Body Front 2","Tail4","Tail8","Tail10","Body Back2"],
-        "Head": ["Top Jar","Lower Jar","Lower Jar3","Lower Jar4","Lower Jar5","Lower face"],
-        "Arm": [],
-        "Leg": ["Leg Front L","Leg Front R","Leg Back L","Leg Back R","Leg Front L2","Leg Front R2","Leg Back L2","Leg Back R2","Foot Front L","Foot Front R","Foot Back L","Foot Back R",],
-        "Critical": ["Eyes"],
-        "Resistant": ["Neck", "Body Front", "Body", "Body Back", "Tail", "Tail6", "Tail2","Tail3","Club","Head","Top Jar5", "Top Jar4","Top Jar6","Eyeplate","Eyeplate1"]
-      }
+      "elementsByType":{
+        "*-struthiosaurus-adult-*": {
+          "Torso": ["Belly1","Belly","Body Front 2","Tail4","Tail8","Tail10","Body Back2"],
+          "Head": ["Top Jar","Lower Jar","Lower Jar3","Lower Jar4","Lower Jar5","Lower face","Head","Top Jar5", "Top Jar4","Top Jar6","Eyeplate","Eyeplate1","Neck",],
+          "Arm": [],
+          "Leg": ["Leg Front L","Leg Front R","Leg Back L","Leg Back R","Leg Front L2","Leg Front R2","Leg Back L2","Leg Back R2","Foot Front L","Foot Front R","Foot Back L","Foot Back R",],
+          "Critical": ["Eyes"],
+          "Resistant": ["Body Front", "Body", "Body Back", "Tail", "Tail6", "Tail2","Tail3","Club",]
+        },
+         "*-edmontonia-adult-*": {
+          "Torso": ["Belly1","Belly","Body Front 2","Tail4","Tail8","Tail10","Body Back2"],
+          "Head": ["Top Jar","Lower Jar","Lower Jar3","Lower Jar4","Lower Jar5","Lower face","Head","Top Jar5", "Top Jar4","Top Jar6","Eyeplate","Eyeplate1","Neck",],
+          "Arm": [],
+          "Leg": ["Leg Front L","Leg Front R","Leg Back L","Leg Back R","Leg Front L2","Leg Front R2","Leg Back L2","Leg Back R2","Foot Front L","Foot Front R","Foot Back L","Foot Back R",],
+          "Critical": ["Eyes"],
+          "Resistant": ["Body Front", "Body", "Body Back", "Tail", "Tail6", "Tail2","Tail3","Club",]
+        },
+        "*-antarctopelta-adult-*": {
+         "Torso": ["Belly1","Belly","Body Front 2","Tail4","Tail8","Tail10","Body Back2"],
+          "Head": ["Top Jar","Lower Jar","Lower Jar3","Lower Jar4","Lower Jar5","Lower face","Head","Top Jar5", "Top Jar4","Top Jar6","Eyeplate","Eyeplate1","Neck",],
+          "Arm": [],
+          "Leg": ["Leg Front L","Leg Front R","Leg Back L","Leg Back R","Leg Front L2","Leg Front R2","Leg Back L2","Leg Back R2","Foot Front L","Foot Front R","Foot Back L","Foot Back R",],
+          "Critical": ["Eyes"],
+          "Resistant": ["Body Front", "Body", "Body Back", "Tail", "Tail6", "Tail2","Tail3","Club",]
+        },
+        "*-adult-*": {
+          "Torso": ["Belly1","Belly","Body Front 2","Tail4","Tail8","Tail10","Body Back2"],
+          "Head": ["Neck","Top Jar","Lower Jar","Lower Jar3","Lower Jar4","Lower Jar5","Lower face"],
+          "Arm": [],
+          "Leg": ["Leg Front L","Leg Front R","Leg Back L","Leg Back R","Leg Front L2","Leg Front R2","Leg Back L2","Leg Back R2","Foot Front L","Foot Front R","Foot Back L","Foot Back R",],
+          "Critical": ["Eyes"],
+          "Resistant": ["Body Front", "Body", "Body Back", "Tail", "Tail6", "Tail2","Tail3","Club","Head","Top Jar5", "Top Jar4","Top Jar6","Eyeplate","Eyeplate1"]
+        },
+        "*-baby-*": {
+          "Torso": ["Belly1","Belly","Body Front 2","Tail4","Tail8","Tail10","Body Back2","Neck", "Body Front", "Body", "Body Back", "Tail", "Tail6", "Tail2","Tail3","Club"],
+          "Head": ["Top Jar","Lower Jar","Lower Jar3","Lower Jar4","Lower Jar5","Lower face","Head","Top Jar5", "Top Jar4","Top Jar6","Eyeplate","Eyeplate1"],
+          "Arm": [],
+          "Leg": ["Leg Front L","Leg Front R","Leg Back L","Leg Back R","Leg Front L2","Leg Front R2","Leg Back L2","Leg Back R2","Foot Front L","Foot Front R","Foot Back L","Foot Back R",],
+          "Critical": ["Eyes","Brain","Heart","Lungs"],
+          "Resistant": []
+        },
+      },
+      "defaultPenetrationResistance": 7,
     }
   },
   {
@@ -44,9 +114,9 @@
     "value": {
       "code": "CombatOverhaul:EntityDamageModel",
       "damageModel": {
-        "TorsoDamageMultiplier": 1,
+        "TorsoDamageMultiplier": 2,
         "LimbsDamageMultiplier": 0.75,
-        "HeadDamageMultiplier": 2.5,
+        "HeadDamageMultiplier": 5,
         "CriticalDamageMultiplier": 25,
         "DefaultResists": {"BluntAttack": 10, "SlashingAttack": 10, "PiercingAttack": 4}
       }
@@ -61,9 +131,9 @@
     "value": {
       "code": "CombatOverhaul:EntityDamageModel",
       "damageModel": {
-        "TorsoDamageMultiplier": 1,
+        "TorsoDamageMultiplier": 2,
         "LimbsDamageMultiplier": 0.75,
-        "HeadDamageMultiplier": 2.5,
+        "HeadDamageMultiplier": 5,
         "CriticalDamageMultiplier": 25,
         "DefaultResists": {"BluntAttack": 10, "SlashingAttack": 10, "PiercingAttack": 4}
       }

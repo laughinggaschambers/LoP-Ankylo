@@ -41,10 +41,15 @@
 				{"code": "face", "forCategoryCodes": [], "attachmentPointCode": "FaceAP" },
 				{"code": "neck", "forCategoryCodes": [], "attachmentPointCode": "NeckAP" },
 				{"code": "middleback", "forCategoryCodes": ["ankylobsaddle"], "attachmentPointCode": "MidAP", },
+				{"code": "Back Storage 1","forCategoryCodes": ["chest", "basket", "crate"],"attachmentPointcode": "BStore1AP","stepParentTo": {"": { "elementName": "BackStorage1" }}},
+				{"code": "Side Storage L","forCategoryCodes": ["chest", "basket", "crate"],"attachmentPointcode": "SStoreLAP","stepParentTo": {"": { "elementName": "SideStorageL" }}},
+				{"code": "Side Storage R","forCategoryCodes": ["chest", "basket", "crate"],"attachmentPointcode": "SStoreRAP","stepParentTo": {"": { "elementName": "SideStorageR" }}},
+				{"code": "Side Storage L2","forCategoryCodes": ["chest", "basket", "crate"],"attachmentPointcode": "SStoreLAP2","stepParentTo": {"": { "elementName": "SideStorageL2" }}},
+				{"code": "Side Storage R2","forCategoryCodes": ["chest", "basket", "crate"],"attachmentPointcode": "SStoreRAP2","stepParentTo": {"": { "elementName": "SideStorageR2" }}},
 			]
 		},
 		"selectionboxes": {
-			"selectionBoxes": ["HeadAP","FaceAP", "NeckAP", "MidAP"]
+			"selectionBoxes": ["HeadAP","FaceAP", "NeckAP", "MidAP","BStore1AP","SStoreLAP","SStoreRAP","SStoreLAP2","SStoreRAP2"]
 		},
 		"rideable": {
 			"interactMountAnySeat": true,
