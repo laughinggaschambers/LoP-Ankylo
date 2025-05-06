@@ -21,7 +21,7 @@
     "deadhitBoxSizeByType": {"*-adult-*":{	"x": 3,"y": 3},"*-baby-*":{	"x": 1,"y": 1}},
     "eyeHeightByType": {"*":1},
     "weightByType": {"*-adult-*":4000,"*-baby-*":10},
-    "knockbackResistanceByType": {"*-adult-*": 2,"*-baby-*": 1	},
+    "knockbackResistanceByType": {"*-adult-*": 1,"*-baby-*": 0	},
 
     "drops": [],
     "attributes": {
@@ -864,6 +864,10 @@
 					},
 					{
 						"code": "stayclosetoentity",
+						"enabledByType":{
+							"*-baby-*":false,
+							"*-adult-*":true,
+                        },
 						"animation": "Run",
 						"priority": 2,
 						"entityCodeByType": {
@@ -883,11 +887,15 @@
 					},
 					{
 						"code": "seekentity",
-						"animation": "Run",
+						"animation": "Trot",
+						"enabledByType":{
+							"*-baby-*":false,
+							"*-adult-*":true,
+                        },
 						"entityCodesByType": {"*-adult-*":["hitch"],},
-						"priority": 1.85,
-						"seekingRange": 10,
-						"belowTempSeekingRange": 10,
+						"priority": 1,
+						"seekingRange": 5,
+						"belowTempSeekingRange": 5,
 						"movespeedByType": {
 							"*-adult-*": 0.035,
 							"*-baby-*": 0.010,
