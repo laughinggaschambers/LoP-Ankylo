@@ -152,7 +152,7 @@
 	"spawnconditions": {
 		"worldgen": {
 			"chanceByType": {"*-empty": 0.0},
-			"triesPerChunk": { "avg": 0.0, "var": 0},
+			"triesPerChunkByType": {"*-incubating":{ "avg": 0.001, "var": 0}},
 			"maxQuantityByGroup": { "code": "ankylosauria-*", "maxQuantity": 1 },
 			"tryOnlySurface": true,
 			"insideBlockCodes": [
@@ -199,128 +199,104 @@
 					"minTemp": 5,
 					"maxTemp": 30,
 					"minRain": 0.3,
-					"maxRain": 0.8,
+					"maxRain": 1,
 					"minForestOrShrubs": 0.4,
 					"maxForest": 0.8,
-					"maxShrubs": 0.7,
+					"maxShrubs": 1,
 					"minY": 0.9,
 					"maxY": 1.6
 				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "ankylosauria-*", "maxQuantity": 1 }
-				}
 			},
 			"*-tarchia-nest-incubating": {
 				"climate": {
 					"minTemp": 10,
 					"maxTemp": 40,
 					"minRain": 0.2,
-					"maxRain": 0.7,
+					"maxRain": 1,
 					"minForestOrShrubs": 0.3,
 					"maxForest": 0.6,
-					"maxShrubs": 0.8,
+					"maxShrubs": 1,
 					"minY": 0.9,
 					"maxY": 1.5
 				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "ankylosauria-*", "maxQuantity": 1 }
-				}
 			},
 			"*-euoplocephalus-nest-incubating": {
 				"climate": {
 					"minTemp": 5,
 					"maxTemp": 30,
 					"minRain": 0.3,
-					"maxRain": 0.8,
+					"maxRain": 1,
 					"minForestOrShrubs": 0.4,
 					"maxForest": 0.8,
-					"maxShrubs": 0.7,
+					"maxShrubs": 1,
 					"minY": 0.9,
 					"maxY": 1.6
 				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "ankylosauria-*", "maxQuantity": 1 }
-				}
 			},
 			"*-edmontonia-nest-incubating": {
 				"climate": {
 					"minTemp": 5,
 					"maxTemp": 25,
 					"minRain": 0.3,
-					"maxRain": 0.8,
+					"maxRain": 1,
 					"minForestOrShrubs": 0.4,
 					"maxForest": 0.8,
-					"maxShrubs": 0.7,
+					"maxShrubs": 1,
 					"minY": 0.9,
 					"maxY": 1.6
 				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "ankylosauria-*", "maxQuantity": 1 }
-				}
 			},
 			"*-ziapelta-nest-incubating": {
 				"climate": {
 					"minTemp": 5,
 					"maxTemp": 30,
 					"minRain": 0.3,
-					"maxRain": 0.8,
+					"maxRain": 1,
 					"minForestOrShrubs": 0.4,
 					"maxForest": 0.8,
-					"maxShrubs": 0.7,
+					"maxShrubs": 1,
 					"minY": 0.9,
 					"maxY": 1.6
 				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "ankylosauria-*", "maxQuantity": 1 }
-				}
 			},
 			"*-pinacosaurus-nest-incubating": {
 				"climate": {
 					"minTemp": 10,
 					"maxTemp": 40,
 					"minRain": 0.2,
-					"maxRain": 0.7,
+					"maxRain": 1,
 					"minForestOrShrubs": 0.3,
 					"maxForest": 0.6,
-					"maxShrubs": 0.8,
+					"maxShrubs": 1,
 					"minY": 0.9,
 					"maxY": 1.5
 				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "ankylosauria-*", "maxQuantity": 1 }
-				}
 			},
 			"*-antarctopelta-nest-incubating": {
 				"climate": {
 					"minTemp": -10,
 					"maxTemp": 15,
 					"minRain": 0.4,
-					"maxRain": 0.9,
+					"maxRain": 1,
 					"minForestOrShrubs": 0.5,
 					"maxForest": 0.9,
-					"maxShrubs": 0.6,
+					"maxShrubs": 1,
 					"minY": 1,
 					"maxY": 1.7
 				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "ankylosauria-*", "maxQuantity": 1 }
-				}
 			},
 			"*-struthiosaurus-nest-incubating": {
 				"climate": {
 					"minTemp": 5,
 					"maxTemp": 30,
 					"minRain": 0.4,
-					"maxRain": 0.9,
+					"maxRain": 1,
 					"minForestOrShrubs": 0.5,
 					"maxForest": 0.9,
-					"maxShrubs": 0.6,
+					"maxShrubs": 1,
 					"minY": 1,
 					"maxY": 1.7
 				},
-				"runtime": {
-					"maxQuantityByGroup": { "code": "ankylosauria-*", "maxQuantity": 1 }
-				}
 			},
 		}
 

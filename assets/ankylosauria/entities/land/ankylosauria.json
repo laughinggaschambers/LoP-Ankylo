@@ -332,7 +332,7 @@
 		]
     },
     "server": {
-		"attributes": {"pathfinder": {"minTurnAnglePerSec": 15,"maxTurnAnglePerSec": 45}},
+		"attributes": {"pathfinder": {"minTurnAnglePerSec": 60,"maxTurnAnglePerSec": 120}},
         "behaviors": [
 			{"code": "rideable", "enabledByType": {  "*-baby-*": false,"*-struthiosaurus-*": false, "*": true},"minGeneration": 3 },
 			{"code": "selectionboxes", "enabledByType": {  "*-baby-*": false,"*-struthiosaurus-*": false, "*": true},"minGeneration": 3 },
@@ -697,7 +697,7 @@
 						"priority": 1.81,
 						"entityCodeByType": {
 							"*-adult-*": "ankylosauria-{type}-baby-{gender}",
-							"*-baby-*": "ankylosauria-{type}-adult-female"},
+							"*-baby-*": "ankylosauria-{type}-adult-{gender}"},
 						"movespeedByType": {
 							"*-adult-*": 0.035,
 							"*-baby-*": 0.010,
@@ -927,7 +927,7 @@
 			"insideBlockCodes": ["game:air","game:tallgrass-*","game:gravel-*","game:sand-*","game:snowlayer-1","game:soil-*"],
 			"groupSizeByType": {
 				"*-adult-male":{ "dist": "uniform","avg": 3,"var": 2},
-				"*-adult-female":{ "dist": "uniform","avg": 8,"var": 5},
+				"*-adult-female":{ "dist": "uniform","avg": 6,"var": 4},
 				"*":{ "dist": "uniform","avg": 0,"var": 0},
 			},
 			"companionsByType":{
@@ -949,7 +949,7 @@
 			"insideBlockCodes": ["game:air","game:tallgrass-*","game:gravel-*","game:sand-*","game:snowlayer-1","game:soil-*"],
 			"groupSizeByType": {
 				"*-adult-male":{ "dist": "uniform","avg": 3,"var": 2},
-				"*-adult-female":{ "dist": "uniform","avg": 8,"var": 5},
+				"*-adult-female":{ "dist": "uniform","avg": 6,"var": 4},
 				"*":{ "dist": "uniform","avg": 0,"var": 0},
 			},
 			"companionsByType":{
@@ -964,10 +964,10 @@
 					"minTemp": 5,
 					"maxTemp": 30,
 					"minRain": 0.3,
-					"maxRain": 0.8,
+					"maxRain": 1,
 					"minForestOrShrubs": 0.4,
 					"maxForest": 0.8,
-					"maxShrubs": 0.7,
+					"maxShrubs": 1,
 					"minY": 0.9,
 					"maxY": 1.6
 				},
@@ -977,10 +977,10 @@
 					"minTemp": 10,
 					"maxTemp": 40,
 					"minRain": 0.2,
-					"maxRain": 0.7,
+					"maxRain": 1,
 					"minForestOrShrubs": 0.3,
 					"maxForest": 0.6,
-					"maxShrubs": 0.8,
+					"maxShrubs": 1,
 					"minY": 0.9,
 					"maxY": 1.5
 				},
@@ -990,10 +990,10 @@
 					"minTemp": 5,
 					"maxTemp": 30,
 					"minRain": 0.3,
-					"maxRain": 0.8,
+					"maxRain": 1,
 					"minForestOrShrubs": 0.4,
 					"maxForest": 0.8,
-					"maxShrubs": 0.7,
+					"maxShrubs": 1,
 					"minY": 0.9,
 					"maxY": 1.6
 				},
@@ -1003,10 +1003,10 @@
 					"minTemp": 5,
 					"maxTemp": 25,
 					"minRain": 0.3,
-					"maxRain": 0.8,
+					"maxRain": 1,
 					"minForestOrShrubs": 0.4,
 					"maxForest": 0.8,
-					"maxShrubs": 0.7,
+					"maxShrubs": 1,
 					"minY": 0.9,
 					"maxY": 1.6
 				},
@@ -1016,10 +1016,10 @@
 					"minTemp": 5,
 					"maxTemp": 30,
 					"minRain": 0.3,
-					"maxRain": 0.8,
+					"maxRain": 1,
 					"minForestOrShrubs": 0.4,
 					"maxForest": 0.8,
-					"maxShrubs": 0.7,
+					"maxShrubs": 1,
 					"minY": 0.9,
 					"maxY": 1.6
 				},
@@ -1029,10 +1029,10 @@
 					"minTemp": 10,
 					"maxTemp": 40,
 					"minRain": 0.2,
-					"maxRain": 0.7,
+					"maxRain": 1,
 					"minForestOrShrubs": 0.3,
 					"maxForest": 0.6,
-					"maxShrubs": 0.8,
+					"maxShrubs": 1,
 					"minY": 0.9,
 					"maxY": 1.5
 				},
@@ -1042,10 +1042,10 @@
 					"minTemp": -10,
 					"maxTemp": 15,
 					"minRain": 0.4,
-					"maxRain": 0.9,
+					"maxRain": 1,
 					"minForestOrShrubs": 0.5,
 					"maxForest": 0.9,
-					"maxShrubs": 0.6,
+					"maxShrubs": 1,
 					"minY": 1,
 					"maxY": 1.7
 				},
@@ -1055,10 +1055,10 @@
 					"minTemp": 5,
 					"maxTemp": 30,
 					"minRain": 0.4,
-					"maxRain": 0.9,
+					"maxRain": 1,
 					"minForestOrShrubs": 0.5,
 					"maxForest": 0.9,
-					"maxShrubs": 0.6,
+					"maxShrubs": 1,
 					"minY": 1,
 					"maxY": 1.7
 				},
