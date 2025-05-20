@@ -448,7 +448,7 @@
 					"*-baby-*": true,
 					"*": false
 				},
-				"hoursToGrowByType": {"*": 720,
+				"hoursToGrowByType": {
 					"*-ankylosaurus-adult-male": 720,
 					"*-tarchia-adult-male": 684,
 					"*-euoplocephalus-adult-male": 576,
@@ -507,14 +507,14 @@
 						},
 						"knockbackStrengthByType": {
 							"*-baby-*":0.0,
-							"*-ankylosaurus-adult-*": 3,
-							"*-tarchia-adult-*": 3,
-							"*-euoplocephalus-adult-*": 2.5,
-							"*-edmontonia-adult-*": 2.5,
-							"*-ziapelta-adult-*": 2,
-							"*-pinacosaurus-adult-*": 2,
-							"*-antarctopelta-adult-*": 2,
-							"*-struthiosaurus-adult-*": 1,
+							"*-ankylosaurus-adult-*": 5,
+							"*-tarchia-adult-*": 5,
+							"*-euoplocephalus-adult-*": 4,
+							"*-edmontonia-adult-*": 4,
+							"*-ziapelta-adult-*": 3,
+							"*-pinacosaurus-adult-*": 3,
+							"*-antarctopelta-adult-*": 3,
+							"*-struthiosaurus-adult-*": 2,
 						},
 						"damageTierByType": {
 							"*-baby-*":1,
@@ -874,7 +874,7 @@
 							"*-baby-*":false,
 							"*-adult-*":true,
                         },
-						"animation": "Run",
+						"animation": "Trot",
 						"priority": 2,
 						"entityCodeByType": {
 							"*-adult-*": "hitch"
