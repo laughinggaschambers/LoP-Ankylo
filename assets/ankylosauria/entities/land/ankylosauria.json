@@ -606,7 +606,7 @@
 
 							"pantherinae-*", "caninae-*","felinae-*","machairodontinae-*","ursidae-*",
 
-							,]
+							]
 						},
 						"priority": 1.84,
 						"mincooldown": 6000,
